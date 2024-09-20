@@ -10,29 +10,14 @@ class KlLEDDriverMerk(KeuzelijstField):
     label = 'LED-driver merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEDDriverMerk'
     definition = 'Het merk van de LED-driver.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEDDriverMerk'
     options = {
         'mean-well': KeuzelijstWaarde(invulwaarde='mean-well',
-                                      label='Mean Well',
-                                      status='ingebruik',
-                                      definitie='Mean Well',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverMerk/mean-well'),
-        'osram': KeuzelijstWaarde(invulwaarde='osram',
-                                  label='OSRAM',
-                                  status='ingebruik',
-                                  definitie='OSRAM',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverMerk/osram'),
-        'philips': KeuzelijstWaarde(invulwaarde='philips',
-                                    label='PHILIPS',
-                                    status='ingebruik',
-                                    definitie='PHILIPS',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverMerk/philips'),
-        'signify': KeuzelijstWaarde(invulwaarde='signify',
-                                    label='Signify',
-                                    status='ingebruik',
-                                    definitie='Signify',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEDDriverMerk/signify')
+                                      label='mean-well',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      definitie='mean-well',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEDDriverMerk/mean-well')
     }
 
     @classmethod

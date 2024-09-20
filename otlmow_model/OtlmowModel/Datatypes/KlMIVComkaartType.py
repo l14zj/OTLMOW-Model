@@ -10,27 +10,19 @@ class KlMIVComkaartType(KeuzelijstField):
     label = 'MIV comkaart type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMIVComkaartType'
     definition = 'Mogelijke opties van Com-kaart types.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVComkaartType'
     options = {
         '19-inch': KeuzelijstWaarde(invulwaarde='19-inch',
                                     label='19 inch',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='19 inch',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVComkaartType/19-inch'),
-        'module': KeuzelijstWaarde(invulwaarde='module',
-                                   label='module',
-                                   status='ingebruik',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVComkaartType/module'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMIVComkaartType/19-inch'),
         'sat-module': KeuzelijstWaarde(invulwaarde='sat-module',
                                        label='SAT module',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='SAT module',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVComkaartType/sat-module'),
-        'serieel': KeuzelijstWaarde(invulwaarde='serieel',
-                                    label='serieel',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVComkaartType/serieel')
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMIVComkaartType/sat-module')
     }
 
     @classmethod

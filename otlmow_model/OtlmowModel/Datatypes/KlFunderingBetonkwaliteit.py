@@ -9,7 +9,7 @@ class KlFunderingBetonkwaliteit(KeuzelijstField):
     label = 'Fundering betonkwaliteit'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlFunderingBetonkwaliteit'
     definition = 'Mogelijke waarden voor de betonkwaliteit van een fundering.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     deprecated_version = '2.0.0'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFunderingBetonkwaliteit'
     options = {

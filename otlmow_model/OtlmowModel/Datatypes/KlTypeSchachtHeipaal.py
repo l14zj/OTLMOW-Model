@@ -10,24 +10,24 @@ class KlTypeSchachtHeipaal(KeuzelijstField):
     label = 'Type schacht van de heipaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTypeSchachtHeipaal'
     definition = 'Het type van de schacht van de heipaal.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSchachtHeipaal'
     options = {
         'aardvochtig-gestampt-beton': KeuzelijstWaarde(invulwaarde='aardvochtig-gestampt-beton',
                                                        label='Aardvochtig gestampt beton',
-                                                       status='ingebruik',
+                                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                        definitie='De schacht is opgevuld met aardvochtig gestampt beton.',
-                                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchachtHeipaal/aardvochtig-gestampt-beton'),
+                                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeSchachtHeipaal/aardvochtig-gestampt-beton'),
         'geen-schacht': KeuzelijstWaarde(invulwaarde='geen-schacht',
                                          label='Geen schacht',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='De heipaal heeft geen schacht.',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchachtHeipaal/geen-schacht'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeSchachtHeipaal/geen-schacht'),
         'plastisch-beton': KeuzelijstWaarde(invulwaarde='plastisch-beton',
                                             label='Plastisch beton',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='De schacht is opgevuld met plastisch beton.',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchachtHeipaal/plastisch-beton')
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeSchachtHeipaal/plastisch-beton')
     }
 
     @classmethod

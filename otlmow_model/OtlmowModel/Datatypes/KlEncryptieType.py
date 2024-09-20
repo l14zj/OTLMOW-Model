@@ -9,7 +9,7 @@ class KlEncryptieType(KeuzelijstField):
     label = 'Encryptie type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlEncryptieType'
     definition = 'Keuzelijst voor het type encryptie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEncryptieType'
     options = {
     }

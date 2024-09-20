@@ -9,7 +9,7 @@ class KlAlarmModuleModelnaam(KeuzelijstField):
     label = 'Alarm module modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAlarmModuleModelnaam'
     definition = 'De modelnaam van de alarm module.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlarmModuleModelnaam'
     options = {
     }

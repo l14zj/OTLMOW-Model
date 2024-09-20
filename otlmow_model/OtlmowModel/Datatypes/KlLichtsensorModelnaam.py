@@ -10,14 +10,14 @@ class KlLichtsensorModelnaam(KeuzelijstField):
     label = 'Lichtsensor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLichtsensorModelnaam'
     definition = 'Lichtsensor modelnamen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtsensorModelnaam'
     options = {
         'luminance-luci-l20': KeuzelijstWaarde(invulwaarde='luminance-luci-l20',
-                                               label='Luminance LUCI L20',
-                                               status='ingebruik',
-                                               definitie='Luminance LUCI L20',
-                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtsensorModelnaam/luminance-luci-l20')
+                                               label='luminance-luci-l20',
+                                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                               definitie='luminance-luci-l20',
+                                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtsensorModelnaam/luminance-luci-l20')
     }
 
     @classmethod

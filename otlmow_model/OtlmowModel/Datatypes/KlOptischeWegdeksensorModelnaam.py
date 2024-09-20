@@ -9,7 +9,7 @@ class KlOptischeWegdeksensorModelnaam(KeuzelijstField):
     label = 'Optische wegdeksensor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOptischeWegdeksensorModelnaam'
     definition = 'Optische wegdeksensor modelnamen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOptischeWegdeksensorModelnaam'
     options = {
     }

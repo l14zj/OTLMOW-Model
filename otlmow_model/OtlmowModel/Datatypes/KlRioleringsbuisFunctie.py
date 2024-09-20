@@ -10,29 +10,29 @@ class KlRioleringsbuisFunctie(KeuzelijstField):
     label = 'Rioleringsbuis functie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlRioleringsbuisFunctie'
     definition = 'Mogelijke functies van de riolering.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRioleringsbuisFunctie'
     options = {
         'bufferleiding': KeuzelijstWaarde(invulwaarde='bufferleiding',
                                           label='bufferleiding',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='buis bedoeld voor gravitaire afvoer en tijdelijke buffering van water',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/bufferleiding'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/bufferleiding'),
         'gravitaire-leiding': KeuzelijstWaarde(invulwaarde='gravitaire-leiding',
                                                label='gravitaire leiding',
-                                               status='ingebruik',
+                                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                definitie='buis bedoeld voor de gravitaire afvoer van water',
-                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/gravitaire-leiding'),
+                                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/gravitaire-leiding'),
         'infiltratieleiding': KeuzelijstWaarde(invulwaarde='infiltratieleiding',
                                                label='infiltratieleiding',
-                                               status='ingebruik',
+                                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                definitie='buis bedoeld voor gravitaire afvoer en infiltratie van niet vervuild water',
-                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/infiltratieleiding'),
+                                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/infiltratieleiding'),
         'syphon': KeuzelijstWaarde(invulwaarde='syphon',
                                    label='syphon',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='buis bedoeld voor gravitaire afvoer van water met omgekeerde hevelwerking',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/syphon')
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRioleringsbuisFunctie/syphon')
     }
 
     @classmethod

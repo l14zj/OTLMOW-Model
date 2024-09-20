@@ -10,19 +10,19 @@ class KlIVRIModelITSapp(KeuzelijstField):
     label = 'iVRIModelITSapp'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlIVRIModelITSapp'
     definition = 'De modelnaam van de ITSapp.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelITSapp'
     options = {
         'flowtack': KeuzelijstWaarde(invulwaarde='flowtack',
                                      label='Flowtack',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Flowtack',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelITSapp/flowtack'),
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelITSapp/flowtack'),
         'imflow': KeuzelijstWaarde(invulwaarde='imflow',
                                    label='Imflow',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Imflow',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelITSapp/imflow')
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelITSapp/imflow')
     }
 
     @classmethod

@@ -10,24 +10,24 @@ class KlOverstortrandMateriaal(KeuzelijstField):
     label = 'Overstortrand materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOverstortrandMateriaal'
     definition = 'De materialen van de overstortrand.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverstortrandMateriaal'
     options = {
         'hout': KeuzelijstWaarde(invulwaarde='hout',
                                  label='hout',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Een overstortrand uit hout.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverstortrandMateriaal/hout'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverstortrandMateriaal/hout'),
         'inox': KeuzelijstWaarde(invulwaarde='inox',
                                  label='inox',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Een overstortrand uit inox.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverstortrandMateriaal/inox'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverstortrandMateriaal/inox'),
         'metselwerk': KeuzelijstWaarde(invulwaarde='metselwerk',
                                        label='metselwerk',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Een overstortrand uit metselwerk.',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverstortrandMateriaal/metselwerk')
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverstortrandMateriaal/metselwerk')
     }
 
     @classmethod

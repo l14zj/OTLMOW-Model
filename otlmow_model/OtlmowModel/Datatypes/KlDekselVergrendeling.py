@@ -10,24 +10,24 @@ class KlDekselVergrendeling(KeuzelijstField):
     label = 'Dekselvergrendeling'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDekselVergrendeling'
     definition = 'Manieren waarop het deksel is vergrendeld.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDekselVergrendeling'
     options = {
         'bouten': KeuzelijstWaarde(invulwaarde='bouten',
                                    label='bouten',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Het deksel is vergrendeld met inox schroefbouten met zeskantmoer',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselVergrendeling/bouten'),
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselVergrendeling/bouten'),
         'haken': KeuzelijstWaarde(invulwaarde='haken',
                                   label='haken',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='Het deksel is met haken vergrendeld',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselVergrendeling/haken'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselVergrendeling/haken'),
         'inbus': KeuzelijstWaarde(invulwaarde='inbus',
                                   label='inbus',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='Het deksel is vergrendeld met inox schroefbouten met inbusmoer',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDekselVergrendeling/inbus')
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDekselVergrendeling/inbus')
     }
 
     @classmethod

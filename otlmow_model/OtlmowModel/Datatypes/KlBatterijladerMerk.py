@@ -9,7 +9,7 @@ class KlBatterijladerMerk(KeuzelijstField):
     label = 'Merknamen batterijladers'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBatterijladerMerk'
     definition = 'Lijst van merknamen van batterijladers volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijladerMerk'
     options = {
     }

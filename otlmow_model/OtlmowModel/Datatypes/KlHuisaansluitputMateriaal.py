@@ -10,24 +10,24 @@ class KlHuisaansluitputMateriaal(KeuzelijstField):
     label = 'Huisaansluitput materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlHuisaansluitputMateriaal'
     definition = 'Materialen voor een huisaansluitput.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHuisaansluitputMateriaal'
     options = {
         'beton': KeuzelijstWaarde(invulwaarde='beton',
                                   label='beton',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='betonnen huisaansluitputje',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/beton'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/beton'),
         'gres': KeuzelijstWaarde(invulwaarde='gres',
                                  label='gres',
-                                 status='ingebruik',
-                                 definitie='aansluitputje in grès.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/gres'),
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 definitie='aansluitputje in grÃ¨s.',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/gres'),
         'kunststof': KeuzelijstWaarde(invulwaarde='kunststof',
                                       label='kunststof',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='kunstof aansluitputje',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/kunststof')
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHuisaansluitputMateriaal/kunststof')
     }
 
     @classmethod

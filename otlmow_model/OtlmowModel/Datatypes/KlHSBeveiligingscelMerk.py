@@ -9,7 +9,7 @@ class KlHSBeveiligingscelMerk(KeuzelijstField):
     label = 'HS-beveiligingscel merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlHSBeveiligingscelMerk'
     definition = 'Het merk van de HS-beveiligingscel.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHSBeveiligingscelMerk'
     options = {
     }

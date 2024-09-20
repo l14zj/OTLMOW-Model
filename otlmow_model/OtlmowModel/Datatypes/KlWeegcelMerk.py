@@ -9,7 +9,7 @@ class KlWeegcelMerk(KeuzelijstField):
     label = 'Weegcel merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWeegcelMerk'
     definition = 'Lijst met merknamen va weegcellen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegcelMerk'
     options = {
     }

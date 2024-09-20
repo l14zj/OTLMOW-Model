@@ -10,26 +10,21 @@ class KlDraagconstructieDwarsdoorsnede(KeuzelijstField):
     label = 'Draagconstructie dwarsdoorsnede'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDraagconstructieDwarsdoorsnede'
     definition = 'Lijst van mogelijke vormen van dwarsdoorsnedes van een draagconstructie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagconstructieDwarsdoorsnede'
     options = {
-        'heptagonaal': KeuzelijstWaarde(invulwaarde='heptagonaal',
-                                        label='heptagonaal',
-                                        status='ingebruik',
-                                        definitie='heptagonaal',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/heptagonaal'),
         'octagonaal': KeuzelijstWaarde(invulwaarde='octagonaal',
                                        label='octagonaal',
-                                       status='ingebruik',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/octagonaal'),
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/octagonaal'),
         'rond': KeuzelijstWaarde(invulwaarde='rond',
                                  label='rond',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/rond'),
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/rond'),
         'vierkant': KeuzelijstWaarde(invulwaarde='vierkant',
                                      label='vierkant',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/vierkant')
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagconstructieDwarsdoorsnede/vierkant')
     }
 
     @classmethod

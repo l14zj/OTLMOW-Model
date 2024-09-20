@@ -10,24 +10,19 @@ class KlBatterijMerk(KeuzelijstField):
     label = 'Batterij merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBatterijMerk'
     definition = 'Het merk van de batterij.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBatterijMerk'
     options = {
         'eco-counter': KeuzelijstWaarde(invulwaarde='eco-counter',
                                         label='eco-counter',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='eco-counter',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/eco-counter'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBatterijMerk/eco-counter'),
         'landport': KeuzelijstWaarde(invulwaarde='landport',
                                      label='landport',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='landport',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/landport'),
-        'yuasa': KeuzelijstWaarde(invulwaarde='yuasa',
-                                  label='yuasa',
-                                  status='ingebruik',
-                                  definitie='yuasa',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBatterijMerk/yuasa')
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBatterijMerk/landport')
     }
 
     @classmethod

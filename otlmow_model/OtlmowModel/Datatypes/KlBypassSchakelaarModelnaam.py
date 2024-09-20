@@ -9,7 +9,7 @@ class KlBypassSchakelaarModelnaam(KeuzelijstField):
     label = 'Modelnamen bypass schakelaars'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBypassSchakelaarModelnaam'
     definition = 'Modelnamen voor bypass schakelaars volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBypassSchakelaarModelnaam'
     options = {
     }

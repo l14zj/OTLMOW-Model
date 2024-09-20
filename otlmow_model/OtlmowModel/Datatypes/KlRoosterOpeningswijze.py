@@ -10,24 +10,24 @@ class KlRoosterOpeningswijze(KeuzelijstField):
     label = 'Rooster openingswijze'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlRoosterOpeningswijze'
     definition = 'Deze keuzelijst geeft de manier aan hoe het rooster geopend kan worden.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRoosterOpeningswijze'
     options = {
         'ovaal-deksel': KeuzelijstWaarde(invulwaarde='ovaal-deksel',
                                          label='ovaal deksel',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='ovaal deksel',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/ovaal-deksel'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/ovaal-deksel'),
         'scharnierend': KeuzelijstWaarde(invulwaarde='scharnierend',
                                          label='scharnierend',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='scharnierend',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/scharnierend'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/scharnierend'),
         'uitneembaar': KeuzelijstWaarde(invulwaarde='uitneembaar',
                                         label='uitneembaar',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='uitneembaar',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/uitneembaar')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlRoosterOpeningswijze/uitneembaar')
     }
 
     @classmethod

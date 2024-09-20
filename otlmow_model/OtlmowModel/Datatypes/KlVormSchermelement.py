@@ -10,19 +10,19 @@ class KlVormSchermelement(KeuzelijstField):
     label = 'Vorm schermelement'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVormSchermelement'
     definition = 'Deze keuzelijst geeft aan of het schermelement recht of gebogen is.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormSchermelement'
     options = {
         'gebogen': KeuzelijstWaarde(invulwaarde='gebogen',
                                     label='gebogen',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='gebogen',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormSchermelement/gebogen'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormSchermelement/gebogen'),
         'recht': KeuzelijstWaarde(invulwaarde='recht',
                                   label='recht',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='recht',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormSchermelement/recht')
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormSchermelement/recht')
     }
 
     @classmethod

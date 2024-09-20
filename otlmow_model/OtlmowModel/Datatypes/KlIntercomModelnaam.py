@@ -9,7 +9,7 @@ class KlIntercomModelnaam(KeuzelijstField):
     label = 'intercomtoestel modelnamen'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlIntercomModelnaam'
     definition = 'De modelnaam van het intercomtoestel.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomModelnaam'
     options = {
     }

@@ -10,24 +10,24 @@ class KlVeiligheidsrelaisMerk(KeuzelijstField):
     label = 'Veiligheidsrelais merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVeiligheidsrelaisMerk'
     definition = 'Een lijst met merknamen van veiligheidsrelais volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVeiligheidsrelaisMerk'
     options = {
         'isotron': KeuzelijstWaarde(invulwaarde='isotron',
                                     label='ISOTRON',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='ISOTRON',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVeiligheidsrelaisMerk/isotron'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVeiligheidsrelaisMerk/isotron'),
         'phoenics': KeuzelijstWaarde(invulwaarde='phoenics',
                                      label='Phoenics',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Phoenics',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVeiligheidsrelaisMerk/phoenics'),
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVeiligheidsrelaisMerk/phoenics'),
         'pilz': KeuzelijstWaarde(invulwaarde='pilz',
                                  label='PILZ',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='PILZ',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVeiligheidsrelaisMerk/pilz')
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVeiligheidsrelaisMerk/pilz')
     }
 
     @classmethod

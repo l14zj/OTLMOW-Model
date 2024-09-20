@@ -10,17 +10,19 @@ class KlVormLeuning(KeuzelijstField):
     label = 'Vorm leuning'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlVormLeuning'
     definition = 'De keuzelijst die de verschillende opties van vormen voor een leuning bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormLeuning'
     options = {
         'getrapt': KeuzelijstWaarde(invulwaarde='getrapt',
-                                    label='Getrapt',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormLeuning/getrapt'),
+                                    label='getrapt',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    definitie='getrapt',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormLeuning/getrapt'),
         'rechthoekig': KeuzelijstWaarde(invulwaarde='rechthoekig',
-                                        label='Rechthoekig',
-                                        status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormLeuning/rechthoekig')
+                                        label='rechthoekig',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        definitie='rechthoekig',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormLeuning/rechthoekig')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlHoogtedetectieModelnaam(KeuzelijstField):
     label = 'Hoogtedetectie modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlHoogtedetectieModelnaam'
     definition = 'Keuzelijst met de gangbare modelnamen van hoogtedetectiesystemen. De modelnamen worden meestal door de leverancier of fabrikant bepaald.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHoogtedetectieModelnaam'
     options = {
     }

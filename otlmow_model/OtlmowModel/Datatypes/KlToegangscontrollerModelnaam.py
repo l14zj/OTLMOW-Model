@@ -9,7 +9,7 @@ class KlToegangscontrollerModelnaam(KeuzelijstField):
     label = 'Toegangscontroller modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlToegangscontrollerModelnaam'
     definition = 'Lijst met modelnamen voor toegangscontrollers volgens de fabrikant'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangscontrollerModelnaam'
     options = {
     }

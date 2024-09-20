@@ -10,30 +10,30 @@ class KlLEGCOpeningType(KeuzelijstField):
     label = 'Opening type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEGCOpeningType'
     definition = 'Types van opening.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     deprecated_version = '2.1.0'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCOpeningType'
     options = {
         'dienstopening': KeuzelijstWaarde(invulwaarde='dienstopening',
                                           label='dienstopening',
-                                          status='verwijderd',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd',
                                           definitie='dienstopening',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCOpeningType/dienstopening'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCOpeningType/dienstopening'),
         'nooddeur': KeuzelijstWaarde(invulwaarde='nooddeur',
                                      label='nooddeur',
-                                     status='verwijderd',
-                                     definitie="Deze optie mag niet geselecteerd worden. Indien de doorgang een nooddeur is moet het onderdeel 'Vluchtdeur' geïnstantieerd worden ipv het onderdeel 'Doorgang'. ",
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCOpeningType/nooddeur'),
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd',
+                                     definitie='nooddeur',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCOpeningType/nooddeur'),
         'sas': KeuzelijstWaarde(invulwaarde='sas',
                                 label='sas',
-                                status='verwijderd',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd',
                                 definitie='sas',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCOpeningType/sas'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCOpeningType/sas'),
         'vluchtopening': KeuzelijstWaarde(invulwaarde='vluchtopening',
                                           label='vluchtopening',
-                                          status='verwijderd',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/verwijderd',
                                           definitie='vluchtopening',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCOpeningType/vluchtopening')
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCOpeningType/vluchtopening')
     }
 
     @classmethod

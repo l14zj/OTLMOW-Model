@@ -81,7 +81,7 @@ class Boom(VegetatieElement, PuntGeometrie):
                                               naam='heeftBoomrooster',
                                               label='heeft boomrooster',
                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Boom.heeftBoomrooster',
-                                              usagenote='Attribuut uit gebruik sinds versie 2.12.0 ',
+                                              usagenote='Attribuut uit gebruik sinds versie 2.12.0',
                                               deprecated_version='2.12.0',
                                               definition='Duidt aan of een horizontale structuur aanwezig is die zorgt voor een adequate bescherming van bomen tegen betreding van de boomspiegel door voetgangers of verkeer.',
                                               owner=self)
@@ -104,7 +104,7 @@ class Boom(VegetatieElement, PuntGeometrie):
                                            naam='kroonDiameter',
                                            label='kroon diameter',
                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Boom.kroonDiameter',
-                                           usagenote='Attribuut uit gebruik sinds versie 2.8.0 ',
+                                           usagenote='Attribuut uit gebruik sinds versie 2.8.0',
                                            deprecated_version='2.8.0',
                                            definition='Diameter van de kroonprojectie in meter.',
                                            owner=self)

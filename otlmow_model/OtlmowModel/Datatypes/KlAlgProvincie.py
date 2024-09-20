@@ -10,29 +10,29 @@ class KlAlgProvincie(KeuzelijstField):
     label = 'Provincie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlAlgProvincie'
     definition = 'Lijst van provincies in Vlaanderen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgProvincie'
     options = {
         'antwerpen': KeuzelijstWaarde(invulwaarde='antwerpen',
                                       label='antwerpen',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgProvincie/antwerpen'),
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgProvincie/antwerpen'),
         'limburg': KeuzelijstWaarde(invulwaarde='limburg',
                                     label='limburg',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgProvincie/limburg'),
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgProvincie/limburg'),
         'oost-Vlaanderen': KeuzelijstWaarde(invulwaarde='oost-Vlaanderen',
                                             label='oost-Vlaanderen',
-                                            status='ingebruik',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgProvincie/oost-Vlaanderen'),
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgProvincie/oost-Vlaanderen'),
         'vlaams-Brabant': KeuzelijstWaarde(invulwaarde='vlaams-Brabant',
                                            label='vlaams-Brabant',
-                                           status='ingebruik',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgProvincie/vlaams-Brabant'),
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgProvincie/vlaams-Brabant'),
         'west-Vlaanderen': KeuzelijstWaarde(invulwaarde='west-Vlaanderen',
                                             label='west-Vlaanderen',
-                                            status='ingebruik',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgProvincie/west-Vlaanderen')
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgProvincie/west-Vlaanderen')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlMateriaalTussenschotBerlinerwand(KeuzelijstField):
     label = 'Materiaal tussenschot Berlinerwand'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlMateriaalTussenschotBerlinerwand'
     definition = 'De mogelijke materialen van een tussenschot bij een Berlinerwand.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalTussenschotBerlinerwand'
     options = {
     }

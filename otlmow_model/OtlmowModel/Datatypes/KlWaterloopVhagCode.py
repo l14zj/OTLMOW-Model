@@ -9,7 +9,7 @@ class KlWaterloopVhagCode(KeuzelijstField):
     label = 'Waterloop vhag code'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWaterloopVhagCode'
     definition = 'De VHAG code voor de waterloop.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWaterloopVhagCode'
     options = {
     }

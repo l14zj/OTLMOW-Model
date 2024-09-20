@@ -10,19 +10,19 @@ class KlHoutigeType(KeuzelijstField):
     label = 'Type houtige vegetatie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlHoutigeType'
     definition = 'Types van houtige vegetatie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHoutigeType'
     options = {
         'bomen---bos': KeuzelijstWaarde(invulwaarde='bomen---bos',
                                         label='bomen - bos',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Opgaande beplanting van houtachtige gewassen die boomvormend zijn.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHoutigeType/bomen---bos'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHoutigeType/bomen---bos'),
         'houtkant': KeuzelijstWaarde(invulwaarde='houtkant',
                                      label='houtkant',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Een houtkant is een lijnvormige begroeiing met houtgewas (combinatie van bomen en struiken) met een minimale breedte van 3meter en meer en minstens 1 plantrij. ',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHoutigeType/houtkant')
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHoutigeType/houtkant')
     }
 
     @classmethod

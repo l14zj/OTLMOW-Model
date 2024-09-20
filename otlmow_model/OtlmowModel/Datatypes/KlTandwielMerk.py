@@ -9,7 +9,7 @@ class KlTandwielMerk(KeuzelijstField):
     label = 'Tandwiel merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTandwielMerk'
     definition = 'De keuzelijst die de namen van de merken van het tandwiel bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTandwielMerk'
     options = {
     }

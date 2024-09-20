@@ -10,34 +10,34 @@ class KlKleurMarkering(KeuzelijstField):
     label = 'Kleur markering'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlKleurMarkering'
     definition = 'De mogeglijke markeringskleuren.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKleurMarkering'
     options = {
         'geel-(Y1)': KeuzelijstWaarde(invulwaarde='geel-(Y1)',
                                       label='geel (Y1)',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Geel (Y1) als kleur van de markering.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurMarkering/geel-(Y1)'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/geel-(Y1)'),
         'geel-(Y2)': KeuzelijstWaarde(invulwaarde='geel-(Y2)',
                                       label='geel (Y2)',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Geel (Y2) als kleur van de markering.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurMarkering/geel-(Y2)'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/geel-(Y2)'),
         'oker-(RAL1024)': KeuzelijstWaarde(invulwaarde='oker-(RAL1024)',
                                            label='oker (RAL1024)',
-                                           status='ingebruik',
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                            definitie='Oker als de kleur van de markering.',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurMarkering/oker-(RAL1024)'),
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/oker-(RAL1024)'),
         'rood-(RAL3020)': KeuzelijstWaarde(invulwaarde='rood-(RAL3020)',
                                            label='rood (RAL3020)',
-                                           status='ingebruik',
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                            definitie='Rood als de kleur van de markering.',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurMarkering/rood-(RAL3020)'),
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/rood-(RAL3020)'),
         'wit': KeuzelijstWaarde(invulwaarde='wit',
                                 label='wit',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Wit als de kleur van de markering.',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKleurMarkering/wit')
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKleurMarkering/wit')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlAntenneUitvoeringsType(KeuzelijstField):
     label = 'Antenne uitvoeringstype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAntenneUitvoeringsType'
     definition = 'Het uitvoeringstype van een antenne bepaalt de richting(en) waarover de antenne signaal kan ontvangen en uitsturen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntenneUitvoeringsType'
     options = {
     }

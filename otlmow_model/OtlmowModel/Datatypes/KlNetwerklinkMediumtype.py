@@ -10,34 +10,34 @@ class KlNetwerklinkMediumtype(KeuzelijstField):
     label = 'Netwerklink mediumtype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlNetwerklinkMediumtype'
     definition = 'Mogelijke waarden voor het type drager waarlangs data door de link getransporteerd wordt.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNetwerklinkMediumtype'
     options = {
         'andere': KeuzelijstWaarde(invulwaarde='andere',
                                    label='andere',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='De link tussen de netwerkpoorten wordt gerealiseerd via een andere dan een optische, UTP, DSL of transportnetwerk verbinding.',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/andere'),
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/andere'),
         'dsl': KeuzelijstWaarde(invulwaarde='dsl',
                                 label='DSL',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='De link tussen de netwerkpoorten wordt gerealiseerd via een DSL verbinding.',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/dsl'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/dsl'),
         'optisch': KeuzelijstWaarde(invulwaarde='optisch',
                                     label='optisch',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='De link tussen de netwerkpoorten wordt gerealiseerd via een glasvezelkabel.',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/optisch'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/optisch'),
         'transportnetwerk': KeuzelijstWaarde(invulwaarde='transportnetwerk',
                                              label='transportnetwerk',
-                                             status='ingebruik',
+                                             status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                              definitie='De link tussen de netwerkpoorten wordt gerealiseerd via het optisch transportnetwerk.',
-                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/transportnetwerk'),
+                                             objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/transportnetwerk'),
         'utp': KeuzelijstWaarde(invulwaarde='utp',
                                 label='UTP',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='De link tussen de netwerkpoorten wordt gerealiseerd via een UTP kabel.',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/utp')
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNetwerklinkMediumtype/utp')
     }
 
     @classmethod

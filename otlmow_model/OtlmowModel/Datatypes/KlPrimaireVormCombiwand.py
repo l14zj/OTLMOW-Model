@@ -9,7 +9,7 @@ class KlPrimaireVormCombiwand(KeuzelijstField):
     label = 'Primaire vorm combiwand'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlPrimaireVormCombiwand'
     definition = 'De mogelijke primaire vormen van een combiwand.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPrimaireVormCombiwand'
     options = {
     }

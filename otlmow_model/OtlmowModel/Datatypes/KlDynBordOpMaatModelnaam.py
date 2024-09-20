@@ -9,7 +9,7 @@ class KlDynBordOpMaatModelnaam(KeuzelijstField):
     label = 'Keuzelijst modelnamen voor dynamische borden op maat'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDynBordOpMaatModelnaam'
     definition = 'Keuzelijst met de gangbare modelnamen van dynamische borden op maat. De modelnamen worden meestal door de leverancier of fabrikant bepaald.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordOpMaatModelnaam'
     options = {
     }

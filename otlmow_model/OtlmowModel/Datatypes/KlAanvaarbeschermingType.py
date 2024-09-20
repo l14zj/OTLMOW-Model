@@ -10,34 +10,29 @@ class KlAanvaarbeschermingType(KeuzelijstField):
     label = 'Type aanvaarbescherming'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlAanvaarbeschermingType'
     definition = 'De soort van de aanvaarbescherming.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAanvaarbeschermingType'
     options = {
-        'andere': KeuzelijstWaarde(invulwaarde='andere',
-                                   label='Andere',
-                                   status='ingebruik',
-                                   definitie='Andere',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/andere'),
         'dukdalf': KeuzelijstWaarde(invulwaarde='dukdalf',
                                     label='Dukdalf',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='Een in het water geplaatste rechtopstaande paal, al dan niet met schoorpalen voor het vastleggen en afmeren van schepen.',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/dukdalf'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/dukdalf'),
         'geleidewerk': KeuzelijstWaarde(invulwaarde='geleidewerk',
                                         label='Geleidewerk',
-                                        status='verwijderd',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Constructie met als doel schepen zodanig te begeleiden dat zowel het schip als het kunstwerk wordt beschermd.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/geleidewerk'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/geleidewerk'),
         'geleidewerk-met-dukdalf': KeuzelijstWaarde(invulwaarde='geleidewerk-met-dukdalf',
                                                     label='Geleidewerk met dukdalf',
-                                                    status='verwijderd',
+                                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                     definitie='Geleidewerk voorzien van dukdalven.',
-                                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/geleidewerk-met-dukdalf'),
+                                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/geleidewerk-met-dukdalf'),
         'niet-opgenomen-in-de-lijst': KeuzelijstWaarde(invulwaarde='niet-opgenomen-in-de-lijst',
                                                        label='Niet opgenomen in de lijst',
-                                                       status='verwijderd',
-                                                       definitie='Niet opgenomen in de lijst',
-                                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/niet-opgenomen-in-de-lijst')
+                                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                       definitie='Niet opgenomen in de lijst.',
+                                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAanvaarbeschermingType/niet-opgenomen-in-de-lijst')
     }
 
     @classmethod

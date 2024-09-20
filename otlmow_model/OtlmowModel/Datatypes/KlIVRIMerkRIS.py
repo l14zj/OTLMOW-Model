@@ -10,29 +10,29 @@ class KlIVRIMerkRIS(KeuzelijstField):
     label = 'iVRIMerkRIS'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlIVRIMerkRIS'
     definition = 'Het merk van de RIS.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIMerkRIS'
     options = {
         'peek': KeuzelijstWaarde(invulwaarde='peek',
                                  label='Peek',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Peek',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/peek'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/peek'),
         'rhdhv': KeuzelijstWaarde(invulwaarde='rhdhv',
                                   label='RHDHV',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='Royal HaskoningDHV',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/rhdhv'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/rhdhv'),
         'swarco': KeuzelijstWaarde(invulwaarde='swarco',
                                    label='Swarco',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Swarco',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/swarco'),
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/swarco'),
         'swarco-nederland': KeuzelijstWaarde(invulwaarde='swarco-nederland',
                                              label='Swarco Nederland',
-                                             status='ingebruik',
+                                             status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                              definitie='Swarco Nederland',
-                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/swarco-nederland')
+                                             objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIMerkRIS/swarco-nederland')
     }
 
     @classmethod

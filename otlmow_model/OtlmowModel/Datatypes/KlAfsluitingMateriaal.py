@@ -9,7 +9,7 @@ class KlAfsluitingMateriaal(KeuzelijstField):
     label = 'Afsluiting materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAfsluitingMateriaal'
     definition = 'Het materiaal waaruit de afsluiting vervaardigd is.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitingMateriaal'
     options = {
     }

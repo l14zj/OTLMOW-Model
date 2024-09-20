@@ -9,7 +9,7 @@ class KlZOToegangNetwerkTechniek(KeuzelijstField):
     label = 'Zender ontvanger toegang netwerk techniek'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZOToegangNetwerkTechniek'
     definition = 'Keuzelijst die de technieken of standaarden waarmee signalen over het netwerk verstuurd worden, bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZOToegangNetwerkTechniek'
     options = {
     }

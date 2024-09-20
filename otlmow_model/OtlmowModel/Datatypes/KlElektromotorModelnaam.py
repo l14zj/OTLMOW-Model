@@ -9,7 +9,7 @@ class KlElektromotorModelnaam(KeuzelijstField):
     label = 'Elektromotor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlElektromotorModelnaam'
     definition = 'De modelnaam van een elektromotor.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorModelnaam'
     options = {
     }

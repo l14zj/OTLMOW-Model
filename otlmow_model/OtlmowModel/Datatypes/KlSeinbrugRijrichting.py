@@ -10,17 +10,17 @@ class KlSeinbrugRijrichting(KeuzelijstField):
     label = 'Seinbrug rijrichting'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSeinbrugRijrichting'
     definition = 'Mogelijke rijrichtingen bij een seinbrug (enkele of dubbele).'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugRijrichting'
     options = {
         'dubbele-rijrichting': KeuzelijstWaarde(invulwaarde='dubbele-rijrichting',
                                                 label='dubbele rijrichting',
-                                                status='ingebruik',
-                                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugRijrichting/dubbele-rijrichting'),
+                                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugRijrichting/dubbele-rijrichting'),
         'enkele-rijrichting': KeuzelijstWaarde(invulwaarde='enkele-rijrichting',
                                                label='enkele rijrichting',
-                                               status='ingebruik',
-                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugRijrichting/enkele-rijrichting')
+                                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugRijrichting/enkele-rijrichting')
     }
 
     @classmethod

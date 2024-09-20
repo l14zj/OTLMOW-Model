@@ -10,24 +10,24 @@ class KlMateriaalBeschermingVraatschade(KeuzelijstField):
     label = 'Materiaal bescherming vraatschade'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMateriaalBeschermingVraatschade'
     definition = 'De middelen als bescherming tegen vraatschade.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBeschermingVraatschade'
     options = {
         'juteband': KeuzelijstWaarde(invulwaarde='juteband',
                                      label='juteband',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Materiaal dat gebruikt wordt als bescherming vraatschade is een juteband.',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/juteband'),
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/juteband'),
         'kunststof': KeuzelijstWaarde(invulwaarde='kunststof',
                                       label='kunststof',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Materiaal dat gebruikt wordt als bescherming vraatschade is kunststof.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/kunststof'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/kunststof'),
         'wildafwerend-product': KeuzelijstWaarde(invulwaarde='wildafwerend-product',
                                                  label='wildafwerend product',
-                                                 status='ingebruik',
+                                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                  definitie='Wildafwerend product wordt gebruikt als bescherming tegen vraatschade.',
-                                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/wildafwerend-product')
+                                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalBeschermingVraatschade/wildafwerend-product')
     }
 
     @classmethod

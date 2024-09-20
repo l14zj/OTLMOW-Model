@@ -10,33 +10,33 @@ class KlSoftwareLicentie(KeuzelijstField):
     label = 'Software licentie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSoftwareLicentie'
     definition = 'De licentievorm van de software.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSoftwareLicentie'
     options = {
         'commercieel': KeuzelijstWaarde(invulwaarde='commercieel',
                                         label='commercieel',
-                                        status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/commercieel'),
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/commercieel'),
         'freeware': KeuzelijstWaarde(invulwaarde='freeware',
                                      label='freeware',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/freeware'),
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/freeware'),
         'open-source-Apache': KeuzelijstWaarde(invulwaarde='open-source-Apache',
                                                label='open source Apache',
-                                               status='ingebruik',
-                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-Apache'),
+                                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-Apache'),
         'open-source-BSD': KeuzelijstWaarde(invulwaarde='open-source-BSD',
                                             label='open source BSD',
-                                            status='ingebruik',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-BSD'),
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-BSD'),
         'open-source-GPL': KeuzelijstWaarde(invulwaarde='open-source-GPL',
                                             label='open source GPL',
-                                            status='ingebruik',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-GPL'),
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/open-source-GPL'),
         'shareware': KeuzelijstWaarde(invulwaarde='shareware',
                                       label='shareware',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSoftwareLicentie/shareware')
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSoftwareLicentie/shareware')
     }
 
     @classmethod

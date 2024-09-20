@@ -10,34 +10,34 @@ class KlVerkeersbordCategorie(KeuzelijstField):
     label = 'Verkeersbord categorie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVerkeersbordCategorie'
     definition = 'Klassen van een verkeersbord.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordCategorie'
     options = {
         'aanwijzingsborden': KeuzelijstWaarde(invulwaarde='aanwijzingsborden',
                                               label='aanwijzingsborden',
-                                              status='ingebruik',
+                                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                               definitie='aanwijzingsborden',
-                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/aanwijzingsborden'),
+                                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/aanwijzingsborden'),
         'gebodsborden': KeuzelijstWaarde(invulwaarde='gebodsborden',
                                          label='gebodsborden',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='gebodsborden',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/gebodsborden'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/gebodsborden'),
         'gevaarsborden': KeuzelijstWaarde(invulwaarde='gevaarsborden',
                                           label='gevaarsborden',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='gevaarsborden',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/gevaarsborden'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/gevaarsborden'),
         'verbodsborden': KeuzelijstWaarde(invulwaarde='verbodsborden',
                                           label='verbodsborden',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='verbodsborden',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/verbodsborden'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/verbodsborden'),
         'voorrangsborden': KeuzelijstWaarde(invulwaarde='voorrangsborden',
                                             label='voorrangsborden',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='voorrangsborden',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/voorrangsborden')
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordCategorie/voorrangsborden')
     }
 
     @classmethod

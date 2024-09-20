@@ -9,7 +9,7 @@ class KlSchakelkettingFabrikant(KeuzelijstField):
     label = 'Schakelketting fabrikant'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSchakelkettingFabrikant'
     definition = 'Keuzelijst voor de fabrikanten van schakelkettings.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelkettingFabrikant'
     options = {
     }

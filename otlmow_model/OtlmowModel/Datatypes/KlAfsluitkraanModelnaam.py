@@ -9,7 +9,7 @@ class KlAfsluitkraanModelnaam(KeuzelijstField):
     label = 'Modelnaam afsluitkraan'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAfsluitkraanModelnaam'
     definition = 'Modelnamen van afsluitkranen volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitkraanModelnaam'
     options = {
     }

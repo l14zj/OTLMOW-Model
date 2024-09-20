@@ -10,22 +10,17 @@ class KlIORichting(KeuzelijstField):
     label = 'IO richting'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlIORichting'
     definition = 'Geeft aan of de IO-kaart dient voor input of output.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIORichting'
     options = {
         'input': KeuzelijstWaarde(invulwaarde='input',
                                   label='input',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIORichting/input'),
-        'input-output': KeuzelijstWaarde(invulwaarde='input-output',
-                                         label='input/output',
-                                         status='ingebruik',
-                                         definitie='input/output',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIORichting/input-output'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIORichting/input'),
         'output': KeuzelijstWaarde(invulwaarde='output',
                                    label='output',
-                                   status='ingebruik',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIORichting/output')
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIORichting/output')
     }
 
     @classmethod

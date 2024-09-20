@@ -9,7 +9,7 @@ class KlKrimpvoegvulling(KeuzelijstField):
     label = 'Krimpvoegvulling'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlKrimpvoegvulling'
     definition = 'De mogelijke vullingen voor een krimpvoeg.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKrimpvoegvulling'
     options = {
     }

@@ -10,17 +10,17 @@ class KlIOSignaaltype(KeuzelijstField):
     label = 'IO-kaart signaaltype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlIOSignaaltype'
     definition = 'Geeft aan of de IO-kaart werkt met een digitaal of met een analoog signaal.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIOSignaaltype'
     options = {
         'analoog': KeuzelijstWaarde(invulwaarde='analoog',
                                     label='analoog',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOSignaaltype/analoog'),
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIOSignaaltype/analoog'),
         'digitaal': KeuzelijstWaarde(invulwaarde='digitaal',
                                      label='digitaal',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIOSignaaltype/digitaal')
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIOSignaaltype/digitaal')
     }
 
     @classmethod

@@ -10,7 +10,6 @@ class KlMateriaalBWCTWC(KeuzelijstField):
     label = 'Materiaal BWC TWC'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlMateriaalBWCTWC'
     definition = 'De mogelijke materialen voor een beweegbare waterkerende constructie of een tijdelijke waterkerende constructie.'
-    status = 'ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalBWCTWC'
     options = {
         'aluminium': KeuzelijstWaarde(invulwaarde='aluminium',
@@ -25,6 +24,10 @@ class KlMateriaalBWCTWC(KeuzelijstField):
                                  label='hout',
                                  status='ingebruik',
                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBWCTWC/hout'),
+        'houtvezelbeton': KeuzelijstWaarde(invulwaarde='houtvezelbeton',
+                                           label='houtvezelbeton',
+                                           status='ingebruik',
+                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBWCTWC/houtvezelbeton'),
         'kunststof': KeuzelijstWaarde(invulwaarde='kunststof',
                                       label='kunststof',
                                       status='ingebruik',
@@ -33,6 +36,10 @@ class KlMateriaalBWCTWC(KeuzelijstField):
                                            label='roestvaststaal',
                                            status='ingebruik',
                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBWCTWC/roestvaststaal'),
+        'roestvrijstaal': KeuzelijstWaarde(invulwaarde='roestvrijstaal',
+                                           label='roestvrijstaal',
+                                           status='ingebruik',
+                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalBWCTWC/roestvrijstaal'),
         'staal': KeuzelijstWaarde(invulwaarde='staal',
                                   label='staal',
                                   status='ingebruik',

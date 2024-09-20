@@ -9,7 +9,7 @@ class KlPompGroepModelnaam(KeuzelijstField):
     label = 'Pompgroep modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlPompGroepModelnaam'
     definition = 'De modelnaam van de pompgroep.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPompGroepModelnaam'
     options = {
     }

@@ -10,19 +10,19 @@ class KlDivergentiepuntbebakeningselementType(KeuzelijstField):
     label = 'Divergentiepuntbebakeningselementtype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDivergentiepuntbebakeningselementType'
     definition = 'De vormen van het divergentiepuntbebakeningselement.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDivergentiepuntbebakeningselementType'
     options = {
         'klein-model': KeuzelijstWaarde(invulwaarde='klein-model',
                                         label='klein model',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Divergentiepuntbebakeningselement van 1 meter diameter (folie type 3.a).',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDivergentiepuntbebakeningselementType/klein-model'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDivergentiepuntbebakeningselementType/klein-model'),
         'standaard-model': KeuzelijstWaarde(invulwaarde='standaard-model',
                                             label='standaard model',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='Divergentiepuntbebakeningselement van 2 meter diameter (folie type 2).',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDivergentiepuntbebakeningselementType/standaard-model')
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDivergentiepuntbebakeningselementType/standaard-model')
     }
 
     @classmethod

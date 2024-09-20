@@ -9,7 +9,7 @@ class KlLockermanagementmoduleMerk(KeuzelijstField):
     label = 'Lockermanagementmodule merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLockermanagementmoduleMerk'
     definition = 'Merknamen van een lockermanagementmodule.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLockermanagementmoduleMerk'
     options = {
     }

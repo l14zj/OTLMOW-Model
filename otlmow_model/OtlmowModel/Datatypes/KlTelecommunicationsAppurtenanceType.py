@@ -10,18 +10,17 @@ class KlTelecommunicationsAppurtenanceType(KeuzelijstField):
     label = 'Telecommunications appurtenance type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlTelecommunicationsAppurtenanceType'
     definition = 'Lijst van types voor telecommunications appurtenance.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecommunicationsAppurtenanceType'
     options = {
         'spliceclosure': KeuzelijstWaarde(invulwaarde='spliceclosure',
                                           label='spliceClosure',
-                                          status='ingebruik',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecommunicationsAppurtenanceType/spliceclosure'),
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTelecommunicationsAppurtenanceType/spliceclosure'),
         'termination': KeuzelijstWaarde(invulwaarde='termination',
                                         label='termination',
-                                        status='ingebruik',
-                                        definitie='termination',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecommunicationsAppurtenanceType/termination')
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTelecommunicationsAppurtenanceType/termination')
     }
 
     @classmethod

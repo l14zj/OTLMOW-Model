@@ -9,7 +9,7 @@ class KlOpenInfiltratievoorzieningType(KeuzelijstField):
     label = 'Open infiltratievoorziening type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOpenInfiltratievoorzieningType'
     definition = 'De mogelijke types van een open infiltratievoorziening.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOpenInfiltratievoorzieningType'
     options = {
     }

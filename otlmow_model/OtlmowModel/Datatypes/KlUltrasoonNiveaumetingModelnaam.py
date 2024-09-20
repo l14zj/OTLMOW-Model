@@ -9,7 +9,7 @@ class KlUltrasoonNiveaumetingModelnaam(KeuzelijstField):
     label = 'Ultrasoon niveaumeting modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlUltrasoonNiveaumetingModelnaam'
     definition = 'Modelnaam van de ultrasoon niveaumeting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUltrasoonNiveaumetingModelnaam'
     options = {
     }

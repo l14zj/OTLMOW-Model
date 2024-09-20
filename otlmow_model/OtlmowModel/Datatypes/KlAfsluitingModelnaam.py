@@ -9,7 +9,7 @@ class KlAfsluitingModelnaam(KeuzelijstField):
     label = 'Afsluiting modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAfsluitingModelnaam'
     definition = 'De modelnaam van een afsluiting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitingModelnaam'
     options = {
     }

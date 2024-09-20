@@ -10,18 +10,18 @@ class KlToegangspoortMerk(KeuzelijstField):
     label = 'Toegangspoort merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlToegangspoortMerk'
     definition = 'Lijst met merknamen voor allerlei types van toegangspoorten volgens de fabrikant'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortMerk'
     options = {
         'bm-technics': KeuzelijstWaarde(invulwaarde='bm-technics',
                                         label='BM Technics',
-                                        status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/bm-technics'),
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangspoortMerk/bm-technics'),
         'hormann': KeuzelijstWaarde(invulwaarde='hormann',
                                     label='Hormann',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='HÃƒÂ¶rmann',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortMerk/hormann')
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangspoortMerk/hormann')
     }
 
     @classmethod

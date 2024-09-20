@@ -10,17 +10,17 @@ class KlZendmastType(KeuzelijstField):
     label = 'Zendmast type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZendmastType'
     definition = 'Keuzelijst voor de types zendmast.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZendmastType'
     options = {
         'conische-mast': KeuzelijstWaarde(invulwaarde='conische-mast',
                                           label='conische mast',
-                                          status='ingebruik',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZendmastType/conische-mast'),
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZendmastType/conische-mast'),
         'vakwerkmast': KeuzelijstWaarde(invulwaarde='vakwerkmast',
                                         label='vakwerkmast',
-                                        status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZendmastType/vakwerkmast')
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZendmastType/vakwerkmast')
     }
 
     @classmethod

@@ -10,14 +10,13 @@ class KlTelecommunicationsSubthema(KeuzelijstField):
     label = 'Telecommunications subthema'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlTelecommunicationsSubthema'
     definition = 'Lijst voor classificatie van een kabels en appurtenance voor telecommunicatie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecommunicationsSubthema'
     options = {
         'elektronischecommunicatie': KeuzelijstWaarde(invulwaarde='elektronischecommunicatie',
                                                       label='elektronischeCommunicatie',
-                                                      status='ingebruik',
-                                                      definitie='elektronischeCommunicatie',
-                                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTelecommunicationsSubthema/elektronischecommunicatie')
+                                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTelecommunicationsSubthema/elektronischecommunicatie')
     }
 
     @classmethod

@@ -10,14 +10,14 @@ class KlFietstelsysteemMerk(KeuzelijstField):
     label = 'Merknaam fietstelsysteem'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlFietstelsysteemMerk'
     definition = 'Lijst van mogelijke merknamen voor fietstelsystemen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFietstelsysteemMerk'
     options = {
         'eco-counter': KeuzelijstWaarde(invulwaarde='eco-counter',
                                         label='eco-counter',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='eco-counter',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFietstelsysteemMerk/eco-counter')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFietstelsysteemMerk/eco-counter')
     }
 
     @classmethod

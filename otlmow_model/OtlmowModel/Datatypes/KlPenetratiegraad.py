@@ -10,17 +10,24 @@ class KlPenetratiegraad(KeuzelijstField):
     label = 'Penetratiegraad'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlPenetratiegraad'
     definition = 'De graad van penetratie.'
-    status = 'ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPenetratiegraad'
     options = {
         'half-gepenetreerd': KeuzelijstWaarde(invulwaarde='half-gepenetreerd',
                                               label='half gepenetreerd',
                                               status='ingebruik',
                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/half-gepenetreerd'),
+        'halfgepenetreerd': KeuzelijstWaarde(invulwaarde='halfgepenetreerd',
+                                             label='halfGepenetreerd',
+                                             status='ingebruik',
+                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/halfgepenetreerd'),
         'vol-en-zat-genepetreerd': KeuzelijstWaarde(invulwaarde='vol-en-zat-genepetreerd',
                                                     label='vol en zat genepetreerd',
                                                     status='ingebruik',
-                                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/vol-en-zat-genepetreerd')
+                                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/vol-en-zat-genepetreerd'),
+        'volenzatgenepetreerd': KeuzelijstWaarde(invulwaarde='volenzatgenepetreerd',
+                                                 label='volEnZatGenepetreerd',
+                                                 status='ingebruik',
+                                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPenetratiegraad/volenzatgenepetreerd')
     }
 
     @classmethod

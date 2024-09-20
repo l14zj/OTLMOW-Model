@@ -9,7 +9,7 @@ class KlVRModuleMetFirmwareModelnaam(KeuzelijstField):
     label = 'VR-module met firmware modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlVRModuleMetFirmwareModelnaam'
     definition = 'Lijst met modelnamen voor VR-modules met firmware.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVRModuleMetFirmwareModelnaam'
     options = {
     }

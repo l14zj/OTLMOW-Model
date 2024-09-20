@@ -9,7 +9,7 @@ class KlTypeVoeg(KeuzelijstField):
     label = 'Type metselvoeg'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTypeVoeg'
     definition = 'Het type van de metselvoeg.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeVoeg'
     options = {
     }

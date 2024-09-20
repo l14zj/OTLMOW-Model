@@ -10,29 +10,29 @@ class KlDraagConstrBijzondertransport(KeuzelijstField):
     label = 'Draagconstructie bijzonder transport'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlDraagConstrBijzondertransport'
     definition = 'De mogelijkheden en manieren waarop een steun geschikt is om bijzonder transport mogelijk te maken.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDraagConstrBijzondertransport'
     options = {
         'afkoppelbaar': KeuzelijstWaarde(invulwaarde='afkoppelbaar',
                                          label='afkoppelbaar',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='Het object is afkoppelbaar.',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagConstrBijzondertransport/afkoppelbaar'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagConstrBijzondertransport/afkoppelbaar'),
         'draaibaar': KeuzelijstWaarde(invulwaarde='draaibaar',
                                       label='draaibaar',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Het object is draaibaar.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagConstrBijzondertransport/draaibaar'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagConstrBijzondertransport/draaibaar'),
         'geen-voorziening': KeuzelijstWaarde(invulwaarde='geen-voorziening',
                                              label='geen voorziening',
-                                             status='ingebruik',
+                                             status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                              definitie='Geen voorziening.',
-                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagConstrBijzondertransport/geen-voorziening'),
+                                             objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagConstrBijzondertransport/geen-voorziening'),
         'kantelbaar': KeuzelijstWaarde(invulwaarde='kantelbaar',
                                        label='kantelbaar',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Het object is kantelbaar.',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDraagConstrBijzondertransport/kantelbaar')
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDraagConstrBijzondertransport/kantelbaar')
     }
 
     @classmethod

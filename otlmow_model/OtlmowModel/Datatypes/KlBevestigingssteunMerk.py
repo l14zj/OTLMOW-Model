@@ -9,7 +9,7 @@ class KlBevestigingssteunMerk(KeuzelijstField):
     label = 'Bevestigingssteun merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBevestigingssteunMerk'
     definition = 'De mogelijke merken of fabrikanten van een bevestigingssteun.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingssteunMerk'
     options = {
     }

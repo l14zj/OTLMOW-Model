@@ -10,17 +10,17 @@ class KlZelfsluiterUitvoeringswijze(KeuzelijstField):
     label = 'Zelfsluiter uitvoeringswijze'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZelfsluiterUitvoeringswijze'
     definition = 'Lijst met mogelijke uitvoeringen van zelfsluiters voor deuren, poorten etc.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZelfsluiterUitvoeringswijze'
     options = {
         'met-open-stand': KeuzelijstWaarde(invulwaarde='met-open-stand',
                                            label='met open stand',
-                                           status='ingebruik',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZelfsluiterUitvoeringswijze/met-open-stand'),
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZelfsluiterUitvoeringswijze/met-open-stand'),
         'standaard': KeuzelijstWaarde(invulwaarde='standaard',
                                       label='standaard',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZelfsluiterUitvoeringswijze/standaard')
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZelfsluiterUitvoeringswijze/standaard')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlToestelventilatorFilterdoekKlasse(KeuzelijstField):
     label = 'Toestelventilator filterdoek klasse'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlToestelventilatorFilterdoekKlasse'
     definition = 'Keuzelijst die de verschillende filterklasses van een filterdoek voor een toestelventilator bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestelventilatorFilterdoekKlasse'
     options = {
     }

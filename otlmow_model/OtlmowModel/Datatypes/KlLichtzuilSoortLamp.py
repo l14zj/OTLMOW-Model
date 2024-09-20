@@ -10,29 +10,29 @@ class KlLichtzuilSoortLamp(KeuzelijstField):
     label = 'Lichtzuil soort lamp'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLichtzuilSoortLamp'
     definition = 'Soort lamp voor de lichtzuilen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLichtzuilSoortLamp'
     options = {
         'gloeilamp': KeuzelijstWaarde(invulwaarde='gloeilamp',
                                       label='gloeilamp',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/gloeilamp'),
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/gloeilamp'),
         'halogeen': KeuzelijstWaarde(invulwaarde='halogeen',
                                      label='halogeen',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/halogeen'),
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/halogeen'),
         'led': KeuzelijstWaarde(invulwaarde='led',
                                 label='LED',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/led'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/led'),
         'spaarlamp': KeuzelijstWaarde(invulwaarde='spaarlamp',
                                       label='spaarlamp',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/spaarlamp'),
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/spaarlamp'),
         'tl': KeuzelijstWaarde(invulwaarde='tl',
                                label='TL',
-                               status='ingebruik',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/tl')
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLichtzuilSoortLamp/tl')
     }
 
     @classmethod

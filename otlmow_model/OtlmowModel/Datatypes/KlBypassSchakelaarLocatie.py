@@ -10,17 +10,17 @@ class KlBypassSchakelaarLocatie(KeuzelijstField):
     label = 'Bypass schakelaar locatie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBypassSchakelaarLocatie'
     definition = 'De mogelijke locaties van een bypass schakelaar.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBypassSchakelaarLocatie'
     options = {
         'laagspanningsbord': KeuzelijstWaarde(invulwaarde='laagspanningsbord',
                                               label='Laagspanningsbord',
-                                              status='ingebruik',
-                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBypassSchakelaarLocatie/laagspanningsbord'),
+                                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBypassSchakelaarLocatie/laagspanningsbord'),
         'ups': KeuzelijstWaarde(invulwaarde='ups',
                                 label='UPS',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBypassSchakelaarLocatie/ups')
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBypassSchakelaarLocatie/ups')
     }
 
     @classmethod

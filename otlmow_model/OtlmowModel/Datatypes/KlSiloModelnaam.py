@@ -9,7 +9,7 @@ class KlSiloModelnaam(KeuzelijstField):
     label = 'Silo modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSiloModelnaam'
     definition = 'De modelnaam van de silo.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSiloModelnaam'
     options = {
     }

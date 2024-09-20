@@ -10,35 +10,35 @@ class KlBoomStandplaatswaarde(KeuzelijstField):
     label = 'Boom standplaatswaarde'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBoomStandplaatswaarde'
     definition = 'De verschillende opties van de standplaatswaarde voor een boom.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     deprecated_version = '2.12.0'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomStandplaatswaarde'
     options = {
         '0.6': KeuzelijstWaarde(invulwaarde='0.6',
                                 label='0.6',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Landelijk gebied',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.6'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.6'),
         '0.7': KeuzelijstWaarde(invulwaarde='0.7',
                                 label='0.7',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Overgangszone: bebouwde kom - landelijk gebied',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.7'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.7'),
         '0.8': KeuzelijstWaarde(invulwaarde='0.8',
                                 label='0.8',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Open en halfopen bebouwing',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.8'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.8'),
         '0.9': KeuzelijstWaarde(invulwaarde='0.9',
                                 label='0.9',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Gesloten bebouwing',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.9'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/0.9'),
         '1.0': KeuzelijstWaarde(invulwaarde='1.0',
                                 label='1.0',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Sterk verstedelijkte stads- of dorpskern',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/1.0')
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomStandplaatswaarde/1.0')
     }
 
     @classmethod

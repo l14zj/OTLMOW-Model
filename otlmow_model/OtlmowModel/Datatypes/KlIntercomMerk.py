@@ -9,7 +9,7 @@ class KlIntercomMerk(KeuzelijstField):
     label = 'Intercomtoestel merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlIntercomMerk'
     definition = 'Het merk van het intercomtoestel.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIntercomMerk'
     options = {
     }

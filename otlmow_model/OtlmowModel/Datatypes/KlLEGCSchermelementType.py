@@ -10,30 +10,30 @@ class KlLEGCSchermelementType(KeuzelijstField):
     label = 'Schermelement type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEGCSchermelementType'
     definition = 'Schermelement types.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     deprecated_version = '2.0.0'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermelementType'
     options = {
         'bloembakelement': KeuzelijstWaarde(invulwaarde='bloembakelement',
                                             label='bloembakelement',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='bloembakelement',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/bloembakelement'),
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/bloembakelement'),
         'l-element': KeuzelijstWaarde(invulwaarde='l-element',
                                       label='l-element',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='l-element',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/l-element'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/l-element'),
         'schermelement-tussen-palen': KeuzelijstWaarde(invulwaarde='schermelement-tussen-palen',
                                                        label='schermelement tussen palen',
-                                                       status='ingebruik',
+                                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                        definitie='schermelement tussen palen',
-                                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/schermelement-tussen-palen'),
+                                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/schermelement-tussen-palen'),
         'voertuigkerend': KeuzelijstWaarde(invulwaarde='voertuigkerend',
                                            label='voertuigkerend',
-                                           status='ingebruik',
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                            definitie='voertuigkerend',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/voertuigkerend')
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCSchermelementType/voertuigkerend')
     }
 
     @classmethod

@@ -10,29 +10,29 @@ class KlOphogingSoorten(KeuzelijstField):
     label = 'Ophoging soorten'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/levenscyclus#KlOphogingSoorten'
     definition = 'De specificatie van type grond bij ophoging.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOphogingSoorten'
     options = {
         'in-den-droge': KeuzelijstWaarde(invulwaarde='in-den-droge',
                                          label='in den droge',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='Het droog grondverzet heeft tot doel het baanbed, de wegbermen, de steunbermen, de taluds en de sloten te verwezenlijken.',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/in-den-droge'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOphogingSoorten/in-den-droge'),
         'onbevaarbare-waterlopen': KeuzelijstWaarde(invulwaarde='onbevaarbare-waterlopen',
                                                     label='onbevaarbare waterlopen',
-                                                    status='ingebruik',
+                                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                     definitie='Het grondwerk aan deze waterlopen heeft tot doel de bedding, ondervlak, taluds, dijken, ontwateringssloten en bermen te verwezenlijken.',
-                                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/onbevaarbare-waterlopen'),
+                                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOphogingSoorten/onbevaarbare-waterlopen'),
         'strandzand': KeuzelijstWaarde(invulwaarde='strandzand',
                                        label='strandzand',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Zand afkomstig van zones gelegen rechtover de op te hogen strandzones vanaf peil (TAW + 2,5 m) tot tegen de waterlijn.',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/strandzand'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOphogingSoorten/strandzand'),
         'zeezand': KeuzelijstWaarde(invulwaarde='zeezand',
                                     label='zeezand',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='Zand gebaggerd op de consessie van de Vlaamse overheid, of de consessie van de opdrachtnemer.',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOphogingSoorten/zeezand')
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOphogingSoorten/zeezand')
     }
 
     @classmethod

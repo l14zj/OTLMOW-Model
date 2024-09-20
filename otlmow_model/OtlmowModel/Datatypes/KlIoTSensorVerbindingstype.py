@@ -9,7 +9,7 @@ class KlIoTSensorVerbindingstype(KeuzelijstField):
     label = 'IoT-sensor verbindingtype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlIoTSensorVerbindingstype'
     definition = 'IoT-sensor verbindingtypes.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIoTSensorVerbindingstype'
     options = {
     }

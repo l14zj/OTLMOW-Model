@@ -9,7 +9,7 @@ class KlOlieAdditieven(KeuzelijstField):
     label = 'Olie additieven'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOlieAdditieven'
     definition = 'Keuzelijst voor de verschillende additieven die men kan toevoegen aan olie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOlieAdditieven'
     options = {
     }

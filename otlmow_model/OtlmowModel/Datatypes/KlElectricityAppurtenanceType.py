@@ -10,25 +10,25 @@ class KlElectricityAppurtenanceType(KeuzelijstField):
     label = 'Electricity appurtenance type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlElectricityAppurtenanceType'
     definition = 'Lijst voor types van de ElectricityAppurtenance.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElectricityAppurtenanceType'
     options = {
         'aarding': KeuzelijstWaarde(invulwaarde='aarding',
                                     label='aarding',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/aarding'),
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/aarding'),
         'deliverypoint': KeuzelijstWaarde(invulwaarde='deliverypoint',
                                           label='deliveryPoint',
-                                          status='ingebruik',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/deliverypoint'),
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/deliverypoint'),
         'mof': KeuzelijstWaarde(invulwaarde='mof',
                                 label='mof',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/mof'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/mof'),
         'streetlight': KeuzelijstWaarde(invulwaarde='streetlight',
                                         label='streetLight',
-                                        status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/streetlight')
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElectricityAppurtenanceType/streetlight')
     }
 
     @classmethod

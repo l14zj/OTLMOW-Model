@@ -9,7 +9,7 @@ class KlTelecomkabelTypeSpecificatie(KeuzelijstField):
     label = 'Telecomkabel type specificatie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTelecomkabelTypeSpecificatie'
     definition = 'Lijst met mogelijke specificaties van het type van de telecomkabel volgens een vaste lijst om bv. de brandklasse mee te geven.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTelecomkabelTypeSpecificatie'
     options = {
     }

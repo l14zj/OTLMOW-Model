@@ -9,7 +9,7 @@ class KlZuilTGCMerk(KeuzelijstField):
     label = 'Merknamen zuilen toegangscontrole'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZuilTGCMerk'
     definition = 'Lijst van merknamen van zuilen voor toegangscontrole volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZuilTGCMerk'
     options = {
     }

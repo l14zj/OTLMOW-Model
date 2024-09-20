@@ -9,7 +9,7 @@ class KlMotorbeveiligingModelnaam(KeuzelijstField):
     label = 'Modelnamen motorbeveiligingen'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMotorbeveiligingModelnaam'
     definition = 'Lijst met modelnamen voor motorbeveiligingen volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingModelnaam'
     options = {
     }

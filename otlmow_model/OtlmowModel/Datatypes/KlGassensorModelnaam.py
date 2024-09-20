@@ -9,7 +9,7 @@ class KlGassensorModelnaam(KeuzelijstField):
     label = 'Gassensor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlGassensorModelnaam'
     definition = 'Keuzelijst die de modelnamen van gassensoren bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGassensorModelnaam'
     options = {
     }

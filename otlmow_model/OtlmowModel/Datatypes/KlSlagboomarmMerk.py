@@ -9,7 +9,7 @@ class KlSlagboomarmMerk(KeuzelijstField):
     label = 'Slagboomarm merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSlagboomarmMerk'
     definition = 'Het merk van de slagboomarm.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagboomarmMerk'
     options = {
     }

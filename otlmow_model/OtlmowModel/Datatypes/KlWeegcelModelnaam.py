@@ -9,7 +9,7 @@ class KlWeegcelModelnaam(KeuzelijstField):
     label = 'Weegcel modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWeegcelModelnaam'
     definition = 'Lijst met modelnamen van weegcellen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegcelModelnaam'
     options = {
     }

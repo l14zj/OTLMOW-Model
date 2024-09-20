@@ -9,7 +9,7 @@ class KlHydrostatischeNiveaumetingModelnaam(KeuzelijstField):
     label = 'Hydrostatische niveaumeting modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlHydrostatischeNiveaumetingModelnaam'
     definition = 'Modelnamen van de hydrostatische niveaumeting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHydrostatischeNiveaumetingModelnaam'
     options = {
     }

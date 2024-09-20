@@ -10,30 +10,25 @@ class KlSeinbrugType(KeuzelijstField):
     label = 'Seinbrug type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSeinbrugType'
     definition = 'Types van seinbrug.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSeinbrugType'
     options = {
-        'dubbeleligger': KeuzelijstWaarde(invulwaarde='dubbeleligger',
-                                          label='dubbeleLigger',
-                                          status='ingebruik',
-                                          definitie='dubbeleLigger',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/dubbeleligger'),
         'enkeleLigger': KeuzelijstWaarde(invulwaarde='enkeleLigger',
                                          label='enkeleLigger',
-                                         status='ingebruik',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/enkeleLigger'),
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugType/enkeleLigger'),
         'koker': KeuzelijstWaarde(invulwaarde='koker',
                                   label='koker',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/koker'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugType/koker'),
         'nietDoorlopendeBuis': KeuzelijstWaarde(invulwaarde='nietDoorlopendeBuis',
                                                 label='nietDoorlopendeBuis',
-                                                status='ingebruik',
-                                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/nietDoorlopendeBuis'),
+                                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugType/nietDoorlopendeBuis'),
         'vakwerk': KeuzelijstWaarde(invulwaarde='vakwerk',
                                     label='vakwerk',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSeinbrugType/vakwerk')
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSeinbrugType/vakwerk')
     }
 
     @classmethod

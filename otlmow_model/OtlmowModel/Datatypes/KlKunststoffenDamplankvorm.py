@@ -9,7 +9,7 @@ class KlKunststoffenDamplankvorm(KeuzelijstField):
     label = 'Kunststoffen damplankvorm'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlKunststoffenDamplankvorm'
     definition = 'De vorm van de kunststoffen damplank.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKunststoffenDamplankvorm'
     options = {
     }

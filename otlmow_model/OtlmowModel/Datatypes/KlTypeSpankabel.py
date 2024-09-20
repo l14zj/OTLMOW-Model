@@ -9,7 +9,7 @@ class KlTypeSpankabel(KeuzelijstField):
     label = 'Type spankabel'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTypeSpankabel'
     definition = 'Het type waaruit de spankabel is opgebouwd.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSpankabel'
     options = {
     }

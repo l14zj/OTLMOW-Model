@@ -10,24 +10,24 @@ class KlVGSchermelementtype(KeuzelijstField):
     label = 'Vlak geluidsschermelementtype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVGSchermelementtype'
     definition = 'Het type vlak-schermelement.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVGSchermelementtype'
     options = {
         'schermelement-bevestigd-tegen-de-profielen': KeuzelijstWaarde(invulwaarde='schermelement-bevestigd-tegen-de-profielen',
                                                                        label='schermelement bevestigd tegen de profielen',
-                                                                       status='ingebruik',
+                                                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                                        definitie='schermelement bevestigd tegen de profielen',
-                                                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-bevestigd-tegen-de-profielen'),
+                                                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-bevestigd-tegen-de-profielen'),
         'schermelement-geplaatst-tussen-profielen': KeuzelijstWaarde(invulwaarde='schermelement-geplaatst-tussen-profielen',
                                                                      label='schermelement geplaatst tussen profielen',
-                                                                     status='ingebruik',
+                                                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                                      definitie='schermelement geplaatst tussen profielen',
-                                                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-geplaatst-tussen-profielen'),
+                                                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-geplaatst-tussen-profielen'),
         'schermelement-zonder-profielen': KeuzelijstWaarde(invulwaarde='schermelement-zonder-profielen',
                                                            label='schermelement zonder profielen',
-                                                           status='ingebruik',
+                                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                            definitie='schermelement zonder profielen',
-                                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-zonder-profielen')
+                                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVGSchermelementtype/schermelement-zonder-profielen')
     }
 
     @classmethod

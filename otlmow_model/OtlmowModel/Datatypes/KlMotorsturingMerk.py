@@ -9,7 +9,7 @@ class KlMotorsturingMerk(KeuzelijstField):
     label = 'Merken motorsturing'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMotorsturingMerk'
     definition = 'Lijst met merknamen volgens de fabrikant voor technieken voor motorsturing in een laagspanningsinstallatie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorsturingMerk'
     options = {
     }

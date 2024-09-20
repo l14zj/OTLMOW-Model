@@ -26,7 +26,7 @@ class Segmentcontroller(Controller):
                                                   naam='beveil_igingssleutel',
                                                   label='beveiligingssleutel',
                                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Segmentcontroller.beveil_igingssleutel',
-                                                  usagenote='Attribuut uit gebruik sinds versie 2.0.0 ',
+                                                  usagenote='Attribuut uit gebruik sinds versie 2.0.0',
                                                   deprecated_version='2.0.0',
                                                   definition='De encryptie die wordt toegepast om de verbinding tussen lokaal en centraal te beveiligen.',
                                                   owner=self)
@@ -42,7 +42,7 @@ class Segmentcontroller(Controller):
                                   naam='merk',
                                   label='merk',
                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Segmentcontroller.merk',
-                                  usagenote='Attribuut uit gebruik sinds versie 2.8.0 ',
+                                  usagenote='Attribuut uit gebruik sinds versie 2.8.0',
                                   deprecated_version='2.8.0',
                                   definition='Merk van de segmentcontroller.',
                                   owner=self)
@@ -65,7 +65,7 @@ class Segmentcontroller(Controller):
                                        naam='modelnaam',
                                        label='modelnaam',
                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#Segmentcontroller.modelnaam',
-                                       usagenote='Attribuut uit gebruik sinds versie 2.8.0 ',
+                                       usagenote='Attribuut uit gebruik sinds versie 2.8.0',
                                        deprecated_version='2.8.0',
                                        definition='Modelnaam van de segmentcontroller.',
                                        owner=self)

@@ -10,24 +10,24 @@ class KlLEGCGeluidskarakteristiek(KeuzelijstField):
     label = 'Geluidskarakteristiek'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEGCGeluidskarakteristiek'
     definition = 'De geluidskarakteristieken van de geluidswerende constructie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCGeluidskarakteristiek'
     options = {
         'absorberend': KeuzelijstWaarde(invulwaarde='absorberend',
                                         label='absorberend',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='De geluidsgolven worden gedeeltelijk niet weerkaatst door de geluidswerende constructie.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/absorberend'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/absorberend'),
         'bi-absorberend': KeuzelijstWaarde(invulwaarde='bi-absorberend',
                                            label='bi-absorberend',
-                                           status='ingebruik',
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                            definitie='De geluidsgolven worden gedeeltelijk niet weerkaatst door de geluidswerende constructie (langs beide zijden).',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/bi-absorberend'),
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/bi-absorberend'),
         'reflecterend': KeuzelijstWaarde(invulwaarde='reflecterend',
                                          label='reflecterend',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='reflecterend',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/reflecterend')
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCGeluidskarakteristiek/reflecterend')
     }
 
     @classmethod

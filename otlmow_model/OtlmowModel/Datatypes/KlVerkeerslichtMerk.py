@@ -9,7 +9,7 @@ class KlVerkeerslichtMerk(KeuzelijstField):
     label = 'verkeerslicht merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlVerkeerslichtMerk'
     definition = 'Keuzelijst met merknamen voor Verkeerslicht.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeerslichtMerk'
     options = {
     }

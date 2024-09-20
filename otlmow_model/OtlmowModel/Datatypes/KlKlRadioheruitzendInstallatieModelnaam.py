@@ -9,7 +9,7 @@ class KlKlRadioheruitzendInstallatieModelnaam(KeuzelijstField):
     label = 'Radioheruitzendinstallatie modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlKlRadioheruitzendInstallatieModelnaam'
     definition = 'De modelnamen voor een Radioheruitzendinstallatie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKlRadioheruitzendInstallatieModelnaam'
     options = {
     }

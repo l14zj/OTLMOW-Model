@@ -10,33 +10,33 @@ class KlAardingAardingsnet(KeuzelijstField):
     label = 'Aardingsinstallatie aardingsnet'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlAardingAardingsnet'
     definition = 'Lijst van voorkomende types aardingsnet'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingAardingsnet'
     options = {
         'it': KeuzelijstWaarde(invulwaarde='it',
                                label='IT',
-                               status='ingebruik',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/it'),
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsnet/it'),
         'tnc': KeuzelijstWaarde(invulwaarde='tnc',
                                 label='TNC',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tnc'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tnc'),
         'tncs': KeuzelijstWaarde(invulwaarde='tncs',
                                  label='TNCS',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tncs'),
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tncs'),
         'tns': KeuzelijstWaarde(invulwaarde='tns',
                                 label='TNS',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tns'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tns'),
         'tns-tncs': KeuzelijstWaarde(invulwaarde='tns-tncs',
                                      label='TNS-TNCS',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tns-tncs'),
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tns-tncs'),
         'tt': KeuzelijstWaarde(invulwaarde='tt',
                                label='TT',
-                               status='ingebruik',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tt')
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingAardingsnet/tt')
     }
 
     @classmethod

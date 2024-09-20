@@ -10,34 +10,34 @@ class KlAansluitstukMateriaal(KeuzelijstField):
     label = 'Aansluitstuk materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAansluitstukMateriaal'
     definition = 'Het materiaal van het aansluitstuk.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitstukMateriaal'
     options = {
         'gres': KeuzelijstWaarde(invulwaarde='gres',
                                  label='gres',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Gres',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/gres'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/gres'),
         'polyethyleen': KeuzelijstWaarde(invulwaarde='polyethyleen',
                                          label='polyethyleen',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='polyethyleen',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/polyethyleen'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/polyethyleen'),
         'pp': KeuzelijstWaarde(invulwaarde='pp',
                                label='pp',
-                               status='ingebruik',
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                definitie='Polypropyleen',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pp'),
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pp'),
         'pvc': KeuzelijstWaarde(invulwaarde='pvc',
                                 label='pvc',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Polyvinylchloride',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc'),
         'pvc-u-composiet': KeuzelijstWaarde(invulwaarde='pvc-u-composiet',
                                             label='pvc-u-composiet',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='pvc-u-composiet',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc-u-composiet')
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAansluitstukMateriaal/pvc-u-composiet')
     }
 
     @classmethod

@@ -10,24 +10,24 @@ class KlVoorschakelapparaatType(KeuzelijstField):
     label = 'Voorschakelapparaat type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVoorschakelapparaatType'
     definition = 'Type van het voorschakelapparaat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorschakelapparaatType'
     options = {
         'elektromechanisch': KeuzelijstWaarde(invulwaarde='elektromechanisch',
                                               label='elektromechanisch',
-                                              status='ingebruik',
+                                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                               definitie='/ CLASS : IVSB',
-                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/elektromechanisch'),
+                                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/elektromechanisch'),
         'elektronisch': KeuzelijstWaarde(invulwaarde='elektronisch',
                                          label='elektronisch',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='/ CLASS : IVSB',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/elektronisch'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/elektronisch'),
         'niet-gekend': KeuzelijstWaarde(invulwaarde='niet-gekend',
                                         label='Niet gekend',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Type niet gekend',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/niet-gekend')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoorschakelapparaatType/niet-gekend')
     }
 
     @classmethod

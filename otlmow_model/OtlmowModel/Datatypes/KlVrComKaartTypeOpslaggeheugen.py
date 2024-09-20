@@ -9,7 +9,7 @@ class KlVrComKaartTypeOpslaggeheugen(KeuzelijstField):
     label = 'VR-communicatiekaart type opslaggeheugen'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVrComKaartTypeOpslaggeheugen'
     definition = 'Keuzelijst met verschillende types geheugen van een VRCommunicatiekaart.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     deprecated_version = '2.12.0'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrComKaartTypeOpslaggeheugen'
     options = {

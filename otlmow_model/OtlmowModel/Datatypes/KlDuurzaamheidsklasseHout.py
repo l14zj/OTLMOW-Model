@@ -10,34 +10,34 @@ class KlDuurzaamheidsklasseHout(KeuzelijstField):
     label = 'Duurzaamheidsklasse van hout'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlDuurzaamheidsklasseHout'
     definition = 'De resistentie van het kernhout tegen ongunstige omstandigheden.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDuurzaamheidsklasseHout'
     options = {
         'klasse-i': KeuzelijstWaarde(invulwaarde='klasse-i',
                                      label='Klasse I',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Zeer duurzaam.',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-i'),
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-i'),
         'klasse-ii': KeuzelijstWaarde(invulwaarde='klasse-ii',
                                       label='Klasse II',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Duurzaam.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-ii'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-ii'),
         'klasse-iii': KeuzelijstWaarde(invulwaarde='klasse-iii',
                                        label='Klasse III',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Matig duurzaam.',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-iii'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-iii'),
         'klasse-iv': KeuzelijstWaarde(invulwaarde='klasse-iv',
                                       label='Klasse IV',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Weinig duurzaam.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-iv'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-iv'),
         'klasse-v': KeuzelijstWaarde(invulwaarde='klasse-v',
                                      label='Klasse V',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Niet duurzaam.',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-v')
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDuurzaamheidsklasseHout/klasse-v')
     }
 
     @classmethod

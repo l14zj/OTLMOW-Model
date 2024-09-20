@@ -9,7 +9,7 @@ class KlDABRepeaterModelnaam(KeuzelijstField):
     label = 'DAB repeater modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDABRepeaterModelnaam'
     definition = 'Modelnaam van de DAB repeater module.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDABRepeaterModelnaam'
     options = {
     }

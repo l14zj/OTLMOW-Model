@@ -10,17 +10,17 @@ class KlVerkeersbordconceptStatus(KeuzelijstField):
     label = 'VerkeersbordconceptStatus'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVerkeersbordconceptStatus'
     definition = 'Keuzelijst met waarden die aangeven of een verkeersbordconcept nog gebruikt wordt.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVerkeersbordconceptStatus'
     options = {
         'afgeschaft': KeuzelijstWaarde(invulwaarde='afgeschaft',
                                        label='afgeschaft',
-                                       status='ingebruik',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordconceptStatus/afgeschaft'),
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordconceptStatus/afgeschaft'),
         'stabiel': KeuzelijstWaarde(invulwaarde='stabiel',
                                     label='stabiel',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVerkeersbordconceptStatus/stabiel')
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVerkeersbordconceptStatus/stabiel')
     }
 
     @classmethod

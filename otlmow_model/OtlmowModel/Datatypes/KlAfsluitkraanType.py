@@ -9,7 +9,7 @@ class KlAfsluitkraanType(KeuzelijstField):
     label = 'Afsluitkraan type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAfsluitkraanType'
     definition = 'De werkingsprincipes van de afsluitkraan.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfsluitkraanType'
     options = {
     }

@@ -10,14 +10,14 @@ class KlBevestigingssteunType(KeuzelijstField):
     label = 'Bevestigingssteun type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBevestigingssteunType'
     definition = 'De mogelijk types van een bevestigingssteun.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBevestigingssteunType'
     options = {
         'baar': KeuzelijstWaarde(invulwaarde='baar',
                                  label='baar',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Een staaf waaraan bv. een antenne kan worden bevestigd.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBevestigingssteunType/baar')
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBevestigingssteunType/baar')
     }
 
     @classmethod

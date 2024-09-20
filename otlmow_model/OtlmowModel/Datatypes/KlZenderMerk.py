@@ -9,7 +9,7 @@ class KlZenderMerk(KeuzelijstField):
     label = 'zender merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZenderMerk'
     definition = 'Keuzelijst met merknamen voor Zender.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZenderMerk'
     options = {
     }

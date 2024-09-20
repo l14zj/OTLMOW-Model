@@ -9,7 +9,7 @@ class KlSignaalfilterType(KeuzelijstField):
     label = 'Signaalfilter type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSignaalfilterType'
     definition = 'Het type van een signaalfilter.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalfilterType'
     options = {
     }

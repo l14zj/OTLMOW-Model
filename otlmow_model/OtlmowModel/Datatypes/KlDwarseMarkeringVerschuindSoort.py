@@ -10,14 +10,14 @@ class KlDwarseMarkeringVerschuindSoort(KeuzelijstField):
     label = 'Dwarse markering soort verschuind'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDwarseMarkeringVerschuindSoort'
     definition = 'Soorten van de schuine dwarse markering.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDwarseMarkeringVerschuindSoort'
     options = {
         'fietsoversteekplaats-met-blokken-(FOP)-schuin': KeuzelijstWaarde(invulwaarde='fietsoversteekplaats-met-blokken-(FOP)-schuin',
                                                                           label='fietsoversteekplaats met blokken (FOP) schuin',
-                                                                          status='ingebruik',
+                                                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                                           definitie='Een oversteekplaats voor fietsers gemarkeerd door witte parallellogrammen.',
-                                                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDwarseMarkeringVerschuindSoort/fietsoversteekplaats-met-blokken-(FOP)-schuin')
+                                                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDwarseMarkeringVerschuindSoort/fietsoversteekplaats-met-blokken-(FOP)-schuin')
     }
 
     @classmethod

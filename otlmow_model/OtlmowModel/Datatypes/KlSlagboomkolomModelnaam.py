@@ -9,7 +9,7 @@ class KlSlagboomkolomModelnaam(KeuzelijstField):
     label = 'Slagboomkolom modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSlagboomkolomModelnaam'
     definition = 'De modelnaam van de slagboomkolom.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlagboomkolomModelnaam'
     options = {
     }

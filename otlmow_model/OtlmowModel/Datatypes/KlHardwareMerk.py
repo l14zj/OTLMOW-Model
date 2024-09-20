@@ -9,7 +9,7 @@ class KlHardwareMerk(KeuzelijstField):
     label = 'Hardware merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlHardwareMerk'
     definition = 'Het merk van de hardware.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareMerk'
     options = {
     }

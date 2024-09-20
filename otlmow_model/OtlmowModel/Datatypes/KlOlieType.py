@@ -9,7 +9,7 @@ class KlOlieType(KeuzelijstField):
     label = 'Olie type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOlieType'
     definition = 'Keuzelijst voor verschillende types olie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOlieType'
     options = {
     }

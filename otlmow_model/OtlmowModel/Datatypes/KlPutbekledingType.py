@@ -10,19 +10,19 @@ class KlPutbekledingType(KeuzelijstField):
     label = 'Putbekleding type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlPutbekledingType'
     definition = 'Types van putbekleding.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPutbekledingType'
     options = {
         'solventvrije-kunsthars': KeuzelijstWaarde(invulwaarde='solventvrije-kunsthars',
                                                    label='solventvrije kunsthars',
-                                                   status='ingebruik',
+                                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                    definitie='solventvrije kunsthars',
-                                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutbekledingType/solventvrije-kunsthars'),
+                                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutbekledingType/solventvrije-kunsthars'),
         'solventvrije-vezelversterkte-epoxyhars': KeuzelijstWaarde(invulwaarde='solventvrije-vezelversterkte-epoxyhars',
                                                                    label='solventvrije vezelversterkte epoxyhars',
-                                                                   status='ingebruik',
+                                                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                                    definitie='solventvrije vezelversterkte epoxyhars',
-                                                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPutbekledingType/solventvrije-vezelversterkte-epoxyhars')
+                                                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlPutbekledingType/solventvrije-vezelversterkte-epoxyhars')
     }
 
     @classmethod

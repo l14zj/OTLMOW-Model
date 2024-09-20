@@ -9,7 +9,7 @@ class KlAntenneConstructieType(KeuzelijstField):
     label = 'Antenne constructie type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAntenneConstructieType'
     definition = 'Het constructie type of de vorm van een antenne.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntenneConstructieType'
     options = {
     }

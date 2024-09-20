@@ -9,7 +9,7 @@ class KlSignaalSplitterMerk(KeuzelijstField):
     label = 'Signaalsplitter merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSignaalSplitterMerk'
     definition = 'Merknaam van de signaalsplitter.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalSplitterMerk'
     options = {
     }

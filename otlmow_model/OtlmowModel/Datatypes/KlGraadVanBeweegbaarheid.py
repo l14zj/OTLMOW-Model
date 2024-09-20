@@ -10,19 +10,19 @@ class KlGraadVanBeweegbaarheid(KeuzelijstField):
     label = 'graad van beweegbaarheid'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlGraadVanBeweegbaarheid'
     definition = 'Op welke manier het brugdeel kan bewegen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanBeweegbaarheid'
     options = {
         'beweegbaar': KeuzelijstWaarde(invulwaarde='beweegbaar',
                                        label='Beweegbaar',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Het brugdeel is beweegbaar.',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGraadVanBeweegbaarheid/beweegbaar'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGraadVanBeweegbaarheid/beweegbaar'),
         'vast': KeuzelijstWaarde(invulwaarde='vast',
                                  label='Vast',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Het brugdeel is vast en beweegt niet.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGraadVanBeweegbaarheid/vast')
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGraadVanBeweegbaarheid/vast')
     }
 
     @classmethod

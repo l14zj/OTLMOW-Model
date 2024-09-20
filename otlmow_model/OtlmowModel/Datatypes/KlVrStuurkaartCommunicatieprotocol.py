@@ -10,22 +10,22 @@ class KlVrStuurkaartCommunicatieprotocol(KeuzelijstField):
     label = 'VRI-communicatieprotocol'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVrStuurkaartCommunicatieprotocol'
     definition = 'Keuzelist met de voorkomende communicatieprotocollen voor VRIstuurkaarten.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVrStuurkaartCommunicatieprotocol'
     options = {
         'canto': KeuzelijstWaarde(invulwaarde='canto',
                                   label='canto',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/canto'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/canto'),
         'gecombineerd': KeuzelijstWaarde(invulwaarde='gecombineerd',
                                          label='gecombineerd',
-                                         status='ingebruik',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/gecombineerd'),
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/gecombineerd'),
         'ocit': KeuzelijstWaarde(invulwaarde='ocit',
                                  label='ocit',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='nog in te vullen',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/ocit')
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVrStuurkaartCommunicatieprotocol/ocit')
     }
 
     @classmethod

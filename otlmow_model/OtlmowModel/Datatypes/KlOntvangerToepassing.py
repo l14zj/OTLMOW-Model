@@ -10,26 +10,26 @@ class KlOntvangerToepassing(KeuzelijstField):
     label = 'Ontvanger toepassing'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOntvangerToepassing'
     definition = 'Keuzelijst met modelnamen voor OntvangerToepassing.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     deprecated_version = '2.8.0'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOntvangerToepassing'
     options = {
         'GPRS': KeuzelijstWaarde(invulwaarde='GPRS',
                                  label='GPRS',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOntvangerToepassing/GPRS'),
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassing/GPRS'),
         'GSM': KeuzelijstWaarde(invulwaarde='GSM',
                                 label='GSM',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOntvangerToepassing/GSM'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassing/GSM'),
         'KAR': KeuzelijstWaarde(invulwaarde='KAR',
                                 label='KAR',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOntvangerToepassing/KAR'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassing/KAR'),
         'WIFI': KeuzelijstWaarde(invulwaarde='WIFI',
                                  label='WIFI',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOntvangerToepassing/WIFI')
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOntvangerToepassing/WIFI')
     }
 
     @classmethod

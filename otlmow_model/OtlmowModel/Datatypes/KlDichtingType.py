@@ -9,7 +9,7 @@ class KlDichtingType(KeuzelijstField):
     label = 'Dichting type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDichtingType'
     definition = 'Keuzelijst voor de types dichting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDichtingType'
     options = {
     }

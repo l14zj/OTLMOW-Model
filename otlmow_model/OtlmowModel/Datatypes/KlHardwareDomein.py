@@ -10,17 +10,17 @@ class KlHardwareDomein(KeuzelijstField):
     label = 'Hardware domein'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlHardwareDomein'
     definition = 'Lijst met gebruikte administratieve groeperingen van meerdere particuliere computernetwerken of hosts binnen dezelfde infrastructuur.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHardwareDomein'
     options = {
         'alfa': KeuzelijstWaarde(invulwaarde='alfa',
                                  label='alfa',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareDomein/alfa'),
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareDomein/alfa'),
         'belfla': KeuzelijstWaarde(invulwaarde='belfla',
                                    label='belfla',
-                                   status='ingebruik',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHardwareDomein/belfla')
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlHardwareDomein/belfla')
     }
 
     @classmethod

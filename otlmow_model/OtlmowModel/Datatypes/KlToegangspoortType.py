@@ -10,21 +10,21 @@ class KlToegangspoortType(KeuzelijstField):
     label = 'Toegangspoort type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlToegangspoortType'
     definition = 'Lijst met types voor toegangspoorten volgens de manier waarop de poort opent.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortType'
     options = {
         'draaipoort': KeuzelijstWaarde(invulwaarde='draaipoort',
                                        label='draaipoort',
-                                       status='ingebruik',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortType/draaipoort'),
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangspoortType/draaipoort'),
         'schuifpoort': KeuzelijstWaarde(invulwaarde='schuifpoort',
                                         label='schuifpoort',
-                                        status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortType/schuifpoort'),
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangspoortType/schuifpoort'),
         'vleugelpoort': KeuzelijstWaarde(invulwaarde='vleugelpoort',
                                          label='vleugelpoort',
-                                         status='ingebruik',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangspoortType/vleugelpoort')
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangspoortType/vleugelpoort')
     }
 
     @classmethod

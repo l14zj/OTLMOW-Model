@@ -10,21 +10,24 @@ class KlWaterloopCategorie(KeuzelijstField):
     label = 'Waterloop categorieën'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlWaterloopCategorie'
     definition = 'De verschillende categorieën van een waterloop.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWaterloopCategorie'
     options = {
         'onbevaarbaar-cat1': KeuzelijstWaarde(invulwaarde='onbevaarbaar-cat1',
                                               label='Onbevaarbaar cat1',
-                                              status='ingebruik',
-                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWaterloopCategorie/onbevaarbaar-cat1'),
+                                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                              definitie='Onbevaarbaar cat1',
+                                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWaterloopCategorie/onbevaarbaar-cat1'),
         'onbevaarbaar-cat2': KeuzelijstWaarde(invulwaarde='onbevaarbaar-cat2',
                                               label='Onbevaarbaar cat2',
-                                              status='ingebruik',
-                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWaterloopCategorie/onbevaarbaar-cat2'),
+                                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                              definitie='Onbevaarbaar cat2',
+                                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWaterloopCategorie/onbevaarbaar-cat2'),
         'onbevaarbaar-cat3': KeuzelijstWaarde(invulwaarde='onbevaarbaar-cat3',
                                               label='Onbevaarbaar cat3',
-                                              status='ingebruik',
-                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWaterloopCategorie/onbevaarbaar-cat3')
+                                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                              definitie='Onbevaarbaar cat3',
+                                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWaterloopCategorie/onbevaarbaar-cat3')
     }
 
     @classmethod

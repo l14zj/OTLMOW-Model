@@ -9,7 +9,7 @@ class KlToegangspoortModelnaam(KeuzelijstField):
     label = 'Toegangspoort modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlToegangspoortModelnaam'
     definition = 'Lijst met modelnamen voor allerlei types van toegangspoorten volgens de fabrikant'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangspoortModelnaam'
     options = {
     }

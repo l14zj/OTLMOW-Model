@@ -9,7 +9,7 @@ class KlSmeringType(KeuzelijstField):
     label = 'Smering type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlSmeringType'
     definition = 'Keuzelijst voor de verschillende wijzen van smering van een mechanisch systeem.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSmeringType'
     options = {
     }

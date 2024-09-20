@@ -9,7 +9,7 @@ class KlVeiligheidsrelaisModelnaam(KeuzelijstField):
     label = 'Veiligheidsrelais modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVeiligheidsrelaisModelnaam'
     definition = 'Een lijst met modelnamen van veilgheidsrelais volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVeiligheidsrelaisModelnaam'
     options = {
     }

@@ -9,7 +9,7 @@ class KlToestelventilatorFilterdoekMateriaal(KeuzelijstField):
     label = 'Toestelventilator filterdoek materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlToestelventilatorFilterdoekMateriaal'
     definition = 'Keuzelijst die de verschillende materialen bevat waaruit de filterdoek van een toestelventilator vervaardigd kan zijn.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToestelventilatorFilterdoekMateriaal'
     options = {
     }

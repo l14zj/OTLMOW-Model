@@ -10,26 +10,21 @@ class KlDynBordExternePUModelnaam(KeuzelijstField):
     label = 'Keuzelijst met modellen van Externe PU'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDynBordExternePUModelnaam'
     definition = 'De modelnaam van externe processing unit voor dynamische verkeersborden. Wordt bepaald door de lverancier.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDynBordExternePUModelnaam'
     options = {
         'diamond': KeuzelijstWaarde(invulwaarde='diamond',
                                     label='diamond',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDynBordExternePUModelnaam/diamond'),
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDynBordExternePUModelnaam/diamond'),
         'ixor': KeuzelijstWaarde(invulwaarde='ixor',
                                  label='ixor',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDynBordExternePUModelnaam/ixor'),
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDynBordExternePUModelnaam/ixor'),
         'moxa': KeuzelijstWaarde(invulwaarde='moxa',
                                  label='moxa',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDynBordExternePUModelnaam/moxa'),
-        'techbase': KeuzelijstWaarde(invulwaarde='techbase',
-                                     label='techbase',
-                                     status='ingebruik',
-                                     definitie='techbase',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDynBordExternePUModelnaam/techbase')
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDynBordExternePUModelnaam/moxa')
     }
 
     @classmethod

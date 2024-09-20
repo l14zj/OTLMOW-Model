@@ -9,7 +9,7 @@ class KlWentellagerType(KeuzelijstField):
     label = 'Wentellager type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWentellagerType'
     definition = 'Keuzelijst voor de verschillende soorten wentellager.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerType'
     options = {
     }

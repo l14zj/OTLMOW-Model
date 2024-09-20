@@ -10,24 +10,24 @@ class KlAntiparkeerpaalMateriaal(KeuzelijstField):
     label = 'Antiparkeerpaal materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAntiparkeerpaalMateriaal'
     definition = 'Bepaling van het vervaardigingsmateriaal van de antiparkeerpaal.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntiparkeerpaalMateriaal'
     options = {
         'hout': KeuzelijstWaarde(invulwaarde='hout',
                                  label='hout',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Keuze hout voor het antiparkeerpaal materiaal.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/hout'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/hout'),
         'kunststof': KeuzelijstWaarde(invulwaarde='kunststof',
                                       label='kunststof',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Keuze kunststof voor het antiparkeerpaal materiaal.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/kunststof'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/kunststof'),
         'metaal': KeuzelijstWaarde(invulwaarde='metaal',
                                    label='metaal',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Keuze metaal voor het antiparkeerpaal materiaal.',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/metaal')
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAntiparkeerpaalMateriaal/metaal')
     }
 
     @classmethod

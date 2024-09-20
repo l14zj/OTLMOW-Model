@@ -9,7 +9,7 @@ class KlMotorsturingType(KeuzelijstField):
     label = 'Types motorsturing'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMotorsturingType'
     definition = 'Lijst met types van motorsturingen'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorsturingType'
     options = {
     }

@@ -10,19 +10,19 @@ class KlBoomVerankering(KeuzelijstField):
     label = 'Boom verankering'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBoomVerankering'
     definition = 'De verschillende manieren van verankering van een boom.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBoomVerankering'
     options = {
         'bovengronds': KeuzelijstWaarde(invulwaarde='bovengronds',
                                         label='bovengronds',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='De constructie voor de stabiliteit van de boom bevindt zich boven de grond',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomVerankering/bovengronds'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomVerankering/bovengronds'),
         'ondergronds': KeuzelijstWaarde(invulwaarde='ondergronds',
                                         label='ondergronds',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='De constructie voor de stabiliteit van de boom bevindt zich volledig onder de grond',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBoomVerankering/ondergronds')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBoomVerankering/ondergronds')
     }
 
     @classmethod

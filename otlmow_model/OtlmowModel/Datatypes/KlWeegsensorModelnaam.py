@@ -10,19 +10,19 @@ class KlWeegsensorModelnaam(KeuzelijstField):
     label = 'Weegsensor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWeegsensorModelnaam'
     definition = 'De modelnaam van de weegsensor.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegsensorModelnaam'
     options = {
         'lineas-wim-sensor-9195gc41': KeuzelijstWaarde(invulwaarde='lineas-wim-sensor-9195gc41',
                                                        label='Lineas WIM Sensor 9195GC41',
-                                                       status='ingebruik',
+                                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                        definitie='Lineas WIM Sensor 9195GC41',
-                                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWeegsensorModelnaam/lineas-wim-sensor-9195gc41'),
+                                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeegsensorModelnaam/lineas-wim-sensor-9195gc41'),
         'lineas-wim-sensor-9195gc51': KeuzelijstWaarde(invulwaarde='lineas-wim-sensor-9195gc51',
                                                        label='Lineas WIM Sensor 9195GC51',
-                                                       status='ingebruik',
+                                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                        definitie='Lineas WIM Sensor 9195GC51',
-                                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWeegsensorModelnaam/lineas-wim-sensor-9195gc51')
+                                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeegsensorModelnaam/lineas-wim-sensor-9195gc51')
     }
 
     @classmethod

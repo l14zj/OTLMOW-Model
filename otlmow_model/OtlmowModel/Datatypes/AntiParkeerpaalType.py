@@ -10,19 +10,19 @@ class AntiParkeerpaalType(KeuzelijstField):
     label = 'Anti-parkeerpaal type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#AntiParkeerpaalType'
     definition = 'De vormen van een anti-parkeerpaal.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/AntiParkeerpaalType'
     options = {
         'conischeTrottoirpaalAmsterdammer': KeuzelijstWaarde(invulwaarde='conischeTrottoirpaalAmsterdammer',
                                                              label='conischeTrottoirpaalAmsterdammer',
-                                                             status='ingebruik',
+                                                             status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                              definitie='Conische paal met afgeronde kop en sierring.',
-                                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/conischeTrottoirpaalAmsterdammer'),
+                                                             objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/AntiParkeerpaalType/conischeTrottoirpaalAmsterdammer'),
         'diamantkoppaal': KeuzelijstWaarde(invulwaarde='diamantkoppaal',
                                            label='diamantkoppaal',
-                                           status='ingebruik',
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                            definitie='Een paal voorzien van een diamantkop en op de hoeken 4 vellingkanten.',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/AntiParkeerpaalType/diamantkoppaal')
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/AntiParkeerpaalType/diamantkoppaal')
     }
 
     @classmethod

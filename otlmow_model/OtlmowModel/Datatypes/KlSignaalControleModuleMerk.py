@@ -9,7 +9,7 @@ class KlSignaalControleModuleMerk(KeuzelijstField):
     label = 'Signaal controle module merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSignaalControleModuleMerk'
     definition = 'De merknaam van de signaal controle module'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalControleModuleMerk'
     options = {
     }

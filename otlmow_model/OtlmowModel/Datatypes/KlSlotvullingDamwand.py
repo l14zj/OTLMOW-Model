@@ -9,7 +9,7 @@ class KlSlotvullingDamwand(KeuzelijstField):
     label = 'Slotvulling damwand'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSlotvullingDamwand'
     definition = 'De vulling van het slot van de damwand.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotvullingDamwand'
     options = {
     }

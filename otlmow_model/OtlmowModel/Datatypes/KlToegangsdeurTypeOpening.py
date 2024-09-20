@@ -10,21 +10,24 @@ class KlToegangsdeurTypeOpening(KeuzelijstField):
     label = 'Toegangsdeur type opening'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlToegangsdeurTypeOpening'
     definition = 'De mogelijke openingtypes van de toegangsdeur.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsdeurTypeOpening'
     options = {
         'binnendraaiend': KeuzelijstWaarde(invulwaarde='binnendraaiend',
                                            label='binnendraaiend',
-                                           status='ingebruik',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/binnendraaiend'),
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                           definitie='binnendraaiend',
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/binnendraaiend'),
         'buitendraaiend': KeuzelijstWaarde(invulwaarde='buitendraaiend',
                                            label='buitendraaiend',
-                                           status='ingebruik',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/buitendraaiend'),
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                           definitie='buitendraaiend',
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/buitendraaiend'),
         'schuivend': KeuzelijstWaarde(invulwaarde='schuivend',
                                       label='schuivend',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/schuivend')
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      definitie='schuivend',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangsdeurTypeOpening/schuivend')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlSTSMerk(KeuzelijstField):
     label = 'Merknamen STS'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSTSMerk'
     definition = 'Lijst van merknamen volgens de fabrikant van automatische omschakelaars (Static Transfer Switch).'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSTSMerk'
     options = {
     }

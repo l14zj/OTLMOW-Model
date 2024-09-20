@@ -10,14 +10,14 @@ class KlContactpuntMerk(KeuzelijstField):
     label = 'Merknamen contactpunten'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlContactpuntMerk'
     definition = 'Lijst van merknamen van contactpunten volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactpuntMerk'
     options = {
         'heinen': KeuzelijstWaarde(invulwaarde='heinen',
-                                   label='Heinen',
-                                   status='ingebruik',
-                                   definitie='Heinen',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlContactpuntMerk/heinen')
+                                   label='heinen',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   definitie='heinen',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlContactpuntMerk/heinen')
     }
 
     @classmethod

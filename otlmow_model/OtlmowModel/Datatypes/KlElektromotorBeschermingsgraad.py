@@ -10,24 +10,13 @@ class KlElektromotorBeschermingsgraad(KeuzelijstField):
     label = 'Elektromotor beschermingsgraad'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlElektromotorBeschermingsgraad'
     definition = "De beschmeringsgraad van een elektromotor, uitgerdukt als 'IP', gevolgd door 2 cijfers."
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorBeschermingsgraad'
     options = {
         'ip20': KeuzelijstWaarde(invulwaarde='ip20',
                                  label='IP20',
-                                 status='ingebruik',
-                                 definitie='IP20',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorBeschermingsgraad/ip20'),
-        'ip24': KeuzelijstWaarde(invulwaarde='ip24',
-                                 label='IP24',
-                                 status='ingebruik',
-                                 definitie='IP24',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorBeschermingsgraad/ip24'),
-        'ip54': KeuzelijstWaarde(invulwaarde='ip54',
-                                 label='IP54',
-                                 status='ingebruik',
-                                 definitie='IP54',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorBeschermingsgraad/ip54')
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElektromotorBeschermingsgraad/ip20')
     }
 
     @classmethod

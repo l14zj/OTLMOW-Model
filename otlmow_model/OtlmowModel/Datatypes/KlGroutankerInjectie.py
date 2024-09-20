@@ -9,7 +9,7 @@ class KlGroutankerInjectie(KeuzelijstField):
     label = 'groutanker injectie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlGroutankerInjectie'
     definition = 'Manier waarop het groutanker wordt uitgevoerd.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGroutankerInjectie'
     options = {
     }

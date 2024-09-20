@@ -10,19 +10,19 @@ class KlOverlangsemarkeringType(KeuzelijstField):
     label = 'Overlangse markering type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOverlangsemarkeringType'
     definition = 'Mogelijke types van de overlangse markering.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverlangsemarkeringType'
     options = {
         'doorlopend': KeuzelijstWaarde(invulwaarde='doorlopend',
                                        label='doorlopend',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Een overlangse markering bestaande uit een doorlopende streep.',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangsemarkeringType/doorlopend'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangsemarkeringType/doorlopend'),
         'onderbroken': KeuzelijstWaarde(invulwaarde='onderbroken',
                                         label='onderbroken',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Een overlangse markering bestaande uit een onderbroken streep.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverlangsemarkeringType/onderbroken')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverlangsemarkeringType/onderbroken')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlPDUMerk(KeuzelijstField):
     label = 'Merknamen PDU'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlPDUMerk'
     definition = 'Lijst van merknamen van stroomverdelingssystemen (Power Distribution Unit) volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPDUMerk'
     options = {
     }

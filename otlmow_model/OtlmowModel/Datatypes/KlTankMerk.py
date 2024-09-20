@@ -9,7 +9,7 @@ class KlTankMerk(KeuzelijstField):
     label = 'Tank merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTankMerk'
     definition = 'Het merk van de tank.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankMerk'
     options = {
     }

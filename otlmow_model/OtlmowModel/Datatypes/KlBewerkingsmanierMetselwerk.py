@@ -10,34 +10,34 @@ class KlBewerkingsmanierMetselwerk(KeuzelijstField):
     label = 'Bewerkingsmanier metselwerk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBewerkingsmanierMetselwerk'
     definition = 'De manier waarop het metselwerk bewerkt wordt.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBewerkingsmanierMetselwerk'
     options = {
         'bezet': KeuzelijstWaarde(invulwaarde='bezet',
                                   label='Bezet',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='Het metselwerk werd bezet.',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/bezet'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/bezet'),
         'gelaagd': KeuzelijstWaarde(invulwaarde='gelaagd',
                                     label='Gelaagd',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='Bij gelaagd metselwerk wordt gebruik gemaakt van gevlakte en gekanthouwde breuksteen.',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/gelaagd'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/gelaagd'),
         'in-bossage-behouwen': KeuzelijstWaarde(invulwaarde='in-bossage-behouwen',
                                                 label='In bossage behouwen',
-                                                status='ingebruik',
+                                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                 definitie='Een bewerking in reliÃ«f, waarbij de voorkant ruw gehakt wordt.',
-                                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/in-bossage-behouwen'),
+                                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/in-bossage-behouwen'),
         'niet-bezet': KeuzelijstWaarde(invulwaarde='niet-bezet',
                                        label='Niet bezet',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Het metselwerk werd niet bezet.',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/niet-bezet'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/niet-bezet'),
         'niet-gelaagd': KeuzelijstWaarde(invulwaarde='niet-gelaagd',
                                          label='Niet gelaagd',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='Bij niet gelaagd metselwerk wordt gebruik gemaakt van niet-gevlakte en niet-gekanthouwde breuksteen.',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/niet-gelaagd')
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBewerkingsmanierMetselwerk/niet-gelaagd')
     }
 
     @classmethod

@@ -10,19 +10,19 @@ class KlLEStandaardFabricageLengte(KeuzelijstField):
     label = 'Standaard frabricage lengte'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEStandaardFabricageLengte'
     definition = 'De lengte van de inviduele kantopsluiting volgens de norm.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEStandaardFabricageLengte'
     options = {
         '0.5-m': KeuzelijstWaarde(invulwaarde='0.5-m',
                                   label='0,5 m',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='De fabricagelengte is 0,5 meter.',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEStandaardFabricageLengte/0.5-m'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEStandaardFabricageLengte/0.5-m'),
         '1-m': KeuzelijstWaarde(invulwaarde='1-m',
                                 label='1 m',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='De fabricagelengte is 1 meter.',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEStandaardFabricageLengte/1-m')
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEStandaardFabricageLengte/1-m')
     }
 
     @classmethod

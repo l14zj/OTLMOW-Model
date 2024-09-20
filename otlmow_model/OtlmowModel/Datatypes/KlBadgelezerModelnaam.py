@@ -9,7 +9,7 @@ class KlBadgelezerModelnaam(KeuzelijstField):
     label = 'Modelnamen badgelezers'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBadgelezerModelnaam'
     definition = 'Lijst van modelnamen voor badgelezers volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBadgelezerModelnaam'
     options = {
     }

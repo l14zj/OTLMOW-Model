@@ -9,7 +9,7 @@ class KlTGCUitbreidingsModuleModelnaam(KeuzelijstField):
     label = 'TGC uitbreidingsmodule modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTGCUitbreidingsModuleModelnaam'
     definition = 'Keuzelijst met modelnamen van uitbreidingsmodules van een toegangscontroller.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTGCUitbreidingsModuleModelnaam'
     options = {
     }

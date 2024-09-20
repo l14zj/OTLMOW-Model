@@ -10,19 +10,19 @@ class KlVariabelDeelType(KeuzelijstField):
     label = 'Variabel deel type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVariabelDeelType'
     definition = 'Types van het variabel deel van een overstortrand.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVariabelDeelType'
     options = {
         'overstortplaat': KeuzelijstWaarde(invulwaarde='overstortplaat',
                                            label='overstortplaat',
-                                           status='ingebruik',
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                            definitie='overstortplaat',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVariabelDeelType/overstortplaat'),
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVariabelDeelType/overstortplaat'),
         'schotbalk': KeuzelijstWaarde(invulwaarde='schotbalk',
                                       label='schotbalk',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='schotbalk',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVariabelDeelType/schotbalk')
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVariabelDeelType/schotbalk')
     }
 
     @classmethod

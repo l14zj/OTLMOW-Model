@@ -10,29 +10,29 @@ class KlEcoLooprichelType(KeuzelijstField):
     label = 'Looprichel type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlEcoLooprichelType'
     definition = 'Types van looprichel.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoLooprichelType'
     options = {
         'beton': KeuzelijstWaarde(invulwaarde='beton',
                                   label='beton',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='Een betonnen looprichel.',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoLooprichelType/beton'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoLooprichelType/beton'),
         'doorlopende-natuurlijke-oever': KeuzelijstWaarde(invulwaarde='doorlopende-natuurlijke-oever',
                                                           label='doorlopende natuurlijke oever',
-                                                          status='ingebruik',
+                                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                           definitie='Een doorlopende natuurlijke oever.',
-                                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoLooprichelType/doorlopende-natuurlijke-oever'),
+                                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoLooprichelType/doorlopende-natuurlijke-oever'),
         'hout': KeuzelijstWaarde(invulwaarde='hout',
                                  label='hout',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Een houten looprichel.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoLooprichelType/hout'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoLooprichelType/hout'),
         'schanskorven': KeuzelijstWaarde(invulwaarde='schanskorven',
                                          label='schanskorven',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='Een oever bestaande uit schanskorven.',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoLooprichelType/schanskorven')
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoLooprichelType/schanskorven')
     }
 
     @classmethod

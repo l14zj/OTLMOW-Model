@@ -10,24 +10,24 @@ class KlLEACSchokindex(KeuzelijstField):
     label = 'Schokindex'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEACSchokindex'
     definition = 'De verschillende schokindices.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACSchokindex'
     options = {
         'a': KeuzelijstWaarde(invulwaarde='a',
                               label='a',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='ASI <= 1.0 (zeer veilig)',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSchokindex/a'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSchokindex/a'),
         'b': KeuzelijstWaarde(invulwaarde='b',
                               label='b',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='ASI <= 1.4 (voldoende veilig)',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSchokindex/b'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSchokindex/b'),
         'c': KeuzelijstWaarde(invulwaarde='c',
                               label='c',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='ASI <= 1.9',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACSchokindex/c')
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACSchokindex/c')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlMotorbeveiligingType(KeuzelijstField):
     label = 'Motorbeveiliging type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMotorbeveiligingType'
     definition = 'Types voor toestellen voor motorbeveiliging volgens de toegepaste techniek.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingType'
     options = {
     }

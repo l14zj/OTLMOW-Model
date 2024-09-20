@@ -9,7 +9,7 @@ class KlSchakelkettingMateriaal(KeuzelijstField):
     label = 'Schakelketting materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSchakelkettingMateriaal'
     definition = 'Keuzelijst die de mogelijke materialen van een schakelketting bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSchakelkettingMateriaal'
     options = {
     }

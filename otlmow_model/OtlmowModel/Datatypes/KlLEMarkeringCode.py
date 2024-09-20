@@ -10,29 +10,29 @@ class KlLEMarkeringCode(KeuzelijstField):
     label = 'Markering code'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEMarkeringCode'
     definition = 'Codes van de markering op lijnvormige elementen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringCode'
     options = {
         'DIV-BIG': KeuzelijstWaarde(invulwaarde='DIV-BIG',
                                     label='DIV-BIG',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='De code voor LE markering biggenrug',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BIG'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BIG'),
         'DIV-BRDSTN': KeuzelijstWaarde(invulwaarde='DIV-BRDSTN',
                                        label='DIV-BRDSTN',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='De code voor LE markering boordsteen',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BRDSTN'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BRDSTN'),
         'DIV-BRDSTN-PV': KeuzelijstWaarde(invulwaarde='DIV-BRDSTN-PV',
                                           label='DIV-BRDSTN-PV',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='De code voor LE markering boordsteen parkeerverbod',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BRDSTN-PV'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-BRDSTN-PV'),
         'DIV-NJ': KeuzelijstWaarde(invulwaarde='DIV-NJ',
                                    label='DIV-NJ',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='De code voor LE markering New Jersey',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-NJ')
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringCode/DIV-NJ')
     }
 
     @classmethod

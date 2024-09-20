@@ -9,7 +9,7 @@ class KlSignaalControleModuleModelnaam(KeuzelijstField):
     label = 'Signaal controle module modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSignaalControleModuleModelnaam'
     definition = 'De modelnaam van de signaal controle module.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalControleModuleModelnaam'
     options = {
     }

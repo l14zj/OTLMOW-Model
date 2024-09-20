@@ -10,17 +10,24 @@ class KlAfmetingsensorModelnaam(KeuzelijstField):
     label = 'Afmetingsensor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAfmetingsensorModelnaam'
     definition = 'De modelnaam van de afmetingsensor.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAfmetingsensorModelnaam'
     options = {
         'FPS': KeuzelijstWaarde(invulwaarde='FPS',
                                 label='FPS',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfmetingsensorModelnaam/FPS'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                definitie='Def ',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfmetingsensorModelnaam/FPS'),
         'LMS': KeuzelijstWaarde(invulwaarde='LMS',
                                 label='LMS',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAfmetingsensorModelnaam/LMS')
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                definitie='deffffs',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfmetingsensorModelnaam/LMS'),
+        'dzedze': KeuzelijstWaarde(invulwaarde='dzedze',
+                                   label='dzedze',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   definitie='zedzed',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAfmetingsensorModelnaam/dzedze')
     }
 
     @classmethod

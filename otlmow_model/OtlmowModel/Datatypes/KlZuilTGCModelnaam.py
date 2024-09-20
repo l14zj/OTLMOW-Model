@@ -9,7 +9,7 @@ class KlZuilTGCModelnaam(KeuzelijstField):
     label = 'Modelnamen zuilen toegangscontrole'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZuilTGCModelnaam'
     definition = 'Lijst van modelnamen van zuilen voor toegangscontrole volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZuilTGCModelnaam'
     options = {
     }

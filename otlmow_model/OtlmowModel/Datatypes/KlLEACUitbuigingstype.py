@@ -10,19 +10,19 @@ class KlLEACUitbuigingstype(KeuzelijstField):
     label = 'Uitbuigingstype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEACUitbuigingstype'
     definition = 'De mogelijke uitbuigingstypes.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACUitbuigingstype'
     options = {
         'type-1': KeuzelijstWaarde(invulwaarde='type-1',
                                    label='type 1',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Uitbuiging op wegen tot 90 km/h, straal R = 10 meter',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACUitbuigingstype/type-1'),
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACUitbuigingstype/type-1'),
         'type-2': KeuzelijstWaarde(invulwaarde='type-2',
                                    label='type 2',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Uitbuiging op wegen vanaf 90 km/h, L = 25 meter',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACUitbuigingstype/type-2')
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACUitbuigingstype/type-2')
     }
 
     @classmethod

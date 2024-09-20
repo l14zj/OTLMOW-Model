@@ -10,21 +10,22 @@ class KlKabelmofType(KeuzelijstField):
     label = 'Kabelmof type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlKabelmofType'
     definition = 'Types voor kabel- en leidingmoffen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlKabelmofType'
     options = {
         'geldoos': KeuzelijstWaarde(invulwaarde='geldoos',
                                     label='geldoos',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmofType/geldoos'),
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKabelmofType/geldoos'),
         'gietmof': KeuzelijstWaarde(invulwaarde='gietmof',
                                     label='gietmof',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmofType/gietmof'),
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKabelmofType/gietmof'),
         'hdpe-mof': KeuzelijstWaarde(invulwaarde='hdpe-mof',
                                      label='HDPE mof',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlKabelmofType/hdpe-mof')
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     definitie='HDPE mof',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlKabelmofType/hdpe-mof')
     }
 
     @classmethod

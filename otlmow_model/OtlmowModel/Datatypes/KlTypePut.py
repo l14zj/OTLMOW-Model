@@ -9,7 +9,7 @@ class KlTypePut(KeuzelijstField):
     label = 'type put'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTypePut'
     definition = 'Soort van funderingsput.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypePut'
     options = {
     }

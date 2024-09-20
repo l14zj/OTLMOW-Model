@@ -10,24 +10,24 @@ class KlVormTerugslagklep(KeuzelijstField):
     label = 'Vorm terugslagklep'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVormTerugslagklep'
     definition = 'De vorm van opening van de terugslagklep.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVormTerugslagklep'
     options = {
         'andere': KeuzelijstWaarde(invulwaarde='andere',
                                    label='andere',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='andere',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormTerugslagklep/andere'),
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormTerugslagklep/andere'),
         'circkelvormig': KeuzelijstWaarde(invulwaarde='circkelvormig',
                                           label='circkelvormig',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='circkelvormig',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormTerugslagklep/circkelvormig'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormTerugslagklep/circkelvormig'),
         'rechthoekig': KeuzelijstWaarde(invulwaarde='rechthoekig',
                                         label='rechthoekig',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='rechthoekig',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVormTerugslagklep/rechthoekig')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVormTerugslagklep/rechthoekig')
     }
 
     @classmethod

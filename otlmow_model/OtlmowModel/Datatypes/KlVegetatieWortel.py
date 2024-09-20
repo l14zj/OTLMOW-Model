@@ -10,29 +10,29 @@ class KlVegetatieWortel(KeuzelijstField):
     label = 'Vegetatie wortel'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVegetatieWortel'
     definition = 'De verschillende opties van hoe de wortel was bij aanplanting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieWortel'
     options = {
         'container': KeuzelijstWaarde(invulwaarde='container',
                                       label='container',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='De wortels zitten in een container of pot bij aanlevering en aanplant.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieWortel/container'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortel/container'),
         'draadkluit': KeuzelijstWaarde(invulwaarde='draadkluit',
                                        label='draadkluit',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='De wortels zitten in een met draad ingebonden kluit aarde',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieWortel/draadkluit'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortel/draadkluit'),
         'kluit': KeuzelijstWaarde(invulwaarde='kluit',
                                   label='kluit',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='De wortels zijn omringd met aarde.',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieWortel/kluit'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortel/kluit'),
         'naakt': KeuzelijstWaarde(invulwaarde='naakt',
                                   label='naakt',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='Wortels waarrond geen grond aanwezig is',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieWortel/naakt')
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieWortel/naakt')
     }
 
     @classmethod

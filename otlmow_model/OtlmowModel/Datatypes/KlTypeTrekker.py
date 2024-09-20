@@ -9,7 +9,7 @@ class KlTypeTrekker(KeuzelijstField):
     label = 'Type trekker'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlTypeTrekker'
     definition = 'Het type trekker.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeTrekker'
     options = {
     }

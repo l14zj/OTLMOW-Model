@@ -9,7 +9,7 @@ class KlAswegersiteTypeMarkering(KeuzelijstField):
     label = 'Type markering aswegersite'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAswegersiteTypeMarkering'
     definition = 'Lijst met mogelijke types van markeringen bij een aswegersite.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAswegersiteTypeMarkering'
     options = {
     }

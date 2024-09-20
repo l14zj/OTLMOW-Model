@@ -10,34 +10,34 @@ class KlLEMarkeringSoort(KeuzelijstField):
     label = 'Soort markering van lijnvormig element'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEMarkeringSoort'
     definition = 'Mogelijke markeringsoorten op een lijvormig element.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEMarkeringSoort'
     options = {
         'biggenrug': KeuzelijstWaarde(invulwaarde='biggenrug',
                                       label='biggenrug',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Een betonnen obstakel dat meestal een infrastructurele en beschermende functie heeft',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/biggenrug'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/biggenrug'),
         'boordsteen': KeuzelijstWaarde(invulwaarde='boordsteen',
                                        label='boordsteen',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Een lijnvormig element dat de scheiding verzorgt tussen een rijbaan en het meestal hoger gelegen trottoir',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/boordsteen'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/boordsteen'),
         'boordsteen-parkeerverbod': KeuzelijstWaarde(invulwaarde='boordsteen-parkeerverbod',
                                                      label='boordsteen parkeerverbod',
-                                                     status='ingebruik',
+                                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                      definitie='Een lijnvormig element dat de scheiding verzorgt tussen een rijbaan en het meestal hoger gelegen trottoir met als functie het aanduiden van parkeerverbod',
-                                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/boordsteen-parkeerverbod'),
+                                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/boordsteen-parkeerverbod'),
         'new-Jersey': KeuzelijstWaarde(invulwaarde='new-Jersey',
                                        label='new Jersey',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='Een afschermende constructie uit kunststof, beton of metaal dat naast wegen wordt geplaatst om te voorkomen dat voertuigen de weg in zijdelingse richting verlaten, kantelen of de middenberm doorkruisen.',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/new-Jersey'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/new-Jersey'),
         'vangrail': KeuzelijstWaarde(invulwaarde='vangrail',
                                      label='vangrail',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Een afschermende constructie die naast wegen wordt geplaatst om te voorkomen dat voertuigen de weg in zijdelingse richting verlaten, kantelen of de middenberm doorkruisen.',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/vangrail')
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEMarkeringSoort/vangrail')
     }
 
     @classmethod

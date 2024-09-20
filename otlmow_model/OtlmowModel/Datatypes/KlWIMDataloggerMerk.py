@@ -10,14 +10,14 @@ class KlWIMDataloggerMerk(KeuzelijstField):
     label = 'WIM-datalogger merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWIMDataloggerMerk'
     definition = 'Het merk van de WIM-datalogger.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWIMDataloggerMerk'
     options = {
         'kistler': KeuzelijstWaarde(invulwaarde='kistler',
                                     label='Kistler',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='Kistler',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWIMDataloggerMerk/kistler')
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWIMDataloggerMerk/kistler')
     }
 
     @classmethod

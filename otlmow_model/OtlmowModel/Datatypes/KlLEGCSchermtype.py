@@ -10,19 +10,19 @@ class KlLEGCSchermtype(KeuzelijstField):
     label = 'Schermtype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEGCSchermtype'
     definition = 'De mogelijke schermtypes (vlak, niet-vlak).'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEGCSchermtype'
     options = {
         'niet-vlak': KeuzelijstWaarde(invulwaarde='niet-vlak',
                                       label='niet-vlak',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='De niet-vlakke schermen zijn de schermen die niet kunnen getest worden volgens de normen NBN EN 1793-1 NBN EN 1793-2.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermtype/niet-vlak'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCSchermtype/niet-vlak'),
         'vlak': KeuzelijstWaarde(invulwaarde='vlak',
                                  label='vlak',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='De vlakke schermen zijn de schermen die kunnen getest worden volgens de normen NBN EN 1793-1 NBN EN 1793-2.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEGCSchermtype/vlak')
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEGCSchermtype/vlak')
     }
 
     @classmethod

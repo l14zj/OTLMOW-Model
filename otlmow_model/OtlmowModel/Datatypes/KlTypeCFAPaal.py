@@ -10,19 +10,19 @@ class KlTypeCFAPaal(KeuzelijstField):
     label = 'Type CFA-paal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTypeCFAPaal'
     definition = 'De soort van de CFA-paal.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeCFAPaal'
     options = {
         'met-beperkte-grondverdringing-beperkte-grondontspanning': KeuzelijstWaarde(invulwaarde='met-beperkte-grondverdringing-beperkte-grondontspanning',
                                                                                     label='Met beperkte grondverdringing/beperkte grondontspanning',
-                                                                                    status='ingebruik',
+                                                                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                                                     definitie='CFA-paal met speciale voorzieningen om grondontspanning te voorkomen.',
-                                                                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeCFAPaal/met-beperkte-grondverdringing-beperkte-grondontspanning'),
+                                                                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeCFAPaal/met-beperkte-grondverdringing-beperkte-grondontspanning'),
         'met-uitgraving-van-de-grond-grondontspanning': KeuzelijstWaarde(invulwaarde='met-uitgraving-van-de-grond-grondontspanning',
                                                                          label='Met uitgraving van de grond (grondontspanning)',
-                                                                         status='ingebruik',
+                                                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                                          definitie='CFA-paal zonder speciale voorzieningen om grondontspanning te voorkomen.',
-                                                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeCFAPaal/met-uitgraving-van-de-grond-grondontspanning')
+                                                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeCFAPaal/met-uitgraving-van-de-grond-grondontspanning')
     }
 
     @classmethod

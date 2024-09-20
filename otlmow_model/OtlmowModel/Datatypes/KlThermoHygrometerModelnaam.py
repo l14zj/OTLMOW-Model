@@ -1,6 +1,5 @@
 # coding=utf-8
 from otlmow_model.OtlmowModel.BaseClasses.KeuzelijstField import KeuzelijstField
-from otlmow_model.OtlmowModel.BaseClasses.KeuzelijstWaarde import KeuzelijstWaarde
 
 
 # Generated with OTLEnumerationCreator. To modify: extend, do not edit
@@ -10,14 +9,9 @@ class KlThermoHygrometerModelnaam(KeuzelijstField):
     label = 'Thermo- hygrometer modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlThermoHygrometerModelnaam'
     definition = 'Thermo- hygrometer modelnamen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlThermoHygrometerModelnaam'
     options = {
-        'hmp155': KeuzelijstWaarde(invulwaarde='hmp155',
-                                   label='HMP155',
-                                   status='ingebruik',
-                                   definitie='HMP155',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlThermoHygrometerModelnaam/hmp155')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlRadiolistenerModelnaam(KeuzelijstField):
     label = 'Radiolistener modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlRadiolistenerModelnaam'
     definition = 'Modelnaam van de radiolistener module.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRadiolistenerModelnaam'
     options = {
     }

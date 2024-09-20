@@ -10,21 +10,21 @@ class KlVriLusSoortvoertuig(KeuzelijstField):
     label = 'VRI-lus soort voertuig'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVriLusSoortvoertuig'
     definition = 'Keuzelijst met verschillende types voertuigen die een detectielus volgens diens instellingen kan detecteren.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVriLusSoortvoertuig'
     options = {
         'fiets': KeuzelijstWaarde(invulwaarde='fiets',
                                   label='fiets',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/fiets'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/fiets'),
         'motor': KeuzelijstWaarde(invulwaarde='motor',
                                   label='motor',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/motor'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/motor'),
         'voertuig': KeuzelijstWaarde(invulwaarde='voertuig',
                                      label='voertuig',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/voertuig')
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVriLusSoortvoertuig/voertuig')
     }
 
     @classmethod

@@ -10,34 +10,34 @@ class KlWvLichtmastAantArmen(KeuzelijstField):
     label = 'WV-mast aantal armen'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWvLichtmastAantArmen'
     definition = 'Aantal armen van de lichtmast.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWvLichtmastAantArmen'
     options = {
         '0': KeuzelijstWaarde(invulwaarde='0',
                               label='0',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie="keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST",
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/0'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/0'),
         '1': KeuzelijstWaarde(invulwaarde='1',
                               label='1',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie="keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST",
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/1'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/1'),
         '2': KeuzelijstWaarde(invulwaarde='2',
                               label='2',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie="keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST",
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/2'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/2'),
         '3': KeuzelijstWaarde(invulwaarde='3',
                               label='3',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie="keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST",
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/3'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/3'),
         '4': KeuzelijstWaarde(invulwaarde='4',
                               label='4',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie="keuzelijst aantal armen aan lichtmast (0-4). Indien lichtmast 'M', 'MS', 'B','BS', 'K' of 'KS' dan 0,1, 2,3 of 4. Anders altijd 0./ CLASS : VPLMAST",
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/4')
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWvLichtmastAantArmen/4')
     }
 
     @classmethod

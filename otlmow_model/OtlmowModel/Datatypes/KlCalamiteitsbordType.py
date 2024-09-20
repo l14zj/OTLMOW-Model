@@ -10,19 +10,19 @@ class KlCalamiteitsbordType(KeuzelijstField):
     label = 'Calamiteitsbord type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlCalamiteitsbordType'
     definition = 'Types van calamiteitsbord.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCalamiteitsbordType'
     options = {
         'draaiend-bord': KeuzelijstWaarde(invulwaarde='draaiend-bord',
                                           label='draaiend bord',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='Een draaiend calamiteitsbord.',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCalamiteitsbordType/draaiend-bord'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCalamiteitsbordType/draaiend-bord'),
         'dragend-bord': KeuzelijstWaarde(invulwaarde='dragend-bord',
                                          label='dragend bord',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='Een dragend calamiteitsbord.',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCalamiteitsbordType/dragend-bord')
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCalamiteitsbordType/dragend-bord')
     }
 
     @classmethod

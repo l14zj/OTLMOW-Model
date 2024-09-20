@@ -10,34 +10,34 @@ class KlLEACMateriaal(KeuzelijstField):
     label = 'Materiaal afschermende constructie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEACMateriaal'
     definition = 'De verschillende materialen voor afschermende constructies.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACMateriaal'
     options = {
         'geprefabriceerde-beton': KeuzelijstWaarde(invulwaarde='geprefabriceerde-beton',
                                                    label='geprefabriceerde beton',
-                                                   status='ingebruik',
+                                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                    definitie='geleideconstructie bestaande uit geprefabriceerde betonnen elementen',
-                                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/geprefabriceerde-beton'),
+                                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACMateriaal/geprefabriceerde-beton'),
         'hout-staal': KeuzelijstWaarde(invulwaarde='hout-staal',
                                        label='hout-staal',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='hout-staal',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/hout-staal'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACMateriaal/hout-staal'),
         'in-situ-beton': KeuzelijstWaarde(invulwaarde='in-situ-beton',
                                           label='in situ beton',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='in situ beton',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/in-situ-beton'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACMateriaal/in-situ-beton'),
         'kunststof': KeuzelijstWaarde(invulwaarde='kunststof',
                                       label='kunststof',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='kunststof',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/kunststof'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACMateriaal/kunststof'),
         'staal': KeuzelijstWaarde(invulwaarde='staal',
                                   label='staal',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='staal',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACMateriaal/staal')
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACMateriaal/staal')
     }
 
     @classmethod

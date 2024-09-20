@@ -99,7 +99,7 @@ class Sluis(OntwerpwaterstandStreefpeil, AIMNaamObject):
                                          naam='vrijeHoogte',
                                          label='vrije hoogte',
                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/installatie#Sluis.vrijeHoogte',
-                                         definition='De verticale vrije ruimte tussen het wateroppervlak en  het laagste punt van de bovenliggende constructie, zoals bruggen, balken of andere obstakels.',
+                                         definition='De verticale vrije ruimte tussen het wateroppervlak en het laagste punt van de bovenliggende constructie, zoals bruggen, balken of andere obstakels.',
                                          owner=self)
 
         self._waterdiepte = OTLAttribuut(field=KwantWrdInMeter,
@@ -201,7 +201,7 @@ class Sluis(OntwerpwaterstandStreefpeil, AIMNaamObject):
 
     @property
     def vrijeHoogte(self) -> KwantWrdInMeterWaarden:
-        """De verticale vrije ruimte tussen het wateroppervlak en  het laagste punt van de bovenliggende constructie, zoals bruggen, balken of andere obstakels."""
+        """De verticale vrije ruimte tussen het wateroppervlak en het laagste punt van de bovenliggende constructie, zoals bruggen, balken of andere obstakels."""
         return self._vrijeHoogte.get_waarde()
 
     @vrijeHoogte.setter

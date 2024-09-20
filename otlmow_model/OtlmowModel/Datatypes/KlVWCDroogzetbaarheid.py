@@ -10,7 +10,6 @@ class KlVWCDroogzetbaarheid(KeuzelijstField):
     label = 'Droogzetbaarheidtypes'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlVWCDroogzetbaarheid'
     definition = 'Geeft aan of het constructiefhoofd al dan niet droog gezet kan worden.'
-    status = 'ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVWCDroogzetbaarheid'
     options = {
         'enkel-deurkamer-droogzetbaar': KeuzelijstWaarde(invulwaarde='enkel-deurkamer-droogzetbaar',
@@ -21,6 +20,18 @@ class KlVWCDroogzetbaarheid(KeuzelijstField):
                                                              label='gedeeltelijke waterpeilverlaging',
                                                              status='ingebruik',
                                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCDroogzetbaarheid/gedeeltelijke-waterpeilverlaging'),
+        'gedeeltelijkewaterpeilverlaging': KeuzelijstWaarde(invulwaarde='gedeeltelijkewaterpeilverlaging',
+                                                            label='gedeeltelijkeWaterpeilVerlaging',
+                                                            status='ingebruik',
+                                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCDroogzetbaarheid/gedeeltelijkewaterpeilverlaging'),
+        'ja': KeuzelijstWaarde(invulwaarde='ja',
+                               label='ja',
+                               status='ingebruik',
+                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCDroogzetbaarheid/ja'),
+        'nee': KeuzelijstWaarde(invulwaarde='nee',
+                                label='nee',
+                                status='ingebruik',
+                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVWCDroogzetbaarheid/nee'),
         'niet-droogzetbaar': KeuzelijstWaarde(invulwaarde='niet-droogzetbaar',
                                               label='niet droogzetbaar',
                                               status='ingebruik',

@@ -10,18 +10,13 @@ class KlNeerslagsensorModelnaam(KeuzelijstField):
     label = 'Neerslagsensor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlNeerslagsensorModelnaam'
     definition = 'De modelnaam van de neerslagsensor.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorModelnaam'
     options = {
         'WS100': KeuzelijstWaarde(invulwaarde='WS100',
                                   label='WS100',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorModelnaam/WS100'),
-        'drd11a': KeuzelijstWaarde(invulwaarde='drd11a',
-                                   label='DRD11A',
-                                   status='ingebruik',
-                                   definitie='DRD11A',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorModelnaam/drd11a')
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNeerslagsensorModelnaam/WS100')
     }
 
     @classmethod

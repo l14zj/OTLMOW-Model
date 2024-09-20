@@ -41,7 +41,7 @@ class NietStandaardStalenProfiel(StalenProfiel):
                                             naam='profielbreedte',
                                             label='profielbreedte',
                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#NietStandaardStalenProfiel.profielbreedte',
-                                            usagenote='Attribuut uit gebruik sinds versie 2.5.0 ',
+                                            usagenote='Attribuut uit gebruik sinds versie 2.5.0',
                                             deprecated_version='2.5.0',
                                             definition='De korte afmeting in millimeter van het profiel.',
                                             owner=self)
@@ -50,7 +50,7 @@ class NietStandaardStalenProfiel(StalenProfiel):
                                            naam='profielhoogte',
                                            label='profielhoogte',
                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#NietStandaardStalenProfiel.profielhoogte',
-                                           usagenote='Attribuut uit gebruik sinds versie 2.5.0 ',
+                                           usagenote='Attribuut uit gebruik sinds versie 2.5.0',
                                            deprecated_version='2.5.0',
                                            definition='De langste afmeting in millimeter van het profiel.',
                                            owner=self)

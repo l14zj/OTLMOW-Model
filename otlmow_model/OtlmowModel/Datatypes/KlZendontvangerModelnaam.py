@@ -9,7 +9,6 @@ class KlZendontvangerModelnaam(KeuzelijstField):
     label = 'Zendontvanger modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZendontvangerModelnaam'
     definition = 'Lijst van modelnamen van zendontvangers volgens de fabrikant.'
-    status = 'ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZendontvangerModelnaam'
     options = {
     }

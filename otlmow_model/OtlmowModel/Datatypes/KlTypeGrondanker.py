@@ -9,7 +9,7 @@ class KlTypeGrondanker(KeuzelijstField):
     label = 'Type grondanker'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlTypeGrondanker'
     definition = 'De mogelijke types grondanker.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeGrondanker'
     options = {
     }

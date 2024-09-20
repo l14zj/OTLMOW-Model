@@ -9,7 +9,7 @@ class KlRiemType(KeuzelijstField):
     label = 'Riem type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlRiemType'
     definition = 'Keuzelijst voor het type riem.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRiemType'
     options = {
     }

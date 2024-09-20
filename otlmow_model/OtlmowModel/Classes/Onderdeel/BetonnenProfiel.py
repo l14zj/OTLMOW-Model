@@ -4,11 +4,12 @@ from ...Classes.Onderdeel.BetonnenConstructieObject import BetonnenConstructieOb
 from ...Datatypes.DtcDocument import DtcDocument, DtcDocumentWaarden
 from ...Datatypes.KlTypeBetonnenProfiel import KlTypeBetonnenProfiel
 from ...Datatypes.KwantWrdInMeter import KwantWrdInMeter, KwantWrdInMeterWaarden
+from otlmow_model.OtlmowModel.GeometrieTypes.PuntGeometrie import PuntGeometrie
 from otlmow_model.OtlmowModel.GeometrieTypes.LijnGeometrie import LijnGeometrie
 
 
 # Generated with OTLClassCreator. To modify: extend, do not edit
-class BetonnenProfiel(BetonnenConstructieObject, LijnGeometrie):
+class BetonnenProfiel(BetonnenConstructieObject, PuntGeometrie, LijnGeometrie):
     """Betonnen enkelvoudig constructie-element waarvan de lengte vele malen groter is dan de breedte en de hoogte in doorsnede. De breedte is weer gelijk of kleiner dan de hoogte."""
 
     typeURI = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#BetonnenProfiel'

@@ -10,7 +10,6 @@ class KlHoofdtype(KeuzelijstField):
     label = 'Hoofdtype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlHoofdtype'
     definition = 'De mogelijke types hoofd van een constructiehoofd.'
-    status = 'ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHoofdtype'
     options = {
         '(afwaarts)benedenhoofd': KeuzelijstWaarde(invulwaarde='(afwaarts)benedenhoofd',
@@ -21,10 +20,18 @@ class KlHoofdtype(KeuzelijstField):
                                                  label='(opwaarts)bovenhoofd',
                                                  status='ingebruik',
                                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHoofdtype/(opwaarts)bovenhoofd'),
+        'afwaarts-hoofd': KeuzelijstWaarde(invulwaarde='afwaarts-hoofd',
+                                           label='afwaarts hoofd',
+                                           status='ingebruik',
+                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHoofdtype/afwaarts-hoofd'),
         'middenhoofd': KeuzelijstWaarde(invulwaarde='middenhoofd',
                                         label='middenhoofd',
                                         status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHoofdtype/middenhoofd')
+                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHoofdtype/middenhoofd'),
+        'opwaarts-hoofd': KeuzelijstWaarde(invulwaarde='opwaarts-hoofd',
+                                           label='opwaarts hoofd',
+                                           status='ingebruik',
+                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlHoofdtype/opwaarts-hoofd')
     }
 
     @classmethod

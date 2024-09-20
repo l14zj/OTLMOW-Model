@@ -10,24 +10,24 @@ class KlStraatkolkTypeUitlaat(KeuzelijstField):
     label = 'straatkolk type uitlaat'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlStraatkolkTypeUitlaat'
     definition = 'Het type van uitlaat van de straatkolk.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStraatkolkTypeUitlaat'
     options = {
         'kop-uitlaat': KeuzelijstWaarde(invulwaarde='kop-uitlaat',
                                         label='kop uitlaat',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='kop uitlaat',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/kop-uitlaat'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/kop-uitlaat'),
         'onderuitlaat': KeuzelijstWaarde(invulwaarde='onderuitlaat',
                                          label='onderuitlaat',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='onderuitlaat',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/onderuitlaat'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/onderuitlaat'),
         'zij-uitlaat': KeuzelijstWaarde(invulwaarde='zij-uitlaat',
                                         label='zij uitlaat',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='zij uitlaat',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/zij-uitlaat')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStraatkolkTypeUitlaat/zij-uitlaat')
     }
 
     @classmethod

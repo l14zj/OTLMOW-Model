@@ -9,7 +9,7 @@ class KlElastischElementHardheid(KeuzelijstField):
     label = 'Elastisch element hardheid'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlElastischElementHardheid'
     definition = 'Keuzelijst die de verschillende types hardheid van een elastisch element bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElastischElementHardheid'
     options = {
     }

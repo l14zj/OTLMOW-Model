@@ -10,24 +10,24 @@ class KlVegetatieDrassigheid(KeuzelijstField):
     label = 'Vegetatie drassigheid'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVegetatieDrassigheid'
     definition = 'De mate van drassigheid..'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVegetatieDrassigheid'
     options = {
         'matig-drassig': KeuzelijstWaarde(invulwaarde='matig-drassig',
                                           label='matig drassig',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='De ondergrond is matig drassig',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/matig-drassig'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/matig-drassig'),
         'niet-drassig': KeuzelijstWaarde(invulwaarde='niet-drassig',
                                          label='niet drassig',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='De ondergrond is niet drassig',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/niet-drassig'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/niet-drassig'),
         'sterk-drassig': KeuzelijstWaarde(invulwaarde='sterk-drassig',
                                           label='sterk drassig',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='De ondergrond is sterk drassig',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/sterk-drassig')
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVegetatieDrassigheid/sterk-drassig')
     }
 
     @classmethod

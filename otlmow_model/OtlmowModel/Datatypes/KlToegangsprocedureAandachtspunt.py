@@ -10,24 +10,14 @@ class KlToegangsprocedureAandachtspunt(KeuzelijstField):
     label = 'Toegangsprocedure aandachtspunt'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlToegangsprocedureAandachtspunt'
     definition = 'De soorten aandachtspunten voor toegang tot een object.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureAandachtspunt'
     options = {
-        'botser-nodig': KeuzelijstWaarde(invulwaarde='botser-nodig',
-                                         label='botser nodig',
-                                         status='ingebruik',
-                                         definitie='botser nodig',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureAandachtspunt/botser-nodig'),
-        'hoogtewerker-nodig': KeuzelijstWaarde(invulwaarde='hoogtewerker-nodig',
-                                               label='hoogtewerker nodig',
-                                               status='ingebruik',
-                                               definitie='hoogtewerker nodig',
-                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureAandachtspunt/hoogtewerker-nodig'),
         'niet-machinaal-bereikbaar': KeuzelijstWaarde(invulwaarde='niet-machinaal-bereikbaar',
                                                       label='niet machinaal bereikbaar',
-                                                      status='ingebruik',
+                                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                       definitie='Het object kan niet bereikt worden met een machine voor bijvoorbeeld reiniging, onderhoud of vervanging.',
-                                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlToegangsprocedureAandachtspunt/niet-machinaal-bereikbaar')
+                                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlToegangsprocedureAandachtspunt/niet-machinaal-bereikbaar')
     }
 
     @classmethod

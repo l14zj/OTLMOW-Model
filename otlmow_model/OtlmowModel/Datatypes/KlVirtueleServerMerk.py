@@ -10,29 +10,24 @@ class KlVirtueleServerMerk(KeuzelijstField):
     label = 'Virtuele server merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVirtueleServerMerk'
     definition = 'Het merk van de virtuele server.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVirtueleServerMerk'
     options = {
-        'dell': KeuzelijstWaarde(invulwaarde='dell',
-                                 label='Dell',
-                                 status='ingebruik',
-                                 definitie='Dell',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerMerk/dell'),
         'hp': KeuzelijstWaarde(invulwaarde='hp',
                                label='HP',
-                               status='ingebruik',
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                definitie='HP',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerMerk/hp'),
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVirtueleServerMerk/hp'),
         'peek': KeuzelijstWaarde(invulwaarde='peek',
                                  label='Peek',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='Peek.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerMerk/peek'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVirtueleServerMerk/peek'),
         'ram': KeuzelijstWaarde(invulwaarde='ram',
                                 label='RAM',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='RAM',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerMerk/ram')
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVirtueleServerMerk/ram')
     }
 
     @classmethod

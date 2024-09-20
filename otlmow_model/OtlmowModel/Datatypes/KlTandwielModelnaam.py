@@ -9,7 +9,7 @@ class KlTandwielModelnaam(KeuzelijstField):
     label = 'Tandwiel modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTandwielModelnaam'
     definition = 'De keuzelijst die de modelnamen van het tandwiel bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTandwielModelnaam'
     options = {
     }

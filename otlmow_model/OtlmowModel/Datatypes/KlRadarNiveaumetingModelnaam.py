@@ -9,7 +9,7 @@ class KlRadarNiveaumetingModelnaam(KeuzelijstField):
     label = 'Radarniveaumeting modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlRadarNiveaumetingModelnaam'
     definition = 'Modelnamen van de radarniveaumeting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRadarNiveaumetingModelnaam'
     options = {
     }

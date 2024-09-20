@@ -10,14 +10,14 @@ class KlLETrottoirbandVorm(KeuzelijstField):
     label = 'Trottoirband vorm'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLETrottoirbandVorm'
     definition = 'De vormen van een trottoirband.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLETrottoirbandVorm'
     options = {
         'afgeschuind': KeuzelijstWaarde(invulwaarde='afgeschuind',
                                         label='afgeschuind',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Afgeschuind',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLETrottoirbandVorm/afgeschuind')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLETrottoirbandVorm/afgeschuind')
     }
 
     @classmethod

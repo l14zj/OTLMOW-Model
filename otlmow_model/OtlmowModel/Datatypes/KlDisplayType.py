@@ -10,17 +10,17 @@ class KlDisplayType(KeuzelijstField):
     label = 'Display type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDisplayType'
     definition = 'Keuzelijst voor de verschillende technologieën voor displays.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDisplayType'
     options = {
         'lcd': KeuzelijstWaarde(invulwaarde='lcd',
                                 label='LCD',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDisplayType/lcd'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDisplayType/lcd'),
         'qled': KeuzelijstWaarde(invulwaarde='qled',
                                  label='QLED',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlDisplayType/qled')
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlDisplayType/qled')
     }
 
     @classmethod

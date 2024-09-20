@@ -10,19 +10,19 @@ class KlGrachtdoorsnede(KeuzelijstField):
     label = 'Grachtdoorsnede'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlGrachtdoorsnede'
     definition = 'De mogelijke doorsnedes van de gracht.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrachtdoorsnede'
     options = {
         'groter-dan-1-5-m': KeuzelijstWaarde(invulwaarde='groter-dan-1-5-m',
-                                             label='groter dan 1.5 m²',
-                                             status='ingebruik',
-                                             definitie='> 1.5 m²',
-                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrachtdoorsnede/groter-dan-1-5-m'),
+                                             label='groter dan 1.5 mÃ‚Â²',
+                                             status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                             definitie='> 1.5 mÃ‚Â²',
+                                             objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrachtdoorsnede/groter-dan-1-5-m'),
         'kleiner-of-gelijk-aan-1-5-m': KeuzelijstWaarde(invulwaarde='kleiner-of-gelijk-aan-1-5-m',
-                                                        label='kleiner of gelijk aan 1.5 m²',
-                                                        status='ingebruik',
-                                                        definitie='<= 1.5 m²',
-                                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrachtdoorsnede/kleiner-of-gelijk-aan-1-5-m')
+                                                        label='kleiner of gelijk aan 1.5 mÃ‚Â²',
+                                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                        definitie='<= 1.5 mÃ‚Â²',
+                                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrachtdoorsnede/kleiner-of-gelijk-aan-1-5-m')
     }
 
     @classmethod

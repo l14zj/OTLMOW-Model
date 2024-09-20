@@ -9,7 +9,7 @@ class KlWentellagerMerk(KeuzelijstField):
     label = 'Wentellager merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWentellagerMerk'
     definition = 'Lijst van merknamen van wentellagers volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWentellagerMerk'
     options = {
     }

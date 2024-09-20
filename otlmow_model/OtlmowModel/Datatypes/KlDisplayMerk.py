@@ -9,7 +9,7 @@ class KlDisplayMerk(KeuzelijstField):
     label = 'Display merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDisplayMerk'
     definition = 'Lijst met merknamen van displays volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDisplayMerk'
     options = {
     }

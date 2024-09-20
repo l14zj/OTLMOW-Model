@@ -10,24 +10,24 @@ class KlEcoAfschermingtype(KeuzelijstField):
     label = 'Afschermingtype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlEcoAfschermingtype'
     definition = 'Types van afscherming.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEcoAfschermingtype'
     options = {
         'heidematten': KeuzelijstWaarde(invulwaarde='heidematten',
                                         label='heidematten',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Een afscherming bestaande uit heidematten.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/heidematten'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/heidematten'),
         'houten': KeuzelijstWaarde(invulwaarde='houten',
                                    label='houten',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Een afscherming bestaande uit houten schermen.',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/houten'),
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/houten'),
         'metalen': KeuzelijstWaarde(invulwaarde='metalen',
                                     label='metalen',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='Een afscherming bestaande uit metalen schermen.',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/metalen')
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEcoAfschermingtype/metalen')
     }
 
     @classmethod

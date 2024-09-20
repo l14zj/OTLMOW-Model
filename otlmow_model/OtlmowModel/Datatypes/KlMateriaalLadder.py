@@ -10,24 +10,24 @@ class KlMateriaalLadder(KeuzelijstField):
     label = 'Materiaal ladder'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMateriaalLadder'
     definition = 'Het materiaal waaruit de ladder is opgebouwd.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMateriaalLadder'
     options = {
         'hout': KeuzelijstWaarde(invulwaarde='hout',
                                  label='Hout',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='De ladder is gemaakt in hout.',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalLadder/hout'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalLadder/hout'),
         'kunststof': KeuzelijstWaarde(invulwaarde='kunststof',
                                       label='Kunststof',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='De ladder is gemaakt in kunststof.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalLadder/kunststof'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalLadder/kunststof'),
         'metaal': KeuzelijstWaarde(invulwaarde='metaal',
                                    label='Metaal',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='De ladder is gemaakt in metaal.',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMateriaalLadder/metaal')
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMateriaalLadder/metaal')
     }
 
     @classmethod

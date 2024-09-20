@@ -10,34 +10,34 @@ class KlGeotextielType(KeuzelijstField):
     label = 'Geotextiel type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlGeotextielType'
     definition = 'Types van geotextiel.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGeotextielType'
     options = {
         'anti-vraatdoek': KeuzelijstWaarde(invulwaarde='anti-vraatdoek',
                                            label='anti-vraatdoek',
-                                           status='ingebruik',
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                            definitie='anti-vraatdoek',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGeotextielType/anti-vraatdoek'),
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/anti-vraatdoek'),
         'bescherming': KeuzelijstWaarde(invulwaarde='bescherming',
                                         label='bescherming',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='bescherming/wapening',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGeotextielType/bescherming'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/bescherming'),
         'erosiewerend': KeuzelijstWaarde(invulwaarde='erosiewerend',
                                          label='erosiewerend',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='erosiewerend',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGeotextielType/erosiewerend'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/erosiewerend'),
         'niet-geweven-geotextiel': KeuzelijstWaarde(invulwaarde='niet-geweven-geotextiel',
                                                     label='niet-geweven geotextiel',
-                                                    status='ingebruik',
+                                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                     definitie='niet-geweven geotextiel',
-                                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGeotextielType/niet-geweven-geotextiel'),
+                                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/niet-geweven-geotextiel'),
         'wapening': KeuzelijstWaarde(invulwaarde='wapening',
                                      label='wapening',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='bescherming/wapening',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGeotextielType/wapening')
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGeotextielType/wapening')
     }
 
     @classmethod

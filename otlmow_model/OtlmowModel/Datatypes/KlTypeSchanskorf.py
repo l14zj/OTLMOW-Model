@@ -10,22 +10,17 @@ class KlTypeSchanskorf(KeuzelijstField):
     label = 'Type schanskorf'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTypeSchanskorf'
     definition = 'Keuzelijst met de verschillende types schanskorven.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeSchanskorf'
     options = {
-        '4-5-x-4-5': KeuzelijstWaarde(invulwaarde='4-5-x-4-5',
-                                      label='4.5 x 4.5',
-                                      status='ingebruik',
-                                      definitie='4.5 x 4.5',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchanskorf/4-5-x-4-5'),
         '5-x-7': KeuzelijstWaarde(invulwaarde='5-x-7',
                                   label='5 x 7',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchanskorf/5-x-7'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeSchanskorf/5-x-7'),
         '6-x-8': KeuzelijstWaarde(invulwaarde='6-x-8',
                                   label='6 x 8',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeSchanskorf/6-x-8')
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeSchanskorf/6-x-8')
     }
 
     @classmethod

@@ -10,17 +10,17 @@ class KlBrandblusserBlusmiddel(KeuzelijstField):
     label = 'Brandblusser blusmiddel'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBrandblusserBlusmiddel'
     definition = 'Keuzelijst met de verschillende mogelijke blusmiddelen voor een brandblusser.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserBlusmiddel'
     options = {
         'poeder': KeuzelijstWaarde(invulwaarde='poeder',
                                    label='poeder',
-                                   status='ingebruik',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserBlusmiddel/poeder'),
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBrandblusserBlusmiddel/poeder'),
         'schuim': KeuzelijstWaarde(invulwaarde='schuim',
                                    label='schuim',
-                                   status='ingebruik',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserBlusmiddel/schuim')
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBrandblusserBlusmiddel/schuim')
     }
 
     @classmethod

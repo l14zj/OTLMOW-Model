@@ -9,7 +9,7 @@ class KlContactorModelnaam(KeuzelijstField):
     label = 'Contactor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlContactorModelnaam'
     definition = 'Keuzelijst met modelnaen van de contactoren volgens de fabrikanten.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlContactorModelnaam'
     options = {
     }

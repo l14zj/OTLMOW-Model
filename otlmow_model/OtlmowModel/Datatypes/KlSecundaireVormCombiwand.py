@@ -9,7 +9,7 @@ class KlSecundaireVormCombiwand(KeuzelijstField):
     label = 'Secundaire combiwand'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlSecundaireVormCombiwand'
     definition = 'De mogelijke secundaire vormen van een combiwand.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSecundaireVormCombiwand'
     options = {
     }

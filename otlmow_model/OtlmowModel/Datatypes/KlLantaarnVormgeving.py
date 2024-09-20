@@ -10,17 +10,17 @@ class KlLantaarnVormgeving(KeuzelijstField):
     label = 'Lantaarn vormgeving'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlLantaarnVormgeving'
     definition = 'Keuzelijst met verschillende types vormgeving voor een seinlantaarn.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLantaarnVormgeving'
     options = {
         'bijzondere-esthetische-vormgeving': KeuzelijstWaarde(invulwaarde='bijzondere-esthetische-vormgeving',
                                                               label='bijzondere esthetische vormgeving',
-                                                              status='ingebruik',
-                                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLantaarnVormgeving/bijzondere-esthetische-vormgeving'),
+                                                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLantaarnVormgeving/bijzondere-esthetische-vormgeving'),
         'standaard-vormgeving': KeuzelijstWaarde(invulwaarde='standaard-vormgeving',
                                                  label='standaard vormgeving',
-                                                 status='ingebruik',
-                                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLantaarnVormgeving/standaard-vormgeving')
+                                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLantaarnVormgeving/standaard-vormgeving')
     }
 
     @classmethod

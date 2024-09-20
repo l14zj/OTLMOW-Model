@@ -9,7 +9,7 @@ class KlNoodverlichtingTypeBatterij(KeuzelijstField):
     label = 'Noodverlichting type batterij'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlNoodverlichtingTypeBatterij'
     definition = 'De verschillende types van batterijen voor een noodverlichting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodverlichtingTypeBatterij'
     options = {
     }

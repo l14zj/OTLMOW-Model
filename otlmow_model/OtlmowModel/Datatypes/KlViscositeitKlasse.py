@@ -9,7 +9,7 @@ class KlViscositeitKlasse(KeuzelijstField):
     label = 'Viscositeit klasse'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlViscositeitKlasse'
     definition = 'Keuzelijst voor de Viscosity Grade (VG) classificatie volgens ISO 3448.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlViscositeitKlasse'
     options = {
     }

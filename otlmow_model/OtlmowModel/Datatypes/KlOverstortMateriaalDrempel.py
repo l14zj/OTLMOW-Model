@@ -10,19 +10,19 @@ class KlOverstortMateriaalDrempel(KeuzelijstField):
     label = 'Overstort materiaal drempel'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOverstortMateriaalDrempel'
     definition = 'De materialen van vervaardiging van de overstort.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOverstortMateriaalDrempel'
     options = {
         'beton': KeuzelijstWaarde(invulwaarde='beton',
                                   label='beton',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='beton',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverstortMateriaalDrempel/beton'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverstortMateriaalDrempel/beton'),
         'metselwerk': KeuzelijstWaarde(invulwaarde='metselwerk',
                                        label='metselwerk',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='metselwerk',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOverstortMateriaalDrempel/metselwerk')
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOverstortMateriaalDrempel/metselwerk')
     }
 
     @classmethod

@@ -10,29 +10,29 @@ class KlLantaarnLamptype(KeuzelijstField):
     label = 'Lantaarn lamptype'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlLantaarnLamptype'
     definition = 'Keuzelijst met LantaarnLamp types.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLantaarnLamptype'
     options = {
         'LED': KeuzelijstWaarde(invulwaarde='LED',
                                 label='LED',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Led lamp.',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLantaarnLamptype/LED'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLantaarnLamptype/LED'),
         'gasontlading': KeuzelijstWaarde(invulwaarde='gasontlading',
                                          label='gasontlading',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='Lamp op basis van gas.',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLantaarnLamptype/gasontlading'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLantaarnLamptype/gasontlading'),
         'gloeilamp': KeuzelijstWaarde(invulwaarde='gloeilamp',
                                       label='gloeilamp',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Gloeilamp.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLantaarnLamptype/gloeilamp'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLantaarnLamptype/gloeilamp'),
         'halogeen': KeuzelijstWaarde(invulwaarde='halogeen',
                                      label='halogeen',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Halogeenlamp.',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLantaarnLamptype/halogeen')
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLantaarnLamptype/halogeen')
     }
 
     @classmethod

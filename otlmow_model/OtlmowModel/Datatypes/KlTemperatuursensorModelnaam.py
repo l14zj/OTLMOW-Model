@@ -9,7 +9,7 @@ class KlTemperatuursensorModelnaam(KeuzelijstField):
     label = 'Temperatuursensor modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTemperatuursensorModelnaam'
     definition = 'De verschillende modelnamen van een temperatuursensor.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTemperatuursensorModelnaam'
     options = {
     }

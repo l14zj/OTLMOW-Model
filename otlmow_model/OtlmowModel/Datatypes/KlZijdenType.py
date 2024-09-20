@@ -10,34 +10,34 @@ class KlZijdenType(KeuzelijstField):
     label = 'Zijden type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlZijdenType'
     definition = 'Het type van de zijden.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZijdenType'
     options = {
         'gebogen': KeuzelijstWaarde(invulwaarde='gebogen',
                                     label='Gebogen',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='Gebogen zijden.',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZijdenType/gebogen'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZijdenType/gebogen'),
         'rechte': KeuzelijstWaarde(invulwaarde='rechte',
                                    label='Rechte',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Rechte zijden.',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZijdenType/rechte'),
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZijdenType/rechte'),
         'rechte-en-schuine': KeuzelijstWaarde(invulwaarde='rechte-en-schuine',
                                               label='Rechte en schuine',
-                                              status='ingebruik',
+                                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                               definitie='Rechte en schuine zijden gecombineerd.',
-                                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZijdenType/rechte-en-schuine'),
+                                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZijdenType/rechte-en-schuine'),
         'ronde': KeuzelijstWaarde(invulwaarde='ronde',
                                   label='Ronde',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='Ronde zijden.',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZijdenType/ronde'),
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZijdenType/ronde'),
         'schuine': KeuzelijstWaarde(invulwaarde='schuine',
                                     label='Schuine',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='Schuine zijden.',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZijdenType/schuine')
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZijdenType/schuine')
     }
 
     @classmethod

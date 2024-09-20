@@ -9,7 +9,7 @@ class KlLeveringsvorm(KeuzelijstField):
     label = 'Leveringsvorm'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLeveringsvorm'
     definition = 'De configuratie waarin de plank besteld wordt.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLeveringsvorm'
     options = {
     }

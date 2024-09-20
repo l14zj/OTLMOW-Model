@@ -10,21 +10,21 @@ class KlEnergiemeterDNBUurtarief(KeuzelijstField):
     label = 'Energiemeter DNB uurtarief'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlEnergiemeterDNBUurtarief'
     definition = 'Type uurtarief vb enkelvoudig, dubbelvoudig,...'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlEnergiemeterDNBUurtarief'
     options = {
         'dubbelvoudig': KeuzelijstWaarde(invulwaarde='dubbelvoudig',
                                          label='dubbelvoudig',
-                                         status='ingebruik',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEnergiemeterDNBUurtarief/dubbelvoudig'),
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEnergiemeterDNBUurtarief/dubbelvoudig'),
         'dubbelvoudig-maar-enkelvoudig-gebruikt': KeuzelijstWaarde(invulwaarde='dubbelvoudig-maar-enkelvoudig-gebruikt',
                                                                    label='dubbelvoudig maar enkelvoudig gebruikt',
-                                                                   status='ingebruik',
-                                                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEnergiemeterDNBUurtarief/dubbelvoudig-maar-enkelvoudig-gebruikt'),
+                                                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEnergiemeterDNBUurtarief/dubbelvoudig-maar-enkelvoudig-gebruikt'),
         'enkelvoudig': KeuzelijstWaarde(invulwaarde='enkelvoudig',
                                         label='enkelvoudig',
-                                        status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlEnergiemeterDNBUurtarief/enkelvoudig')
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlEnergiemeterDNBUurtarief/enkelvoudig')
     }
 
     @classmethod

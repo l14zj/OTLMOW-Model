@@ -9,7 +9,7 @@ class KlToegangsprocedureBijlageType(KeuzelijstField):
     label = 'Bijlagetype toegangsprocedure'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlToegangsprocedureBijlageType'
     definition = 'De bijlagetypes van een toegangsprocedure.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlToegangsprocedureBijlageType'
     options = {
     }

@@ -9,7 +9,7 @@ class KlCapacitieveNiveaumetingModelnaam(KeuzelijstField):
     label = 'Capacitieve niveaumeting modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlCapacitieveNiveaumetingModelnaam'
     definition = 'Modelnaam van de capacitieve niveaumeting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCapacitieveNiveaumetingModelnaam'
     options = {
     }

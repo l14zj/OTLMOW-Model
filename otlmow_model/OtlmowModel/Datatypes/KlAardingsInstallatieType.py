@@ -10,21 +10,17 @@ class KlAardingsInstallatieType(KeuzelijstField):
     label = 'Type van aardingsinstallatie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlAardingsInstallatieType'
     definition = 'Een keuzelijst waarin aangeduid kan worden over welke aardingsinstallatietype het gaat.'
-    status = 'ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAardingsInstallatieType'
     options = {
         'hoogspanningsinstallatie': KeuzelijstWaarde(invulwaarde='hoogspanningsinstallatie',
                                                      label='hoogspanningsinstallatie',
-                                                     status='ingebruik',
-                                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/hoogspanningsinstallatie'),
+                                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/hoogspanningsinstallatie'),
         'laagspanningsinstallatie': KeuzelijstWaarde(invulwaarde='laagspanningsinstallatie',
                                                      label='laagspanningsinstallatie',
-                                                     status='ingebruik',
-                                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/laagspanningsinstallatie'),
+                                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/laagspanningsinstallatie'),
         'nulpuntinstallatie': KeuzelijstWaarde(invulwaarde='nulpuntinstallatie',
                                                label='nulpuntinstallatie',
-                                               status='ingebruik',
-                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/nulpuntinstallatie')
+                                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAardingsInstallatieType/nulpuntinstallatie')
     }
 
     @classmethod

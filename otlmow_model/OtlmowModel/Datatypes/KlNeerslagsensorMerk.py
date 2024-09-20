@@ -10,18 +10,13 @@ class KlNeerslagsensorMerk(KeuzelijstField):
     label = 'Neerslagsensor merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlNeerslagsensorMerk'
     definition = 'Het merk van de neerslagsensor.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNeerslagsensorMerk'
     options = {
         'Luft': KeuzelijstWaarde(invulwaarde='Luft',
                                  label='Luft',
-                                 status='ingebruik',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorMerk/Luft'),
-        'vaisala': KeuzelijstWaarde(invulwaarde='vaisala',
-                                    label='Vaisala',
-                                    status='ingebruik',
-                                    definitie='Vaisala',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlNeerslagsensorMerk/vaisala')
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlNeerslagsensorMerk/Luft')
     }
 
     @classmethod

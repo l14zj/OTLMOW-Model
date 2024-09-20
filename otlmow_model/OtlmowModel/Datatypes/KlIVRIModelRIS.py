@@ -10,19 +10,19 @@ class KlIVRIModelRIS(KeuzelijstField):
     label = 'iVRIModelRIS'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlIVRIModelRIS'
     definition = 'De modelnaam van de RIS.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlIVRIModelRIS'
     options = {
         'cloudris': KeuzelijstWaarde(invulwaarde='cloudris',
                                      label='CloudRIS',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='CloudRIS',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelRIS/cloudris'),
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelRIS/cloudris'),
         'virtualacu': KeuzelijstWaarde(invulwaarde='virtualacu',
                                        label='VirtualACU',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='VirtualACU',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlIVRIModelRIS/virtualacu')
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlIVRIModelRIS/virtualacu')
     }
 
     @classmethod

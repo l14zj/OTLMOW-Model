@@ -9,7 +9,7 @@ class KlStuurklepMerk(KeuzelijstField):
     label = 'Stuurklep merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlStuurklepMerk'
     definition = 'Merknamen van een stuurklep.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStuurklepMerk'
     options = {
     }

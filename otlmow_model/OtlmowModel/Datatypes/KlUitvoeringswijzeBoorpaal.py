@@ -9,7 +9,7 @@ class KlUitvoeringswijzeBoorpaal(KeuzelijstField):
     label = 'Uitvoeringswijze boorpaal.'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlUitvoeringswijzeBoorpaal'
     definition = 'De manier waarop de boorpaal is uitgevoerd.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringswijzeBoorpaal'
     options = {
     }

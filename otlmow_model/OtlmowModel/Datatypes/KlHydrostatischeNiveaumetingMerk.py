@@ -9,7 +9,7 @@ class KlHydrostatischeNiveaumetingMerk(KeuzelijstField):
     label = 'Hydrostatische niveaumeting merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlHydrostatischeNiveaumetingMerk'
     definition = 'Merknamen van de hydrostatische niveaumeting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHydrostatischeNiveaumetingMerk'
     options = {
     }

@@ -9,7 +9,7 @@ class KlPyranometerMerk(KeuzelijstField):
     label = 'Pyranometer merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlPyranometerMerk'
     definition = 'Pyranometer merken.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPyranometerMerk'
     options = {
     }

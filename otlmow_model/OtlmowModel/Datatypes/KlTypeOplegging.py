@@ -10,29 +10,29 @@ class KlTypeOplegging(KeuzelijstField):
     label = 'Type oplegging'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTypeOplegging'
     definition = 'De soort van oplegging.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeOplegging'
     options = {
         'betonnen-oplegging-freyssinetscharnier': KeuzelijstWaarde(invulwaarde='betonnen-oplegging-freyssinetscharnier',
                                                                    label='Betonnen oplegging - Freyssinetscharnier',
-                                                                   status='ingebruik',
+                                                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                                    definitie='Betonnen oplegging die ontstaat door een plaatselijke vernauwing, over een hoogte van niet meer dan 2 cm, van de doorsnede die de drukkracht overbrengt.',
-                                                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/betonnen-oplegging-freyssinetscharnier'),
+                                                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeOplegging/betonnen-oplegging-freyssinetscharnier'),
         'betonnen-oplegging-mesnagerscharnier': KeuzelijstWaarde(invulwaarde='betonnen-oplegging-mesnagerscharnier',
                                                                  label='Betonnen oplegging - Mesnagerscharnier',
-                                                                 status='ingebruik',
+                                                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                                  definitie='Betonnen oplegging die uit kruiselings geplaatste wapeningsstaven bestaat. Deze wapeningsstaven zijn niet ingestort over een lengte van ongeveer tienmaal hun diameter.',
-                                                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/betonnen-oplegging-mesnagerscharnier'),
+                                                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeOplegging/betonnen-oplegging-mesnagerscharnier'),
         'rubber-oplegging': KeuzelijstWaarde(invulwaarde='rubber-oplegging',
                                              label='Rubber oplegging',
-                                             status='ingebruik',
+                                             status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                              definitie='Rubber oplegging',
-                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/rubber-oplegging'),
+                                             objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeOplegging/rubber-oplegging'),
         'stalen-oplegging-roloplegging': KeuzelijstWaarde(invulwaarde='stalen-oplegging-roloplegging',
                                                           label='Stalen oplegging - roloplegging',
-                                                          status='ingebruik',
+                                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                           definitie='Rolopleggingen bieden een oplossing voor het overdragen van oplegkrachten verticaal en horizontaal en tegelijkertijd ook het mogelijk maken van translaties en kleine rotaties met een geringe weerstand.',
-                                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeOplegging/stalen-oplegging-roloplegging')
+                                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeOplegging/stalen-oplegging-roloplegging')
     }
 
     @classmethod

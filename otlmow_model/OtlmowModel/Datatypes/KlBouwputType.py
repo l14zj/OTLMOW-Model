@@ -10,29 +10,29 @@ class KlBouwputType(KeuzelijstField):
     label = 'Bouwput type.'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBouwputType'
     definition = 'Het type van bouwput.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBouwputType'
     options = {
         'bouwput': KeuzelijstWaarde(invulwaarde='bouwput',
                                     label='bouwput',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='bouwput',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/bouwput'),
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBouwputType/bouwput'),
         'intredeput': KeuzelijstWaarde(invulwaarde='intredeput',
                                        label='intredeput',
-                                       status='ingebruik',
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                        definitie='intredeput',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/intredeput'),
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBouwputType/intredeput'),
         'ontvangstput': KeuzelijstWaarde(invulwaarde='ontvangstput',
                                          label='ontvangstput',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='ontvangstput',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/ontvangstput'),
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBouwputType/ontvangstput'),
         'persput': KeuzelijstWaarde(invulwaarde='persput',
                                     label='persput',
-                                    status='ingebruik',
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                     definitie='persput',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBouwputType/persput')
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBouwputType/persput')
     }
 
     @classmethod

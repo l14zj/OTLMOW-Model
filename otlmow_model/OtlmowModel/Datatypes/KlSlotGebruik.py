@@ -10,21 +10,21 @@ class KlSlotGebruik(KeuzelijstField):
     label = 'Slot gebruik'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSlotGebruik'
     definition = 'Keuzelijst voor de kant langs dewelke het slot geïnstalleerd kan worden. Je kijkt hierbij naar de deur vanuit de kant dat je de deur openduwt (en niet de kant waarlangs je zou moeten trekken).'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotGebruik'
     options = {
         'links': KeuzelijstWaarde(invulwaarde='links',
                                   label='links',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotGebruik/links'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSlotGebruik/links'),
         'omkeerbaar': KeuzelijstWaarde(invulwaarde='omkeerbaar',
                                        label='omkeerbaar',
-                                       status='ingebruik',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotGebruik/omkeerbaar'),
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSlotGebruik/omkeerbaar'),
         'rechts': KeuzelijstWaarde(invulwaarde='rechts',
                                    label='rechts',
-                                   status='ingebruik',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSlotGebruik/rechts')
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSlotGebruik/rechts')
     }
 
     @classmethod

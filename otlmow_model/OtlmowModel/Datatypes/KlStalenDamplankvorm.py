@@ -9,7 +9,7 @@ class KlStalenDamplankvorm(KeuzelijstField):
     label = 'Stalen damplankvorm'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlStalenDamplankvorm'
     definition = 'De vorm van de stalen damplank.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStalenDamplankvorm'
     options = {
     }

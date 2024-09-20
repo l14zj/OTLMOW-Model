@@ -9,7 +9,7 @@ class KlAflsuitingType(KeuzelijstField):
     label = 'Afsluiting type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAflsuitingType'
     definition = 'Het type van een afsluiting'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAflsuitingType'
     options = {
     }

@@ -10,19 +10,19 @@ class KlZonnepaneelMerk(KeuzelijstField):
     label = 'Zonnepaneel merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZonnepaneelMerk'
     definition = 'Het merk van het zonnepaneel.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZonnepaneelMerk'
     options = {
         'mobx': KeuzelijstWaarde(invulwaarde='mobx',
                                  label='MobX',
-                                 status='ingebruik',
+                                 status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                  definitie='MobX',
-                                 objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZonnepaneelMerk/mobx'),
+                                 objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZonnepaneelMerk/mobx'),
         'solartronics': KeuzelijstWaarde(invulwaarde='solartronics',
                                          label='solartronics',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='solartronics ',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZonnepaneelMerk/solartronics')
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZonnepaneelMerk/solartronics')
     }
 
     @classmethod

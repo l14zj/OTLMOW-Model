@@ -10,29 +10,29 @@ class KlGebruiksdomein(KeuzelijstField):
     label = 'Gebruiksdomein'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlGebruiksdomein'
     definition = 'De omstandigheden waarin het beton gebruikt zal worden.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGebruiksdomein'
     options = {
         'gb-gewapend': KeuzelijstWaarde(invulwaarde='gb-gewapend',
                                         label='GB (gewapend)',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Gewapend beton.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/gb-gewapend'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGebruiksdomein/gb-gewapend'),
         'gzb-gewapend-zichtbeton': KeuzelijstWaarde(invulwaarde='gzb-gewapend-zichtbeton',
-                                                    label='GZB (gewapend zichtbeton) ',
-                                                    status='ingebruik',
+                                                    label='GZB (gewapend zichtbeton)',
+                                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                                     definitie='Gewapend zichtbeton.',
-                                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/gzb-gewapend-zichtbeton'),
+                                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGebruiksdomein/gzb-gewapend-zichtbeton'),
         'ob-ongewapend': KeuzelijstWaarde(invulwaarde='ob-ongewapend',
                                           label='OB (ongewapend)',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='Ongewapend beton.',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/ob-ongewapend'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGebruiksdomein/ob-ongewapend'),
         'vb-voorgespannen': KeuzelijstWaarde(invulwaarde='vb-voorgespannen',
                                              label='VB (voorgespannen)',
-                                             status='ingebruik',
+                                             status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                              definitie='Voorgespannen beton.',
-                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGebruiksdomein/vb-voorgespannen')
+                                             objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGebruiksdomein/vb-voorgespannen')
     }
 
     @classmethod

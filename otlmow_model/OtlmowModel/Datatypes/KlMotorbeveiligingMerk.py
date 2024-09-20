@@ -9,7 +9,7 @@ class KlMotorbeveiligingMerk(KeuzelijstField):
     label = 'Merken  motorbeveiligingen'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMotorbeveiligingMerk'
     definition = 'Lijst met merknamen voor motorbeveiligingen volgens de fabrikant..'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMotorbeveiligingMerk'
     options = {
     }

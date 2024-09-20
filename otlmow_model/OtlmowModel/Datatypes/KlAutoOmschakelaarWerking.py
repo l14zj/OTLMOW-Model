@@ -9,7 +9,7 @@ class KlAutoOmschakelaarWerking(KeuzelijstField):
     label = 'Automatische omschakelaar werkingsprincipe'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAutoOmschakelaarWerking'
     definition = 'Lijst met werkingsprincipes van automatische omschakelaars (transfer switches).'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAutoOmschakelaarWerking'
     options = {
     }

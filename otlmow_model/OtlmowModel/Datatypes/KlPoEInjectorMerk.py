@@ -1,6 +1,5 @@
 # coding=utf-8
 from otlmow_model.OtlmowModel.BaseClasses.KeuzelijstField import KeuzelijstField
-from otlmow_model.OtlmowModel.BaseClasses.KeuzelijstWaarde import KeuzelijstWaarde
 
 
 # Generated with OTLEnumerationCreator. To modify: extend, do not edit
@@ -10,14 +9,9 @@ class KlPoEInjectorMerk(KeuzelijstField):
     label = 'Power over ethernet injector merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlPoEInjectorMerk'
     definition = 'Het merk van de PoE-injector.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPoEInjectorMerk'
     options = {
-        'bosch': KeuzelijstWaarde(invulwaarde='bosch',
-                                  label='Bosch',
-                                  status='ingebruik',
-                                  definitie='Bosch',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPoEInjectorMerk/bosch')
     }
 
     @classmethod

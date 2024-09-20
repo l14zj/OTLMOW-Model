@@ -10,21 +10,21 @@ class KlBuitenkastVerfraaid(KeuzelijstField):
     label = 'Verfraaiing buitenkast'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlBuitenkastVerfraaid'
     definition = 'Mogelijke types voor verfraaiing als combinatie van aan- en afwezigheid en al dan niet vegund.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBuitenkastVerfraaid'
     options = {
         'ja': KeuzelijstWaarde(invulwaarde='ja',
                                label='ja',
-                               status='ingebruik',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/ja'),
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/ja'),
         'ja-niet-vergund': KeuzelijstWaarde(invulwaarde='ja-niet-vergund',
                                             label='ja niet vergund',
-                                            status='ingebruik',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/ja-niet-vergund'),
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/ja-niet-vergund'),
         'nee': KeuzelijstWaarde(invulwaarde='nee',
                                 label='nee',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/nee')
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBuitenkastVerfraaid/nee')
     }
 
     @classmethod

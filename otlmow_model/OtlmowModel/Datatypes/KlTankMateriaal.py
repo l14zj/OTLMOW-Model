@@ -9,7 +9,7 @@ class KlTankMateriaal(KeuzelijstField):
     label = 'Tank materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTankMateriaal'
     definition = 'Het materiaal waaruit de tank vervaardigd is.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankMateriaal'
     options = {
     }

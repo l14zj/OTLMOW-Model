@@ -10,22 +10,22 @@ class KlTransformatorTrafobeveiliging(KeuzelijstField):
     label = 'Transformator trafobeveiliging'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTransformatorTrafobeveiliging'
     definition = 'Type transformatorbeveiliging.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTransformatorTrafobeveiliging'
     options = {
         'gecombineerd': KeuzelijstWaarde(invulwaarde='gecombineerd',
                                          label='gecombineerd',
-                                         status='ingebruik',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTransformatorTrafobeveiliging/gecombineerd'),
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorTrafobeveiliging/gecombineerd'),
         'overdruk': KeuzelijstWaarde(invulwaarde='overdruk',
                                      label='overdruk',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTransformatorTrafobeveiliging/overdruk'),
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorTrafobeveiliging/overdruk'),
         'overtemperatuur': KeuzelijstWaarde(invulwaarde='overtemperatuur',
                                             label='overtemperatuur',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='attributen invullen//',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTransformatorTrafobeveiliging/overtemperatuur')
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTransformatorTrafobeveiliging/overtemperatuur')
     }
 
     @classmethod

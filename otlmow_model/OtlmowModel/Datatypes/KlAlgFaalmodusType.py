@@ -10,17 +10,17 @@ class KlAlgFaalmodusType(KeuzelijstField):
     label = 'Algemeen faalmodus type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/implementatieelement#KlAlgFaalmodusType'
     definition = 'Keuzelijst voor de types failure modes van een beveiligingssysteem.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAlgFaalmodusType'
     options = {
         'fail-safe': KeuzelijstWaarde(invulwaarde='fail-safe',
                                       label='fail safe',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgFaalmodusType/fail-safe'),
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgFaalmodusType/fail-safe'),
         'fail-secure': KeuzelijstWaarde(invulwaarde='fail-secure',
                                         label='fail secure',
-                                        status='ingebruik',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlAlgFaalmodusType/fail-secure')
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAlgFaalmodusType/fail-secure')
     }
 
     @classmethod

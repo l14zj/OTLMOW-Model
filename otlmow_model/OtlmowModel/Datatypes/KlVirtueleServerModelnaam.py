@@ -10,24 +10,19 @@ class KlVirtueleServerModelnaam(KeuzelijstField):
     label = 'Virtuele server modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVirtueleServerModelnaam'
     definition = 'De modelnaam van de virtuele server.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVirtueleServerModelnaam'
     options = {
         'boxedacu': KeuzelijstWaarde(invulwaarde='boxedacu',
                                      label='BoxedACU',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='BoxedACU.',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerModelnaam/boxedacu'),
-        'poweredge-r620': KeuzelijstWaarde(invulwaarde='poweredge-r620',
-                                           label='PowerEdge R620',
-                                           status='ingebruik',
-                                           definitie='PowerEdge R620',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerModelnaam/poweredge-r620'),
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVirtueleServerModelnaam/boxedacu'),
         'ram': KeuzelijstWaarde(invulwaarde='ram',
                                 label='RAM',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='RAM',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVirtueleServerModelnaam/ram')
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVirtueleServerModelnaam/ram')
     }
 
     @classmethod

@@ -9,7 +9,7 @@ class KlDichtingMerk(KeuzelijstField):
     label = 'Merk dichting'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDichtingMerk'
     definition = 'Lijst met merknamen van dichtingen volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDichtingMerk'
     options = {
     }

@@ -10,19 +10,19 @@ class KlGraadVanStatischeBepaaldheid(KeuzelijstField):
     label = 'Graad van statische bepaaldheid'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlGraadVanStatischeBepaaldheid'
     definition = 'De statische bepaaldheid van het brugdeel.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGraadVanStatischeBepaaldheid'
     options = {
         'hyperstatisch': KeuzelijstWaarde(invulwaarde='hyperstatisch',
                                           label='Hyperstatisch',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='Statisch onbepaald. De reacties (de momenten en dwarskrachten) kunnen niet worden berekend met de statica alleen.',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGraadVanStatischeBepaaldheid/hyperstatisch'),
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGraadVanStatischeBepaaldheid/hyperstatisch'),
         'isostatisch': KeuzelijstWaarde(invulwaarde='isostatisch',
                                         label='Isostatisch',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Statisch bepaald. De reacties en inwendige krachten zijn te berekenen met de statica.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGraadVanStatischeBepaaldheid/isostatisch')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGraadVanStatischeBepaaldheid/isostatisch')
     }
 
     @classmethod

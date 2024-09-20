@@ -10,17 +10,17 @@ class KlCabineAardingsstelsel(KeuzelijstField):
     label = 'Cabine aardingsstelsel'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlCabineAardingsstelsel'
     definition = 'Lijst van mogelijke aardinggsstelsels.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCabineAardingsstelsel'
     options = {
         'gescheiden': KeuzelijstWaarde(invulwaarde='gescheiden',
                                        label='gescheiden',
-                                       status='ingebruik',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCabineAardingsstelsel/gescheiden'),
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineAardingsstelsel/gescheiden'),
         'globaal': KeuzelijstWaarde(invulwaarde='globaal',
                                     label='globaal',
-                                    status='ingebruik',
-                                    objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlCabineAardingsstelsel/globaal')
+                                    status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                    objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlCabineAardingsstelsel/globaal')
     }
 
     @classmethod

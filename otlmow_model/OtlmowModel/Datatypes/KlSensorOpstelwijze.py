@@ -10,19 +10,14 @@ class KlSensorOpstelwijze(KeuzelijstField):
     label = 'Sensor opstelwijze'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/abstracten#KlSensorOpstelwijze'
     definition = 'Senor opstelwijzen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSensorOpstelwijze'
     options = {
         'rechtstreeks-op-rechte-steun': KeuzelijstWaarde(invulwaarde='rechtstreeks-op-rechte-steun',
-                                                         label='Rechtstreeks op rechte steun',
-                                                         status='ingebruik',
-                                                         definitie='Rechtstreeks op rechte steun',
-                                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSensorOpstelwijze/rechtstreeks-op-rechte-steun'),
-        'via-dwarsligger-op-rechte-steun': KeuzelijstWaarde(invulwaarde='via-dwarsligger-op-rechte-steun',
-                                                            label='Via dwarsligger op rechte steun',
-                                                            status='ingebruik',
-                                                            definitie='Via dwarsligger op rechte steun',
-                                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSensorOpstelwijze/via-dwarsligger-op-rechte-steun')
+                                                         label='rechtstreeks-op-rechte-steun',
+                                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                         definitie='rechtstreeks-op-rechte-steun',
+                                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSensorOpstelwijze/rechtstreeks-op-rechte-steun')
     }
 
     @classmethod

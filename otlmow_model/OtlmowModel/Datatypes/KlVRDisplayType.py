@@ -9,7 +9,6 @@ class KlVRDisplayType(KeuzelijstField):
     label = 'Verkeersregelaar display type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVRDisplayType'
     definition = 'De mogelijke types van display van een verkeersregelaar.'
-    status = 'ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVRDisplayType'
     options = {
     }

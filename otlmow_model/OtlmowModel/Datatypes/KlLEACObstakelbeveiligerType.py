@@ -10,19 +10,19 @@ class KlLEACObstakelbeveiligerType(KeuzelijstField):
     label = 'Obstakelbeveiliger type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLEACObstakelbeveiligerType'
     definition = 'De verschillende types van obstakelbeveiliger.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLEACObstakelbeveiligerType'
     options = {
         'afstoppend-(NR)': KeuzelijstWaarde(invulwaarde='afstoppend-(NR)',
                                             label='afstoppend (NR)',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='Obstakelbeveiliger brengt het voertuig tot stilstand maar zijn niet getest op zijdelingse aanrijdingen',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACObstakelbeveiligerType/afstoppend-(NR)'),
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACObstakelbeveiligerType/afstoppend-(NR)'),
         'geleidend-(R)': KeuzelijstWaarde(invulwaarde='geleidend-(R)',
                                           label='geleidend (R)',
-                                          status='ingebruik',
+                                          status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                           definitie='Obstakelbeveiliger brengt het voertuig niet tot stilstand maar terug in de juiste richting',
-                                          objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlLEACObstakelbeveiligerType/geleidend-(R)')
+                                          objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlLEACObstakelbeveiligerType/geleidend-(R)')
     }
 
     @classmethod

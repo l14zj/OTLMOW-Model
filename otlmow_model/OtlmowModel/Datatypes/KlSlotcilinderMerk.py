@@ -9,7 +9,7 @@ class KlSlotcilinderMerk(KeuzelijstField):
     label = 'Merknamen slotcilinders'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSlotcilinderMerk'
     definition = 'Lijst van merknamen van slotcilinders volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotcilinderMerk'
     options = {
     }

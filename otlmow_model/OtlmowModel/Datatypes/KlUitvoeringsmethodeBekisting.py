@@ -9,7 +9,7 @@ class KlUitvoeringsmethodeBekisting(KeuzelijstField):
     label = 'Uitvoeringsmethode bekisting'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlUitvoeringsmethodeBekisting'
     definition = 'De uitvoeringsmethode van de bekisting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlUitvoeringsmethodeBekisting'
     options = {
     }

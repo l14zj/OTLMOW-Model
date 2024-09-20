@@ -10,13 +10,13 @@ class KlSignaalControleModuleType(KeuzelijstField):
     label = 'Signaal controle module type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSignaalControleModuleType'
     definition = 'Het type van detectie dat uitgevoerd wordt door de signaal controle module.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalControleModuleType'
     options = {
         'kabelbreuk': KeuzelijstWaarde(invulwaarde='kabelbreuk',
                                        label='kabelbreuk',
-                                       status='ingebruik',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlSignaalControleModuleType/kabelbreuk')
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlSignaalControleModuleType/kabelbreuk')
     }
 
     @classmethod

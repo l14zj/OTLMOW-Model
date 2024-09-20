@@ -9,7 +9,7 @@ class KlAntenneFrequentierange(KeuzelijstField):
     label = 'Antenne frequentierange'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAntenneFrequentierange'
     definition = 'Keuzelijst met frequentiebanden aan waarbinnen een antenne gebruikt kan worden.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntenneFrequentierange'
     options = {
     }

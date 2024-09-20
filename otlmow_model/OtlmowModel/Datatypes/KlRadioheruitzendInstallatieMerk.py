@@ -9,7 +9,7 @@ class KlRadioheruitzendInstallatieMerk(KeuzelijstField):
     label = 'Radioheruitzendinstallatie merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlRadioheruitzendInstallatieMerk'
     definition = 'De mogelijke merken van een radioheruitzendinstallatie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRadioheruitzendInstallatieMerk'
     options = {
     }

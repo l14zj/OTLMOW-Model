@@ -10,14 +10,14 @@ class KlZonnepaneelModelnaam(KeuzelijstField):
     label = 'Zonnepaneel modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlZonnepaneelModelnaam'
     definition = 'De modelnaam van het zonnepaneel.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlZonnepaneelModelnaam'
     options = {
         'pv': KeuzelijstWaarde(invulwaarde='pv',
                                label='PV',
-                               status='ingebruik',
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                definitie='PV',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlZonnepaneelModelnaam/pv')
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlZonnepaneelModelnaam/pv')
     }
 
     @classmethod

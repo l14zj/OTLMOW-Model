@@ -9,7 +9,7 @@ class KlTrekdraadEncoderNiveaumetingMerk(KeuzelijstField):
     label = 'Trekdraad encoder niveaumeting merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTrekdraadEncoderNiveaumetingMerk'
     definition = 'Merknamen van de trekdraad encoder niveaumeting.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTrekdraadEncoderNiveaumetingMerk'
     options = {
     }

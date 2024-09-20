@@ -9,7 +9,7 @@ class KlRiemschijfModelnaam(KeuzelijstField):
     label = 'Riemschijf modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlRiemschijfModelnaam'
     definition = 'Keuzelijst met modelnamen van de riemschijf.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlRiemschijfModelnaam'
     options = {
     }

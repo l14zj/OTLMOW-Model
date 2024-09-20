@@ -10,17 +10,17 @@ class KlMeetcelNauwkeurigheidsvermogen(KeuzelijstField):
     label = 'Meetcel nauwkeurigheidsvermogen'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlMeetcelNauwkeurigheidsvermogen'
     definition = 'Nauwkeurigheidsvermogen van de meetcel in voltampère (bv. 5 of 15).'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMeetcelNauwkeurigheidsvermogen'
     options = {
         '15': KeuzelijstWaarde(invulwaarde='15',
                                label='15',
-                               status='ingebruik',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMeetcelNauwkeurigheidsvermogen/15'),
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeetcelNauwkeurigheidsvermogen/15'),
         '5': KeuzelijstWaarde(invulwaarde='5',
                               label='5',
-                              status='ingebruik',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMeetcelNauwkeurigheidsvermogen/5')
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMeetcelNauwkeurigheidsvermogen/5')
     }
 
     @classmethod

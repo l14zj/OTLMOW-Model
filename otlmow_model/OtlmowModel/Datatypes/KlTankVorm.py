@@ -10,17 +10,17 @@ class KlTankVorm(KeuzelijstField):
     label = 'Tank vorm'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTankVorm'
     definition = 'De vorm van de tank.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankVorm'
     options = {
         'parabolische-cilinder': KeuzelijstWaarde(invulwaarde='parabolische-cilinder',
                                                   label='parabolische cilinder',
-                                                  status='ingebruik',
-                                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTankVorm/parabolische-cilinder'),
+                                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTankVorm/parabolische-cilinder'),
         'vlakke-cilinder': KeuzelijstWaarde(invulwaarde='vlakke-cilinder',
                                             label='vlakke cilinder',
-                                            status='ingebruik',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTankVorm/vlakke-cilinder')
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTankVorm/vlakke-cilinder')
     }
 
     @classmethod

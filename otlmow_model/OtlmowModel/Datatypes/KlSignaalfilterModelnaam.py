@@ -9,7 +9,7 @@ class KlSignaalfilterModelnaam(KeuzelijstField):
     label = 'Signaalfilter modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSignaalfilterModelnaam'
     definition = 'De modelnaam van een signaalfilter.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSignaalfilterModelnaam'
     options = {
     }

@@ -9,7 +9,7 @@ class KlDompelpompModelnaam(KeuzelijstField):
     label = 'Modelnamen dompelpompen'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDompelpompModelnaam'
     definition = 'Lijst van modelnamen van dompelpompen volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDompelpompModelnaam'
     options = {
     }

@@ -10,7 +10,6 @@ class KlPositieKolk(KeuzelijstField):
     label = 'Positie kolk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlPositieKolk'
     definition = 'De mogelije posities van een kolk.'
-    status = 'ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlPositieKolk'
     options = {
         'afwaarts': KeuzelijstWaarde(invulwaarde='afwaarts',
@@ -24,7 +23,11 @@ class KlPositieKolk(KeuzelijstField):
         'slechts-1-kolkdeel': KeuzelijstWaarde(invulwaarde='slechts-1-kolkdeel',
                                                label='slechts 1 kolkdeel',
                                                status='ingebruik',
-                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPositieKolk/slechts-1-kolkdeel')
+                                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPositieKolk/slechts-1-kolkdeel'),
+        'slechts1kolkdeel': KeuzelijstWaarde(invulwaarde='slechts1kolkdeel',
+                                             label='slechts1Kolkdeel',
+                                             status='ingebruik',
+                                             objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlPositieKolk/slechts1kolkdeel')
     }
 
     @classmethod

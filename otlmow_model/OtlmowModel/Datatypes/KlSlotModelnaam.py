@@ -9,7 +9,7 @@ class KlSlotModelnaam(KeuzelijstField):
     label = 'Modelnamen sloten'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSlotModelnaam'
     definition = 'Lijst van modelnamen van sloten volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSlotModelnaam'
     options = {
     }

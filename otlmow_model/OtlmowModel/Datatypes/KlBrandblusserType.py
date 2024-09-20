@@ -10,25 +10,25 @@ class KlBrandblusserType(KeuzelijstField):
     label = 'Brandblusser type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBrandblusserType'
     definition = 'Keuzelijst met verschillende types van brandblussers volgens de algemene classificatie van brandblussers.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBrandblusserType'
     options = {
         'a': KeuzelijstWaarde(invulwaarde='a',
                               label='a',
-                              status='ingebruik',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserType/a'),
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBrandblusserType/a'),
         'b': KeuzelijstWaarde(invulwaarde='b',
                               label='b',
-                              status='ingebruik',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserType/b'),
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBrandblusserType/b'),
         'c': KeuzelijstWaarde(invulwaarde='c',
                               label='c',
-                              status='ingebruik',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserType/c'),
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBrandblusserType/c'),
         'd': KeuzelijstWaarde(invulwaarde='d',
                               label='d',
-                              status='ingebruik',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBrandblusserType/d')
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBrandblusserType/d')
     }
 
     @classmethod

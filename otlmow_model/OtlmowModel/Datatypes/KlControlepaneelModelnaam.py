@@ -9,7 +9,7 @@ class KlControlepaneelModelnaam(KeuzelijstField):
     label = 'Controlepaneel modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlControlepaneelModelnaam'
     definition = 'De modelnaam van het controlepaneel'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlControlepaneelModelnaam'
     options = {
     }

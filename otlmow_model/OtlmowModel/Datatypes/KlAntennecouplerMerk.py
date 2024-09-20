@@ -9,7 +9,7 @@ class KlAntennecouplerMerk(KeuzelijstField):
     label = 'Antennecoupler merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAntennecouplerMerk'
     definition = 'Lijst van merknamen van antennecouplers volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAntennecouplerMerk'
     options = {
     }

@@ -9,7 +9,7 @@ class KlCompacteBatterijMerk(KeuzelijstField):
     label = 'Compacte batterij merk'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlCompacteBatterijMerk'
     definition = 'Het merk van de compacte batterij.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlCompacteBatterijMerk'
     options = {
     }

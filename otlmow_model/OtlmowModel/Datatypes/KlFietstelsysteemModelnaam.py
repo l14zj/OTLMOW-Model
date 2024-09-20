@@ -10,14 +10,14 @@ class KlFietstelsysteemModelnaam(KeuzelijstField):
     label = 'Modelnaam fietstelsysteem'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlFietstelsysteemModelnaam'
     definition = 'Lijst met mogelijke modelnamen voor fietstelsystemen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFietstelsysteemModelnaam'
     options = {
         'eco-combo-2': KeuzelijstWaarde(invulwaarde='eco-combo-2',
                                         label='eco-combo 2',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='eco-combo 2',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlFietstelsysteemModelnaam/eco-combo-2')
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlFietstelsysteemModelnaam/eco-combo-2')
     }
 
     @classmethod

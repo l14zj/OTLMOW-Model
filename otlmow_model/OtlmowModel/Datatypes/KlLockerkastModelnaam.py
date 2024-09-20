@@ -9,7 +9,7 @@ class KlLockerkastModelnaam(KeuzelijstField):
     label = 'Lockerkast modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlLockerkastModelnaam'
     definition = 'De modelnaam van een lockerkast.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlLockerkastModelnaam'
     options = {
     }

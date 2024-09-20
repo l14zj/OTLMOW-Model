@@ -10,24 +10,24 @@ class KlOmegaElementMateriaal(KeuzelijstField):
     label = 'Omega element materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlOmegaElementMateriaal'
     definition = 'De gebruikte materialen van het omega-element.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlOmegaElementMateriaal'
     options = {
         'aluminium': KeuzelijstWaarde(invulwaarde='aluminium',
                                       label='aluminium',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='Omega-element vervaarigd uit aluminium.',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmegaElementMateriaal/aluminium'),
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmegaElementMateriaal/aluminium'),
         'roestvrij-staal': KeuzelijstWaarde(invulwaarde='roestvrij-staal',
                                             label='roestvrij staal',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='Omega-element vervaarigd uit roestvrij staal.',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmegaElementMateriaal/roestvrij-staal'),
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmegaElementMateriaal/roestvrij-staal'),
         'verzinkt-staal': KeuzelijstWaarde(invulwaarde='verzinkt-staal',
                                            label='verzinkt staal',
-                                           status='ingebruik',
+                                           status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                            definitie='Omega-element vervaarigd uit verzinkt staal.',
-                                           objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlOmegaElementMateriaal/verzinkt-staal')
+                                           objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlOmegaElementMateriaal/verzinkt-staal')
     }
 
     @classmethod

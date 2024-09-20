@@ -10,14 +10,14 @@ class KlWeegcomputerModelnaam(KeuzelijstField):
     label = 'Modelnaam weegcomputer'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWeegcomputerModelnaam'
     definition = 'De modelnaam van de weegcomputer.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWeegcomputerModelnaam'
     options = {
         'maxxis-5-pr5900': KeuzelijstWaarde(invulwaarde='maxxis-5-pr5900',
                                             label='Maxxis 5 PR5900',
-                                            status='ingebruik',
+                                            status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                             definitie='Maxxis 5 PR5900',
-                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWeegcomputerModelnaam/maxxis-5-pr5900')
+                                            objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWeegcomputerModelnaam/maxxis-5-pr5900')
     }
 
     @classmethod

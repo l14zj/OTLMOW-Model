@@ -9,7 +9,7 @@ class KlDisplayModelnaam(KeuzelijstField):
     label = 'Display modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDisplayModelnaam'
     definition = 'Lijst met modelnamen van displays volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDisplayModelnaam'
     options = {
     }

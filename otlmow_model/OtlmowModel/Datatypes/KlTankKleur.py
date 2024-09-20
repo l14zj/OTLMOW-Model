@@ -9,7 +9,7 @@ class KlTankKleur(KeuzelijstField):
     label = 'Tank kleur'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTankKleur'
     definition = 'De kleur van de tank.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTankKleur'
     options = {
     }

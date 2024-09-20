@@ -10,30 +10,30 @@ class KlWegkantkastType(KeuzelijstField):
     label = 'Wegkantkast type'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlWegkantkastType'
     definition = 'Keuzelijst voor gangbare types voor wegkantkasten.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlWegkantkastType'
     options = {
         'A': KeuzelijstWaarde(invulwaarde='A',
                               label='A',
-                              status='ingebruik',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegkantkastType/A'),
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/A'),
         'D': KeuzelijstWaarde(invulwaarde='D',
                               label='D',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='Wegkantkast type D',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegkantkastType/D'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/D'),
         'DD': KeuzelijstWaarde(invulwaarde='DD',
                                label='DD',
-                               status='ingebruik',
-                               objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegkantkastType/DD'),
+                               status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                               objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/DD'),
         'E': KeuzelijstWaarde(invulwaarde='E',
                               label='E',
-                              status='ingebruik',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegkantkastType/E'),
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/E'),
         'F': KeuzelijstWaarde(invulwaarde='F',
                               label='F',
-                              status='ingebruik',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlWegkantkastType/F')
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlWegkantkastType/F')
     }
 
     @classmethod

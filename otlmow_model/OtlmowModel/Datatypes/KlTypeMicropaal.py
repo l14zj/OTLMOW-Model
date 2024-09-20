@@ -10,24 +10,24 @@ class KlTypeMicropaal(KeuzelijstField):
     label = 'Type micropaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTypeMicropaal'
     definition = 'De soort van de micropaal.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTypeMicropaal'
     options = {
         'andere': KeuzelijstWaarde(invulwaarde='andere',
                                    label='Andere',
-                                   status='ingebruik',
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                    definitie='Een ander type van micropaal. Details zijn terug te vinden in de technische fiche.',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeMicropaal/andere'),
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeMicropaal/andere'),
         'pds': KeuzelijstWaarde(invulwaarde='pds',
                                 label='PDS',
-                                status='ingebruik',
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                 definitie='Micropaal vervaardigd door Penen Drilling System (PDS).',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeMicropaal/pds'),
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeMicropaal/pds'),
         'titan': KeuzelijstWaarde(invulwaarde='titan',
                                   label='Titan',
-                                  status='ingebruik',
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                   definitie='Micropaal vervaardigd door Ischebeck TITAN.',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlTypeMicropaal/titan')
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlTypeMicropaal/titan')
     }
 
     @classmethod

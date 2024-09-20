@@ -10,25 +10,25 @@ class KlElektromotorRol(KeuzelijstField):
     label = 'Elektromotor rol'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlElektromotorRol'
     definition = 'Keuzelijst voor de rol van de elektromotor in de aandrijflijn.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElektromotorRol'
     options = {
         'andere': KeuzelijstWaarde(invulwaarde='andere',
                                    label='andere',
-                                   status='ingebruik',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorRol/andere'),
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElektromotorRol/andere'),
         'hoofdmotor': KeuzelijstWaarde(invulwaarde='hoofdmotor',
                                        label='hoofdmotor',
-                                       status='ingebruik',
-                                       objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorRol/hoofdmotor'),
+                                       status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                       objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElektromotorRol/hoofdmotor'),
         'hulpmotor': KeuzelijstWaarde(invulwaarde='hulpmotor',
                                       label='hulpmotor',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorRol/hulpmotor'),
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElektromotorRol/hulpmotor'),
         'noodmotor': KeuzelijstWaarde(invulwaarde='noodmotor',
                                       label='noodmotor',
-                                      status='ingebruik',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlElektromotorRol/noodmotor')
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlElektromotorRol/noodmotor')
     }
 
     @classmethod

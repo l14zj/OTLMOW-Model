@@ -9,7 +9,7 @@ class KlTandwielkastModelnaam(KeuzelijstField):
     label = 'Modelnamen tandwielkasten'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlTandwielkastModelnaam'
     definition = 'Lijst van modelnamen van tandwielkasten volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlTandwielkastModelnaam'
     options = {
     }

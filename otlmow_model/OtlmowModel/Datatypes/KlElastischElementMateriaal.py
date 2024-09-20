@@ -9,7 +9,7 @@ class KlElastischElementMateriaal(KeuzelijstField):
     label = 'Elastisch element materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlElastischElementMateriaal'
     definition = 'Keuzelijst die de materialen bevat waaruit een elastisch element vervaardigd kan zijn.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlElastischElementMateriaal'
     options = {
     }

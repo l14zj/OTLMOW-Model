@@ -10,17 +10,17 @@ class KlVoorzetconstructieBevestigingsmateriaal(KeuzelijstField):
     label = 'Voorzetconstructie bevestigingsmateriaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlVoorzetconstructieBevestigingsmateriaal'
     definition = 'De mogelijke materialen gebruikt voor de bevestiging van een voorzetconstructie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlVoorzetconstructieBevestigingsmateriaal'
     options = {
         'rvs': KeuzelijstWaarde(invulwaarde='rvs',
                                 label='RVS',
-                                status='ingebruik',
-                                objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoorzetconstructieBevestigingsmateriaal/rvs'),
+                                status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoorzetconstructieBevestigingsmateriaal/rvs'),
         'staal': KeuzelijstWaarde(invulwaarde='staal',
                                   label='staal',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlVoorzetconstructieBevestigingsmateriaal/staal')
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlVoorzetconstructieBevestigingsmateriaal/staal')
     }
 
     @classmethod

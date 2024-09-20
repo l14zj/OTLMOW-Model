@@ -25,7 +25,7 @@ class Wegberm(TerreinDeel, AIMObject):
                                                            naam='bijzonderIngerichteOnderdelen',
                                                            label='bijzonder ingerichte onderdelen van de wegberm',
                                                            objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/installatie#Wegberm.bijzonderIngerichteOnderdelen',
-                                                           usagenote='Klasse uit gebruik sinds versie 2.11.0 ',
+                                                           usagenote='Klasse uit gebruik sinds versie 2.11.0',
                                                            deprecated_version='2.11.0',
                                                            definition='De bijzonder ingerichte onderdelen van de wegberm.',
                                                            owner=self)
@@ -34,7 +34,7 @@ class Wegberm(TerreinDeel, AIMObject):
                                   naam='type',
                                   label='type',
                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/ns/installatie#Wegberm.type',
-                                  usagenote='Klasse uit gebruik sinds versie 2.11.0 ',
+                                  usagenote='Klasse uit gebruik sinds versie 2.11.0',
                                   deprecated_version='2.11.0',
                                   definition='Het type van wegberm.',
                                   owner=self)

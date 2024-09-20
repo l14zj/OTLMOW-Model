@@ -9,7 +9,7 @@ class KlGlijlagerMerk(KeuzelijstField):
     label = 'Merknamen van glijlagers'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlGlijlagerMerk'
     definition = 'Lijst met merknamen van glijlagers volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGlijlagerMerk'
     options = {
     }

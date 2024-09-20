@@ -10,24 +10,24 @@ class KlGrondverbeteringsmiddel(KeuzelijstField):
     label = 'Grondverbeteringsmiddel'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/levenscyclus#KlGrondverbeteringsmiddel'
     definition = 'Het verwerken van bodemverbeteringsmiddelen omvat het gelijkmatig spreiden ervan op bepaalde grondoppervlakken en/of het verwerken in plantputten.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlGrondverbeteringsmiddel'
     options = {
         'bezanden': KeuzelijstWaarde(invulwaarde='bezanden',
                                      label='bezanden',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='Natuurlijk zand.',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/bezanden'),
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/bezanden'),
         'gft-compost': KeuzelijstWaarde(invulwaarde='gft-compost',
                                         label='GFT-compost',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='GFT-compost is het product verkregen door een gecontroleerde aÃƒÂ«robe compostering van het gescheiden ingezamelde organische deel van het huishoudelijk afval tot volledige rijping.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/gft-compost'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/gft-compost'),
         'groencompost': KeuzelijstWaarde(invulwaarde='groencompost',
                                          label='groencompost',
-                                         status='ingebruik',
+                                         status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                          definitie='Groencompost is een product verkregen door een gecontroleerde aerobe compostering van groenafval tot volledige rijping, voorafgegaan of gevolgd door mechanische behandelingen.',
-                                         objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/groencompost')
+                                         objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlGrondverbeteringsmiddel/groencompost')
     }
 
     @classmethod

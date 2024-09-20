@@ -9,7 +9,7 @@ class KlAansluitingDamwandBestaandeConstructie(KeuzelijstField):
     label = 'Aansluiting damwand bestaande constructie'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlAansluitingDamwandBestaandeConstructie'
     definition = 'De aansluiting van de damwand op een bestaande constructie.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlAansluitingDamwandBestaandeConstructie'
     options = {
     }

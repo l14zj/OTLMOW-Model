@@ -9,7 +9,7 @@ class KlSpanningsomvormerMerk(KeuzelijstField):
     label = 'Merknamen spanningsomvormers'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlSpanningsomvormerMerk'
     definition = 'Lijst van merknamen van spanningsomvormers volgens de fabrikant.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlSpanningsomvormerMerk'
     options = {
     }

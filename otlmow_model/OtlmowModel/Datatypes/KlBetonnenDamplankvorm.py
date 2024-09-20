@@ -9,7 +9,7 @@ class KlBetonnenDamplankvorm(KeuzelijstField):
     label = 'Betonnen damplankvorm'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBetonnenDamplankvorm'
     definition = 'De vorm van de betonnen damplank.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBetonnenDamplankvorm'
     options = {
     }

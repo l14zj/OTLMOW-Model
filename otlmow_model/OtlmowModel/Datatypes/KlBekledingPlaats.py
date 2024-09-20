@@ -10,19 +10,19 @@ class KlBekledingPlaats(KeuzelijstField):
     label = 'Bekleding plaats'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlBekledingPlaats'
     definition = 'Mogelijke locaties van de bekleding op de buis of put.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlBekledingPlaats'
     options = {
         'inwendig': KeuzelijstWaarde(invulwaarde='inwendig',
                                      label='inwendig',
-                                     status='ingebruik',
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                      definitie='binnenzijde van de buis/put, waar deze in contact staat met het medium dat door de buis/put wordt getransporteerd',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBekledingPlaats/inwendig'),
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBekledingPlaats/inwendig'),
         'uitwendig': KeuzelijstWaarde(invulwaarde='uitwendig',
                                       label='uitwendig',
-                                      status='ingebruik',
+                                      status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                       definitie='buitenzijde van de buis/put, waar deze in contact staat met de omgeving',
-                                      objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlBekledingPlaats/uitwendig')
+                                      objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlBekledingPlaats/uitwendig')
     }
 
     @classmethod

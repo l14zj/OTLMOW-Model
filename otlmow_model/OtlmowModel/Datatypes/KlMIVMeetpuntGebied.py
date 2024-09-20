@@ -10,30 +10,30 @@ class KlMIVMeetpuntGebied(KeuzelijstField):
     label = 'MIV meetpuntgebied'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/installatie#KlMIVMeetpuntGebied'
     definition = 'Mogelijke MIV meetpuntgebieden.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlMIVMeetpuntGebied'
     options = {
         'afrit': KeuzelijstWaarde(invulwaarde='afrit',
                                   label='afrit',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/afrit'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/afrit'),
         'hoofdweg': KeuzelijstWaarde(invulwaarde='hoofdweg',
                                      label='hoofdweg',
-                                     status='ingebruik',
-                                     objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/hoofdweg'),
+                                     status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                     objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/hoofdweg'),
         'oprit': KeuzelijstWaarde(invulwaarde='oprit',
                                   label='oprit',
-                                  status='ingebruik',
-                                  objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/oprit'),
+                                  status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                  objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/oprit'),
         'spookstrook': KeuzelijstWaarde(invulwaarde='spookstrook',
                                         label='spookstrook',
-                                        status='ingebruik',
+                                        status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                                         definitie='Een tweede meetpunt op dezelfde plaats in een tunnel (of net er buiten) om te kunnen tellen wanneer er omgekeerd gereden wordt op een rijstrook tijdens een tunnelsluiting.',
-                                        objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/spookstrook'),
+                                        objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/spookstrook'),
         'tunnel': KeuzelijstWaarde(invulwaarde='tunnel',
                                    label='tunnel',
-                                   status='ingebruik',
-                                   objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/tunnel')
+                                   status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
+                                   objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlMIVMeetpuntGebied/tunnel')
     }
 
     @classmethod

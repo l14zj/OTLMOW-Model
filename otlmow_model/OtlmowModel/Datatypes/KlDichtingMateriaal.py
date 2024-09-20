@@ -9,7 +9,7 @@ class KlDichtingMateriaal(KeuzelijstField):
     label = 'Dichting materiaal'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlDichtingMateriaal'
     definition = 'Keuzelijst die de materialen van een dichting bevat.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlDichtingMateriaal'
     options = {
     }

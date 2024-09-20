@@ -9,7 +9,7 @@ class KlHellingshoek(KeuzelijstField):
     label = 'Hellingshoek'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlHellingshoek'
     definition = 'De hellingshoek in graden.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlHellingshoek'
     options = {
     }

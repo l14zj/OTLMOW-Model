@@ -10,34 +10,34 @@ class KlStandaardkwaliteitsklasse(KeuzelijstField):
     label = 'Standaardkwaliteitsklasse'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlStandaardkwaliteitsklasse'
     definition = 'De mogelijke tandaardkwaliteitsklassen.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlStandaardkwaliteitsklasse'
     options = {
         'a': KeuzelijstWaarde(invulwaarde='a',
                               label='a',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='A',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/a'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/a'),
         'b': KeuzelijstWaarde(invulwaarde='b',
                               label='b',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='B',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/b'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/b'),
         'c': KeuzelijstWaarde(invulwaarde='c',
                               label='c',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='C',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/c'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/c'),
         'd': KeuzelijstWaarde(invulwaarde='d',
                               label='d',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='D',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/d'),
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/d'),
         'e': KeuzelijstWaarde(invulwaarde='e',
                               label='e',
-                              status='ingebruik',
+                              status='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik',
                               definitie='E',
-                              objectUri='https://wegenenverkeer.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/e')
+                              objectUri='https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlStandaardkwaliteitsklasse/e')
     }
 
     @classmethod

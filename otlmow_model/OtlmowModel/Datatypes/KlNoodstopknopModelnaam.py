@@ -9,7 +9,7 @@ class KlNoodstopknopModelnaam(KeuzelijstField):
     label = 'Noodstopknop modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlNoodstopknopModelnaam'
     definition = 'De modelnaam van een noodstopknop.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlNoodstopknopModelnaam'
     options = {
     }

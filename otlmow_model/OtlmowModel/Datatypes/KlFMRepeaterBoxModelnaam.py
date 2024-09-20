@@ -9,7 +9,7 @@ class KlFMRepeaterBoxModelnaam(KeuzelijstField):
     label = 'FM repeaterbox modelnaam'
     objectUri = 'https://wegenenverkeer.data.vlaanderen.be/ns/onderdeel#KlFMRepeaterBoxModelnaam'
     definition = 'De modelnaam van de FM repeaterbox module.'
-    status = 'ingebruik'
+    status = 'https://wegenenverkeer-test.data.vlaanderen.be/id/concept/KlAdmsStatus/ingebruik'
     codelist = 'https://wegenenverkeer.data.vlaanderen.be/id/conceptscheme/KlFMRepeaterBoxModelnaam'
     options = {
     }
