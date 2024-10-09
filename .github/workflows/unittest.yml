@@ -23,10 +23,10 @@ jobs:
       - name: Install requirements with uv
         run: uv pip install --system -r requirements.txt
       - name: Run unittests with pytest
-        run: uv run pytest -v
+        run: python -m pytest -v
         working-directory: .
       - name: Install nbmake
-        run: uv pip install install nbmake
+        run: uv pip install nbmake
       - name: pytest notebooks
-        run: uv run pytest --nbmake Readme.ipynb
+        run: python -m pytest --nbmake Readme.ipynb
         working-directory: .
