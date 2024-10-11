@@ -3,10 +3,11 @@ import math
 import random
 import sys
 import warnings
+from collections.abc import Generator
 from datetime import date, time
 from datetime import datetime
 from pathlib import Path
-from typing import Union, Dict, List, Generator, TypeVar, Type
+from typing import Union, TypeVar, Optional
 
 from otlmow_model.OtlmowModel.BaseClasses.DateField import DateField
 from otlmow_model.OtlmowModel.BaseClasses.DateTimeField import DateTimeField
@@ -27,7 +28,7 @@ from otlmow_model.OtlmowModel.Helpers.GenericHelper import get_titlecase_from_ns
 class OTLAttribuut:
     def __init__(self, naam: str = '', label: str = '', objectUri: str = '', definition: str = '',
                  constraints: str = '', usagenote: str = '', deprecated_version: str = '', kardinaliteit_min: str = '1',
-                 kardinaliteit_max: str = '1', field: Type[OTLField] = OTLField, readonly: bool = False,
+                 kardinaliteit_max: str = '1', field: type[OTLField] = OTLField, readonly: bool = False,
                  readonlyValue=None, owner=None):
         super().__init__()
         self.naam: str = naam
@@ -45,7 +46,7 @@ class OTLAttribuut:
         self.readonlyValue = None
         self.mark_to_be_cleared: bool = False
         self.waarde = None
-        self.field: Type[OTLField] = field
+        self.field: type[OTLField] = field
 
         if self.field.waardeObject:
             def add_empty_value():
@@ -303,7 +304,7 @@ class OTLObject(object):
 
     def create_dict_from_asset(self, waarde_shortcut: bool = False, rdf: bool = False, cast_datetime: bool = False,
                                warn_for_non_otl_conform_attributes: bool = True,
-                               allow_non_otl_conform_attributes: bool = True, ) -> Dict:
+                               allow_non_otl_conform_attributes: bool = True, ) -> dict:
         """Converts this asset into a dictionary representation
 
         :param waarde_shortcut: whether to use the waarde shortcut when processing the dictionary, defaults to False
@@ -367,7 +368,7 @@ class OTLObject(object):
         return issubclass(self.__class__, otl_type)
 
     @classmethod
-    def from_dict(cls: T, input_dict: Dict, model_directory: Path = None, rdf: bool = False,
+    def from_dict(cls: T, input_dict: dict, model_directory: Path = None, rdf: bool = False,
                   cast_datetime: bool = False, waarde_shortcut: bool = False,
                   allow_non_otl_conform_attributes: bool = True, warn_for_non_otl_conform_attributes: bool = True
                   ) -> T:
@@ -423,7 +424,7 @@ class OTLObject(object):
 
 def create_dict_from_asset(otl_object: OTLObject, waarde_shortcut=False, rdf: bool = False,
                            cast_datetime: bool = False, allow_non_otl_conform_attributes: bool = True,
-                           warn_for_non_otl_conform_attributes: bool = True) -> Dict:
+                           warn_for_non_otl_conform_attributes: bool = True) -> dict:
     """Creates a dictionary from an OTLObject with key value pairs for attributes and their values. Saves the type of the object in typeURI (or @type for the RDF dict)
 
     :param otl_object: input object to be transformed
@@ -465,7 +466,7 @@ def _recursive_create_dict_from_asset(
         asset: Union[OTLObject, OTLAttribuut, list, dict], waarde_shortcut: bool = False,
         cast_datetime: bool = False, warn_for_non_otl_conform_attributes: bool = True,
         allow_non_otl_conform_attributes: bool = True
-) -> Union[Dict, List[Dict]]:
+) -> Union[dict, list[dict]]:
     if isinstance(asset, list) and not isinstance(asset, dict):
         l = []
         for item in asset:
@@ -562,7 +563,7 @@ def _recursive_create_dict_from_asset(
 def _recursive_create_rdf_dict_from_asset(
         asset: Union[OTLObject, OTLAttribuut, list, dict], waarde_shortcut: bool = False,
         cast_datetime: bool = False, allow_non_otl_conform_attributes: bool = True,
-        warn_for_non_otl_conform_attributes: bool = True) -> Union[Dict, List[Dict]]:
+        warn_for_non_otl_conform_attributes: bool = True) -> Union[dict, list[dict]]:
     if isinstance(asset, list) and not isinstance(asset, dict):
         l = []
         for item in asset:
@@ -679,7 +680,7 @@ def _recursive_create_rdf_dict_from_asset(
             return d
 
 
-def clean_dict(d) -> Union[Dict, None]:
+def clean_dict(d) -> Optional[dict]:
     """Recursively remove None values and empty dicts from input dict"""
     if d is None:
         return None
@@ -703,7 +704,7 @@ def build_string_version(asset, indent: int = 4) -> str:
     return f'<{asset.__class__.__name__}> object\n{" " * indent}typeURI : {asset.typeURI}{string_version}'
 
 
-def _make_string_version_from_dict(d, level: int = 0, indent: int = 4, list_index: int = -1, prefix: str = '') -> List:
+def _make_string_version_from_dict(d, level: int = 0, indent: int = 4, list_index: int = -1, prefix: str = '') -> list:
     lines = []
 
     if list_index != -1:
@@ -745,11 +746,11 @@ def _make_string_version_from_dict(d, level: int = 0, indent: int = 4, list_inde
     return lines
 
 
-def get_attribute_by_uri(instance_or_attribute, key: str) -> Union[OTLAttribuut, None]:
+def get_attribute_by_uri(instance_or_attribute, key: str) -> Optional[OTLAttribuut]:
     return next((v for v in instance_or_attribute if v.objectUri == key), None)
 
 
-def get_attribute_by_name(instance_or_attribute, key: str) -> Union[OTLAttribuut, None]:
+def get_attribute_by_name(instance_or_attribute, key: str) -> Optional[OTLAttribuut]:
     return getattr(instance_or_attribute, f'_{key}', None)
 
 

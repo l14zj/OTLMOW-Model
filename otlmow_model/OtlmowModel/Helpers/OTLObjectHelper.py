@@ -1,6 +1,6 @@
 from collections import defaultdict
 from pathlib import Path
-from typing import Iterable, List, Dict
+from typing import Iterable
 
 from otlmow_model.OtlmowModel.BaseClasses.OTLObject import OTLObject, create_dict_from_asset
 from otlmow_model.OtlmowModel.Helpers.generated_lists import get_hardcoded_relation_dict
@@ -43,8 +43,8 @@ def remove_duplicates_in_iterable_based_on_property(iterable: Iterable[OTLObject
     return list(d.values())
 
 
-def compare_two_lists_of_objects_object_level(first_list: List[OTLObject], second_list: List[OTLObject],
-                                              model_directory=None) -> List:
+def compare_two_lists_of_objects_object_level(first_list: list[OTLObject], second_list: list[OTLObject],
+                                              model_directory=None) -> list:
     """Given two lists of objects return the differences from the second list compared to the first list.
     Returns full objects from the second list when unmatched with the first list. """
     l1 = list(map(lambda x: create_dict_from_asset(x), first_list))
@@ -70,8 +70,8 @@ def custom_dict_diff(first_dict, second_dict):
     return diff_dict
 
 
-def compare_two_lists_of_objects_attribute_level(first_list: List[OTLObject], second_list: List[OTLObject],
-                                                 model_directory: Path = None) -> List:
+def compare_two_lists_of_objects_attribute_level(first_list: list[OTLObject], second_list: list[OTLObject],
+                                                 model_directory: Path = None) -> list:
     """
     Given two lists of objects return the differences from the second list compared to the first list.
     Assumes both lists have objects with a unique assetId. Returns partial objects (on attribute level)
@@ -108,7 +108,7 @@ def compare_two_lists_of_objects_attribute_level(first_list: List[OTLObject], se
     return list(map(lambda x: OTLObject.from_dict(x, model_directory), diff_list))
 
 
-def verify_asset_id_is_unique_within_list(dict_list: List[Dict]) -> bool:
+def verify_asset_id_is_unique_within_list(dict_list: list[dict]) -> bool:
     d = {}
     for asset_dict in dict_list:
         asset_id = asset_dict['assetId']['identificator']

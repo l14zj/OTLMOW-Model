@@ -2,7 +2,7 @@
 import warnings
 import random
 
-from typing import Dict, Optional, Any
+from typing import Optional, Any
 
 from otlmow_model.OtlmowModel.Exceptions.AttributeDeprecationWarning import AttributeDeprecationWarning
 from otlmow_model.OtlmowModel.Exceptions.RemovedOptionError import RemovedOptionError
@@ -11,7 +11,7 @@ from otlmow_model.OtlmowModel.BaseClasses.KeuzelijstWaarde import KeuzelijstWaar
 
 
 class KeuzelijstField(OTLField):
-    options: Dict[str, KeuzelijstWaarde] = {}
+    options: dict[str, KeuzelijstWaarde] = {}
     codelist = ''
     clearing_value = '88888888'
 

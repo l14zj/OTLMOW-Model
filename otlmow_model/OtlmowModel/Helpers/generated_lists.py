@@ -1,13 +1,12 @@
 import json
 from pathlib import Path
-from typing import Dict
 
-global_relation_dict: Dict = {}
+global_relation_dict: dict = {}
 
 ROOT_PATH = Path(__file__).parent
 
 
-def get_hardcoded_relation_dict(relation_dict: Dict = None):
+def get_hardcoded_relation_dict(relation_dict: dict = None):
     if relation_dict is None:
         relation_dict = global_relation_dict
 

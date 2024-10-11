@@ -1,7 +1,7 @@
 import inspect
 import warnings
 from pathlib import Path
-from typing import Type, Optional
+from typing import Optional
 
 from otlmow_model.OtlmowModel.BaseClasses.OTLObject import dynamic_create_instance_from_uri
 from otlmow_model.OtlmowModel.BaseClasses.RelationInteractor import RelationInteractor
@@ -28,7 +28,7 @@ def is_valid_relation_instance(source: RelationInteractor, relation_instance: Re
                              model_directory=model_directory)
 
 
-def is_valid_relation(relation_type: Type[RelatieObject], source: Optional[RelationInteractor] = None,
+def is_valid_relation(relation_type: type[RelatieObject], source: Optional[RelationInteractor] = None,
                       source_typeURI: Optional[str] = None, target: Optional[RelationInteractor] = None,
                       target_typeURI: Optional[str] = None, model_directory: Path = None) -> bool:
     """
